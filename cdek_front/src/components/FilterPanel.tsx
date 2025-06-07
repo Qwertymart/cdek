@@ -51,7 +51,10 @@ const SearchableSelect: React.FC<SearchableSelectProps> = ({
 
   useEffect(() => {
     const handleClickOutside = (event: globalThis.MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
         setSearchTerm("");
       }
@@ -196,7 +199,10 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
 
   useEffect(() => {
     const handleClickOutside = (event: globalThis.MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
         setSearchTerm("");
       }
@@ -213,7 +219,10 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
     onChange(newValue);
   };
 
-  const removeOption = (e: React.MouseEvent | React.KeyboardEvent, optionValue: string) => {
+  const removeOption = (
+    e: React.MouseEvent | React.KeyboardEvent,
+    optionValue: string
+  ) => {
     e.stopPropagation();
     onChange(value.filter((v) => v !== optionValue));
   };
@@ -412,7 +421,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
     }
   };
 
-  const sourceOptions = sources.map(source => source.name);
+  const sourceOptions = sources.map((source) => source.name);
 
   return (
     <form
