@@ -1,7 +1,7 @@
 import json
 import psycopg2
 
-with open("hh_vacancies_part2.json", encoding='utf-8') as f:
+with open("result_06172648/hh_vacancies_part37.json", encoding='utf-8') as f:
     data = json.load(f)
 
 conn = psycopg2.connect(
@@ -68,7 +68,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS vacancies (
   exclude_keywords JSONB
 );''')
 
-with open("job_title_mappings_new.json", encoding='utf-8') as f:
+with open("job_title_mappings.json", encoding='utf-8') as f:
     title_mapping_raw = json.load(f)
 
 # Построим "обратный" словарь: синоним -> основной тайтл
