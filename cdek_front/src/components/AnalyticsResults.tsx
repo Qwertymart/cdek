@@ -52,8 +52,9 @@ const AnalyticsResults: React.FC<AnalyticsResultsProps> = ({ data }) => {
             <h4 className="text-sm font-medium text-gray-700 mb-2">
               {img.name}
             </h4>
+            {/* TODO: ТУТ НАДО ТИПЫ ПОСМОТРЕТЬ */}
             <img
-              src={img.data}
+                src={`data:image/png;base64,${img.data}`}
               alt={img.name}
               className="w-full h-auto rounded"
             />
