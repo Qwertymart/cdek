@@ -1,7 +1,7 @@
 import json
 import psycopg2
 
-with open("hh_vacancies_part2.json", encoding='utf-8') as f:
+with open("result_06172648/hh_vacancies_part37.json", encoding='utf-8') as f:
     data = json.load(f)
 
 conn = psycopg2.connect(
@@ -68,7 +68,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS vacancies (
   exclude_keywords JSONB
 );''')
 
-with open("job_title_mappings_new.json", encoding='utf-8') as f:
+with open("job_title_mappings.json", encoding='utf-8') as f:
     title_mapping_raw = json.load(f)
 
 # Построим "обратный" словарь: синоним -> основной тайтл
@@ -125,6 +125,34 @@ for entry in data:
           v['employment_type'], v['schedule'], v['experience_required'], v['source_url'],
           v['source_name'], v['publication_date'], v['is_relevant'], v['company_id'],
           v['compensation_id'], v['benefits_id'], v['created_at'], v['similar_titles'], v['exclude_keywords']))
+
+conn.commit()
+
+def normalize_experience(exp: str) -> list[int]:
+    if not exp:
+        return [0, 1]
+
+    exp = exp.strip().lower()
+    if "нет опыта" in exp:
+        return [0, 1]
+    elif "более" in exp:
+        num = int(''.join(filter(str.isdigit, exp)))
+        return [num, 10]
+    elif "от" in exp and "до" in exp:
+        parts = exp.replace("лет", "").split("до")
+        from_part = ''.join(filter(str.isdigit, parts[0]))
+        to_part = ''.join(filter(str.isdigit, parts[1]))
+        return [int(from_part), int(to_part)]
+    else:
+        return [0, 10]  # fallback
+
+cur.execute('''ALTER TABLE vacancies ADD COLUMN experience_years INTEGER[];''')
+cur.execute("SELECT external_id, experience_required FROM vacancies WHERE experience_required IS NOT NULL;")
+rows = cur.fetchall()
+
+for external_id, exp in rows:
+    norm_exp = normalize_experience(exp)
+    cur.execute("UPDATE vacancies SET experience_years = %s WHERE external_id = %s;", (norm_exp, external_id))
 
 conn.commit()
 cur.close()
