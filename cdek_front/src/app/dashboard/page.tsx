@@ -12,10 +12,12 @@ const Dashboard: React.FC = () => {
 
   const positions = ["Frontend Developer", "Backend Developer", "DevOps"];
   const regions = ["Москва", "Санкт-Петербург", "Новосибирск"];
-  const companies = ["Яндекс", "Сбер", "Тинькофф"];
+  const companies = ["Boxberry", "Почта России", "ЯндексДоставка"];
   const sources: FilterSource[] = [
-    { id: 1, name: "hh.ru", url: "https://hh.ru" },
-    { id: 2, name: "habr.com", url: "https://career.habr.com" },
+    { id: 1, name: "Headhunter", url: "https://hh.ru" },
+    { id: 2, name: "Habr", url: "https://career.habr.com" },
+    { id: 3, name: "Avito", url: "https://avito.ru/vakansii" },
+    { id: 4, name: "SuperJob", url: "https://avito.ru/vakansii" },
   ];
 
   const handleResults = (data: Response) => {
