@@ -39,10 +39,12 @@ export default function TrendChart({ data }: Props) {
             .nice()
             .range([height - margin.bottom, margin.top]);
 
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const lineMedian = d3.line<any>()
             .x(d => x(d.date)!)
             .y(d => y(d.median));
 
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const lineAvg = d3.line<any>()
             .x(d => x(d.date)!)
             .y(d => y(d.avg));

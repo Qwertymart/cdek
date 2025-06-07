@@ -2,6 +2,7 @@ export interface Response {
   success: boolean;
   error: string;
   pdf_data: string;
+  pdf_full_data: string;
   images: ImageResp[];
   items: AnalysisItemResponse;
   tables: TableResponse[];
