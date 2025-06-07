@@ -14,9 +14,9 @@ class VacancyConsumer:
 
         # Настройки PostgreSQL
         self.db_config = {
-            'dbname': 'vacancies',
-            'user': 'postgres',
-            'password': '42264',
+            'dbname': 'postgres',
+            'user': 'vladimirbugrenkov',
+            'password': '387n3',
             'host': 'localhost',
             'port': '5432'
         }
