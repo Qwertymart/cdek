@@ -19,8 +19,8 @@ USER_DOMAIN_NAME = "Team32f5nBzYmAAe"
 AI_MODEL_CODE = 1
 
 # Пути к входному и выходному файлам
-INPUT_JSON_PATH = "hh_job_titles_moscow_1.json"
-OUTPUT_JSON_PATH = "job_title_mappings_new.json"
+INPUT_JSON_PATH = "hh_job_titles_moscow.json"
+OUTPUT_JSON_PATH = "job_title_mappings.json"
 FAILED_DATA_PATH = "failed_data.json"
 
 def group_titles(titles):
@@ -147,9 +147,6 @@ async def main():
     # Группируем вакансии
     title_groups = group_titles(job_titles)
     logger.info(f"Создано {len(title_groups)} групп вакансий")
-
-    for group in title_groups:
-        logger.info(f"{group}")
     # Обрабатываем группы
     mappings = {}
     failed_groups = []
