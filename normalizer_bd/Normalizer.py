@@ -127,5 +127,33 @@ for entry in data:
           v['compensation_id'], v['benefits_id'], v['created_at'], v['similar_titles'], v['exclude_keywords']))
 
 conn.commit()
+
+def normalize_experience(exp: str) -> list[int]:
+    if not exp:
+        return [0, 1]
+
+    exp = exp.strip().lower()
+    if "нет опыта" in exp:
+        return [0, 1]
+    elif "более" in exp:
+        num = int(''.join(filter(str.isdigit, exp)))
+        return [num, 10]
+    elif "от" in exp and "до" in exp:
+        parts = exp.replace("лет", "").split("до")
+        from_part = ''.join(filter(str.isdigit, parts[0]))
+        to_part = ''.join(filter(str.isdigit, parts[1]))
+        return [int(from_part), int(to_part)]
+    else:
+        return [0, 10]  # fallback
+
+cur.execute('''ALTER TABLE vacancies ADD COLUMN experience_years INTEGER[];''')
+cur.execute("SELECT external_id, experience_required FROM vacancies WHERE experience_required IS NOT NULL;")
+rows = cur.fetchall()
+
+for external_id, exp in rows:
+    norm_exp = normalize_experience(exp)
+    cur.execute("UPDATE vacancies SET experience_years = %s WHERE external_id = %s;", (norm_exp, external_id))
+
+conn.commit()
 cur.close()
 conn.close()
