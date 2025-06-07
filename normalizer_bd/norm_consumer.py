@@ -12,6 +12,7 @@ class VacancyConsumer:
         self.rabbitmq_host = 'localhost'
         self.queue_name = 'json_processing_queue'
 
+
         # Настройки PostgreSQL
         self.db_config = {
             'dbname': 'postgres',
