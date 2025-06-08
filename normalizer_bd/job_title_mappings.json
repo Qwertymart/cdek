@@ -37,7 +37,10 @@
   "Backend Developer": [
     "Backend-разработчик",
     "Backend-разработчик (junior/middle)",
-    "Backend-разработчик / Backend-developer"
+    "Backend-разработчик / Backend-developer",
+    "Бекенд Разработчик для ВПН-сервиса",
+    "Back-end разработчик",
+    "Старший Backend-разработчик (Typescript) | Senior Typescript Backend Engineer"
   ],
   "Business Analyst": [
     "Business Analyst (Back Office)",
@@ -89,7 +92,9 @@
   "Event Manager": [
     "Event-менеджер",
     "Менеджер по концертной деятельности в лейбл",
-    "Тур-менеджер / администратор мероприятий в концертной индустрии"
+    "Тур-менеджер / администратор мероприятий в концертной индустрии",
+    "Ведущий мероприятий / Event-менеджер",
+    "Младший event-менеджер"
   ],
   "Financial Controller": [
     "Financial Controller / Финансовый контролер"
@@ -128,7 +133,464 @@
     "Frontend-разработчик (Junior frontend developer)",
     "Frontend-разработчик (React Native) Middle/Senior",
     "Frontend программист / Web-разработчик",
-    "Фронтенд-разработчик для программирования на нативном JS"
+    "Фронтенд-разработчик для программирования на нативном JS",
+    "Senior Frontend Engineer (React)",
+    "Middle Frontend Developer (Vue.js)",
+    "JavaScript Developer (Frontend)",
+    "Frontend Architect (React/TypeScript)",
+    "Frontend Tech Lead",
+    "Angular Developer",
+    "Frontend Developer (Next.js)",
+    "React.js Developer",
+    "Vue.js Developer",
+    "Svelte Developer",
+    "Frontend Developer (TypeScript)",
+    "Frontend Performance Engineer",
+    "UI Developer",
+    "UX Engineer (Frontend)",
+    "Frontend Developer (Remote)",
+    "Frontend Developer (Contract)",
+    "Frontend Developer (Web Components)",
+    "Frontend Developer (PWA)",
+    "Frontend Developer (SPA)",
+    "Frontend Developer (SSR)",
+    "Frontend Developer (Jamstack)",
+    "Frontend Developer (GraphQL)",
+    "Frontend Developer (Redux)",
+    "Frontend Developer (MobX)",
+    "Frontend Developer (Node.js)",
+    "Fullstack Developer (Frontend-heavy)",
+    "Frontend Developer (Testing)",
+    "Frontend Developer (Accessibility)",
+    "Frontend Developer (i18n)",
+    "Frontend Developer (WebGL)",
+    "Frontend Developer (Canvas)",
+    "Frontend Developer (WebAssembly)",
+    "Frontend Developer (Micro Frontends)",
+    "Frontend Developer (Design Systems)",
+    "Frontend Developer (CMS Integration)",
+    "Frontend Developer (E-commerce)",
+    "Frontend Developer (FinTech)",
+    "Frontend Developer (EdTech)",
+    "Frontend Developer (HealthTech)",
+    "Frontend Developer (GameDev)",
+    "Frontend Developer (AR/VR)",
+    "Frontend Developer (Mobile Web)",
+    "Frontend Developer (Cross-platform)",
+    "Frontend Developer (International Team)",
+    "Frontend Developer (Startup)",
+    "Frontend Developer (Enterprise)",
+    "Frontend Developer (B2B)",
+    "Frontend Developer (B2C)",
+    "Frontend Developer (SaaS)",
+    "Frontend Developer (Paas)",
+    "Frontend Developer (AI/ML Interfaces)",
+    "Frontend Developer (Data Visualization)",
+    "Frontend Developer (D3.js)",
+    "Frontend Developer (Three.js)",
+    "Frontend Developer (GIS)",
+    "Frontend Developer (Maps)",
+    "Frontend Developer (Video Streaming)",
+    "Frontend Developer (Audio Processing)",
+    "Frontend Developer (Real-time)",
+    "Frontend Developer (WebSockets)",
+    "Frontend Developer (WebRTC)",
+    "Frontend Developer (Blockchain)",
+    "Frontend Developer (Crypto)",
+    "Frontend Developer (NFT)",
+    "Frontend Developer (Metaverse)",
+    "Frontend Developer (Web3)",
+    "Frontend Developer (DeFi)",
+    "Frontend Developer (Smart Contracts UI)",
+    "Frontend Developer (Security)",
+    "Frontend Developer (Penetration Testing)",
+    "Frontend Developer (CI/CD)",
+    "Frontend Developer (DevOps)",
+    "Frontend Developer (Testing Automation)",
+    "Frontend Developer (E2E)",
+    "Frontend Developer (Unit Testing)",
+    "Frontend Developer (Integration Testing)",
+    "Frontend Developer (Performance Optimization)",
+    "Frontend Developer (Lighthouse)",
+    "Frontend Developer (Core Web Vitals)",
+    "Frontend Developer (SEO)",
+    "Frontend Developer (SSG)",
+    "Frontend Developer (Documentation)",
+    "Frontend Developer (Technical Writing)",
+    "Frontend Developer (Mentoring)",
+    "Frontend Developer (Team Lead)",
+    "Frontend Developer (CTO)",
+    "Frontend Developer (Freelance)",
+    "Frontend Developer (Part-time)",
+    "Frontend Developer (Consulting)",
+    "Frontend Developer (Outstaff)",
+    "Frontend Developer (Outsource)",
+    "Frontend Developer (Agency)",
+    "Frontend Developer (Product)",
+    "Frontend Developer (Service)",
+    "Frontend Developer (White Label)",
+    "Frontend Developer (Custom Solutions)",
+    "Frontend Developer (Legacy Code)",
+    "Frontend Developer (Modernization)",
+    "Frontend Developer (Migration)",
+    "Frontend Developer (Internationalization)",
+    "Frontend Developer (Localization)",
+    "Frontend Developer (RTL)",
+    "Frontend Developer (Multi-language)",
+    "Frontend Developer (Multi-region)",
+    "Frontend Developer (Multi-currency)",
+    "Frontend Developer (High-load)",
+    "Frontend Developer (Low-latency)",
+    "Frontend Developer (Offline-first)",
+    "Frontend Developer (Progressive Enhancement)",
+    "Frontend Developer (Graceful Degradation)",
+    "Frontend Developer (WCAG)",
+    "Frontend Developer (ADA Compliance)",
+    "Frontend Developer (Section 508)",
+    "Frontend Developer (A11y)",
+    "Frontend Developer (Dark Mode)",
+    "Frontend Developer (Theming)",
+    "Frontend Developer (Custom Properties)",
+    "Frontend Developer (CSS-in-JS)",
+    "Frontend Developer (Styled Components)",
+    "Frontend Developer (Emotion)",
+    "Frontend Developer (Tailwind CSS)",
+    "Frontend Developer (Bootstrap)",
+    "Frontend Developer (Material UI)",
+    "Frontend Developer (Ant Design)",
+    "Frontend Developer (Chakra UI)",
+    "Frontend Developer (Figma to Code)",
+    "Frontend Developer (Design Handoff)",
+    "Frontend Developer (Pixel Perfect)",
+    "Frontend Developer (UI Kit)",
+    "Frontend Developer (Component Library)",
+    "Frontend Developer (Storybook)",
+    "Frontend Developer (Design Tokens)",
+    "Frontend Developer (Style Guide)",
+    "Frontend Developer (Branding)",
+    "Frontend Developer (Marketing Sites)",
+    "Frontend Developer (Landing Pages)",
+    "Frontend Developer (Portals)",
+    "Frontend Developer (Dashboards)",
+    "Frontend Developer (Admin Panels)",
+    "Frontend Developer (CRM)",
+    "Frontend Developer (ERP)",
+    "Frontend Developer (CMS)",
+    "Frontend Developer (Headless CMS)",
+    "Frontend Developer (Shopify)",
+    "Frontend Developer (Magento)",
+    "Frontend Developer (WooCommerce)",
+    "Frontend Developer (BigCommerce)",
+    "Frontend Developer (Salesforce)",
+    "Frontend Developer (HubSpot)",
+    "Frontend Developer (Marketing Automation)",
+    "Frontend Developer (Email Templates)",
+    "Frontend Developer (PDF Generation)",
+    "Frontend Developer (Print Styles)",
+    "Frontend Developer (Responsive Design)",
+    "Frontend Developer (Adaptive Design)",
+    "Frontend Developer (Mobile First)",
+    "Frontend Developer (Desktop First)",
+    "Frontend Developer (Cross-browser)",
+    "Frontend Developer (IE11 Support)",
+    "Frontend Developer (Legacy Browser Support)",
+    "Frontend Developer (Polyfills)",
+    "Frontend Developer (Babel)",
+    "Frontend Developer (Webpack)",
+    "Frontend Developer (Vite)",
+    "Frontend Developer (Rollup)",
+    "Frontend Developer (Parcel)",
+    "Frontend Developer (Snowpack)",
+    "Frontend Developer (ESBuild)",
+    "Frontend Developer (SWC)",
+    "Frontend Developer (Bun)",
+    "Frontend Developer (Deno)",
+    "Frontend Developer (Node.js)",
+    "Frontend Developer (Express)",
+    "Frontend Developer (NestJS)",
+    "Frontend Developer (Fastify)",
+    "Frontend Developer (Koa)",
+    "Frontend Developer (Hono)",
+    "Frontend Developer (Cloudflare Workers)",
+    "Frontend Developer (AWS Amplify)",
+    "Frontend Developer (Firebase)",
+    "Frontend Developer (Supabase)",
+    "Frontend Developer (Vercel)",
+    "Frontend Developer (Netlify)",
+    "Frontend Developer (Heroku)",
+    "Frontend Developer (Docker)",
+    "Frontend Developer (Kubernetes)",
+    "Frontend Developer (CI/CD)",
+    "Frontend Developer (GitHub Actions)",
+    "Frontend Developer (GitLab CI)",
+    "Frontend Developer (Jenkins)",
+    "Frontend Developer (CircleCI)",
+    "Frontend Developer (Travis CI)",
+    "Frontend Developer (Azure DevOps)",
+    "Frontend Developer (Bitbucket Pipelines)",
+    "Frontend Developer (Testing Library)",
+    "Frontend Developer (Jest)",
+    "Frontend Developer (Vitest)",
+    "Frontend Developer (Mocha)",
+    "Frontend Developer (Chai)",
+    "Frontend Developer (Jasmine)",
+    "Frontend Developer (Karma)",
+    "Frontend Developer (Cypress)",
+    "Frontend Developer (Playwright)",
+    "Frontend Developer (Puppeteer)",
+    "Frontend Developer (Selenium)",
+    "Frontend Developer (Appium)",
+    "Frontend Developer (Detox)",
+    "Frontend Developer (Espresso)",
+    "Frontend Developer (XCUITest)",
+    "Frontend Developer (Unit Testing)",
+    "Frontend Developer (Integration Testing)",
+    "Frontend Developer (E2E Testing)",
+    "Frontend Developer (Snapshot Testing)",
+    "Frontend Developer (Visual Regression)",
+    "Frontend Developer (Performance Testing)",
+    "Frontend Developer (Load Testing)",
+    "Frontend Developer (Stress Testing)",
+    "Frontend Developer (Security Testing)",
+    "Frontend Developer (Penetration Testing)",
+    "Frontend Developer (Accessibility Testing)",
+    "Frontend Developer (Cross-browser Testing)",
+    "Frontend Developer (Cross-device Testing)",
+    "Frontend Developer (Cross-platform Testing)",
+    "Frontend Developer (Internationalization Testing)",
+    "Frontend Developer (Localization Testing)",
+    "Frontend Developer (RTL Testing)",
+    "Frontend Developer (Dark Mode Testing)",
+    "Frontend Developer (Theming Testing)",
+    "Frontend Developer (Design System Testing)",
+    "Frontend Developer (Component Testing)",
+    "Frontend Developer (Module Testing)",
+    "Frontend Developer (System Testing)",
+    "Frontend Developer (Acceptance Testing)",
+    "Frontend Developer (Regression Testing)",
+    "Frontend Developer (Smoke Testing)",
+    "Frontend Developer (Sanity Testing)",
+    "Frontend Developer (Exploratory Testing)",
+    "Frontend Developer (Ad-hoc Testing)",
+    "Frontend Developer (Mutation Testing)",
+    "Frontend Developer (Property-based Testing)",
+    "Frontend Developer (Fuzz Testing)",
+    "Frontend Developer (A/B Testing)",
+    "Frontend Developer (Multivariate Testing)",
+    "Frontend Developer (Canary Testing)",
+    "Frontend Developer (Blue-green Deployment)",
+    "Frontend Developer (Feature Flags)",
+    "Frontend Developer (Experimentation)",
+    "Frontend Developer (Personalization)",
+    "Frontend Developer (Recommendation Systems)",
+    "Frontend Developer (Search Systems)",
+    "Frontend Developer (Navigation Systems)",
+    "Frontend Developer (Filtering Systems)",
+    "Frontend Developer (Sorting Systems)",
+    "Frontend Developer (Pagination Systems)",
+    "Frontend Developer (Infinite Scroll)",
+    "Frontend Developer (Virtualized Lists)",
+    "Frontend Developer (Windowing)",
+    "Frontend Developer (Lazy Loading)",
+    "Frontend Developer (Code Splitting)",
+    "Frontend Developer (Tree Shaking)",
+    "Frontend Developer (Dead Code Elimination)",
+    "Frontend Developer (Minification)",
+    "Frontend Developer (Obfuscation)",
+    "Frontend Developer (Compression)",
+    "Frontend Developer (Bundling)",
+    "Frontend Developer (Chunking)",
+    "Frontend Developer (Prefetching)",
+    "Frontend Developer (Preloading)",
+    "Frontend Developer (Prerendering)",
+    "Frontend Developer (Server-side Rendering)",
+    "Frontend Developer (Static Site Generation)",
+    "Frontend Developer (Incremental Static Regeneration)",
+    "Frontend Developer (Edge Rendering)",
+    "Frontend Developer (Streaming)",
+    "Frontend Developer (Suspense)",
+    "Frontend Developer (Error Boundaries)",
+    "Frontend Developer (Fallbacks)",
+    "Frontend Developer (Placeholders)",
+    "Frontend Developer (Skeletons)",
+    "Frontend Developer (Loading States)",
+    "Frontend Developer (Error States)",
+    "Frontend Developer (Empty States)",
+    "Frontend Developer (Success States)",
+    "Frontend Developer (Form States)",
+    "Frontend Developer (Validation States)",
+    "Frontend Developer (Submission States)",
+    "Frontend Developer (Pending States)",
+    "Frontend Developer (Optimistic Updates)",
+    "Frontend Developer (Pessimistic Updates)",
+    "Frontend Developer (Undo/Redo)",
+    "Frontend Developer (Time Travel)",
+    "Frontend Developer (State Management)",
+    "Frontend Developer (Global State)",
+    "Frontend Developer (Local State)",
+    "Frontend Developer (Server State)",
+    "Frontend Developer (URL State)",
+    "Frontend Developer (Storage State)",
+    "Frontend Developer (Cache State)",
+    "Frontend Developer (Offline State)",
+    "Frontend Developer (Sync State)",
+    "Frontend Developer (Conflict Resolution)",
+    "Frontend Developer (Data Fetching)",
+    "Frontend Developer (Polling)",
+    "Frontend Developer (WebSockets)",
+    "Frontend Developer (Server-sent Events)",
+    "Frontend Developer (GraphQL Subscriptions)",
+    "Frontend Developer (Live Queries)",
+    "Frontend Developer (Real-time Updates)",
+    "Frontend Developer (Push Notifications)",
+    "Frontend Developer (Service Workers)",
+    "Frontend Developer (Web Push API)",
+    "Frontend Developer (Notifications API)",
+    "Frontend Developer (Clipboard API)",
+    "Frontend Developer (File API)",
+    "Frontend Developer (Drag and Drop API)",
+    "Frontend Developer (Fullscreen API)",
+    "Frontend Developer (Payment Request API)",
+    "Frontend Developer (Credential Management API)",
+    "Frontend Developer (Web Authentication API)",
+    "Frontend Developer (Web Bluetooth API)",
+    "Frontend Developer (Web USB API)",
+    "Frontend Developer (Web Serial API)",
+    "Frontend Developer (Web MIDI API)",
+    "Frontend Developer (Web NFC API)",
+    "Frontend Developer (Web Speech API)",
+    "Frontend Developer (Web Audio API)",
+    "Frontend Developer (WebRTC API)",
+    "Frontend Developer (WebVR API)",
+    "Frontend Developer (WebXR API)",
+    "Frontend Developer (Device Orientation API)",
+    "Frontend Developer (Geolocation API)",
+    "Frontend Developer (Ambient Light API)",
+    "Frontend Developer (Proximity API)",
+    "Frontend Developer (Battery Status API)",
+    "Frontend Developer (Network Information API)",
+    "Frontend Developer (Vibration API)",
+    "Frontend Developer (Screen Orientation API)",
+    "Frontend Developer (Presentation API)",
+    "Frontend Developer (Remote Playback API)",
+    "Frontend Developer (Media Session API)",
+    "Frontend Developer (Media Capture API)",
+    "Frontend Developer (MediaStream API)",
+    "Frontend Developer (MediaRecorder API)",
+    "Frontend Developer (Image Capture API)",
+    "Frontend Developer (Shape Detection API)",
+    "Frontend Developer (Barcode Detection API)",
+    "Frontend Developer (Face Detection API)",
+    "Frontend Developer (Text Detection API)",
+    "Frontend Developer (Object Detection API)",
+    "Frontend Developer (Web Codecs API)",
+    "Frontend Developer (Web Assembly)",
+    "Frontend Developer (WebGPU)",
+    "Frontend Developer (WebGL)",
+    "Frontend Developer (WebGL 2)",
+    "Frontend Developer (Three.js)",
+    "Frontend Developer (Babylon.js)",
+    "Frontend Developer (PlayCanvas)",
+    "Frontend Developer (PixiJS)",
+    "Frontend Developer (Phaser)",
+    "Frontend Developer (D3.js)",
+    "Frontend Developer (Chart.js)",
+    "Frontend Developer (Highcharts)",
+    "Frontend Developer (ECharts)",
+    "Frontend Developer (ApexCharts)",
+    "Frontend Developer (Victory)",
+    "Frontend Developer (Recharts)",
+    "Frontend Developer (Visx)",
+    "Frontend Developer (Nivo)",
+    "Frontend Developer (Plotly)",
+    "Frontend Developer (Observable)",
+    "Frontend Developer (Datawrapper)",
+    "Frontend Developer (Tableau)",
+    "Frontend Developer (Power BI)",
+    "Frontend Developer (Google Charts)",
+    "Frontend Developer (Canvas)",
+    "Frontend Developer (SVG)",
+    "Frontend Developer (Web Animations)",
+    "Frontend Developer (GSAP)",
+    "Frontend Developer (Framer Motion)",
+    "Frontend Developer (React Spring)",
+    "Frontend Developer (Anime.js)",
+    "Frontend Developer (Mo.js)",
+    "Frontend Developer (Popmotion)",
+    "Frontend Developer (Velocity.js)",
+    "Frontend Developer (ScrollMagic)",
+    "Frontend Developer (Lottie)",
+    "Frontend Developer (Rive)",
+    "Frontend Developer (Spine)",
+    "Frontend Developer (DragonBones)",
+    "Frontend Developer (CreateJS)",
+    "Frontend Developer (Paper.js)",
+    "Frontend Developer (Processing)",
+    "Frontend Developer (p5.js)",
+    "Frontend Developer (TensorFlow.js)",
+    "Frontend Developer (ML5.js)",
+    "Frontend Developer (Brain.js)",
+    "Frontend Developer (Synaptic)",
+    "Frontend Developer (Neataptic)",
+    "Frontend Developer (ConvNetJS)",
+    "Frontend Developer (Keras.js)",
+    "Frontend Developer (ONNX.js)",
+    "Frontend Developer (WebDNN)",
+    "Frontend Developer (DeepLearn.js)",
+    "Frontend Developer (Propeller)",
+    "Frontend Developer (Stripe)",
+    "Frontend Developer (PayPal)",
+    "Frontend Developer (Braintree)",
+    "Frontend Developer (Square)",
+    "Frontend Developer (Adyen)",
+    "Frontend Developer (Authorize.Net)",
+    "Frontend Developer (2Checkout)",
+    "Frontend Developer (WePay)",
+    "Frontend Developer (Dwolla)",
+    "Frontend Developer (Alipay)",
+    "Frontend Developer (WeChat Pay)",
+    "Frontend Developer (Amazon Pay)",
+    "Frontend Developer (Google Pay)",
+    "Frontend Developer (Apple Pay)",
+    "Frontend Developer (Samsung Pay)",
+    "Frontend Developer (Visa Checkout)",
+    "Frontend Developer (Masterpass)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)"
   ],
   "Full Stack Developer": [
     "Full Stack разработчик (React / Node.js)",
@@ -140,21 +602,124 @@
   "Golang Developer": [
     "Golang Developer | Golang-разработчик",
     "Golang developer",
+    "Go",
+    "Go developer",
+    "golang developer",
+    "golang разработчик",
+    "go разработчик",
+    "GO разработчик",
+    "GO разработчик teamlead",
+    "Go Developer",
+    "Go developer (middle)",
+    "Golang Back-end разработчик",
+    "Golang Backend Developer",
     "Golang разработчик",
-    "Golang-разработчик"
+    "Golang-разработчик",
+    "Бэкенд разработчик сеньор/мидл (Golang)",
+    "Разработчик Backend Golang (Senior+)",
+    "Разработчик Go (middle)",
+    "Senior Golang Engineer",
+    "Middle Golang Developer",
+    "Junior Go Developer",
+    "Lead Golang Developer",
+    "Golang Software Engineer",
+    "Go Lang Developer",
+    "Go/Golang разработчик",
+    "Разработчик на Go",
+    "Программист Golang",
+    "Инженер-программист Go",
+    "Backend Developer (Golang)",
+    "Cloud Engineer (Golang)",
+    "Golang Microservices Developer",
+    "Go API Developer",
+    "Golang System Programmer",
+    "DevOps Engineer (Golang)",
+    "Senior Backend Engineer (Go)",
+    "Golang Tech Lead",
+    "Go Middle/Senior Developer",
+    "Golang Developer (Remote)",
+    "Full-stack Developer (Golang + React)",
+    "Golang Architect",
+    "Разработчик ПО на Go",
+    "Инженер по разработке на Golang",
+    "Специалист по Go-разработке",
+    "Golang консультант",
+    "Go Developer (Киев)",
+    "Golang-программист",
+    "Go-разработчик (удаленно)",
+    "Senior Go Engineer (Highload)",
+    "Golang Performance Engineer",
+    "Blockchain Developer (Golang)",
+    "Golang Team Lead",
+    "Разработчик микросервисов на Go",
+    "Go Developer (Middle+)",
+    "Golang Backend Engineer",
+    "Golang Web Developer",
+    "Go Developer (Contract)",
+    "Golang Ninja Developer",
+    "Senior Golang Programmer",
+    "Golang Database Developer",
+    "Go Cloud Developer",
+    "Golang Embedded Developer",
+    "Go Language Specialist",
+    "Golang Solutions Architect",
+    "Go Backend Developer",
+    "Golang Fullstack Developer",
+    "Senior Go Backend Developer",
+    "Golang API Developer",
+    "Go Middle Developer",
+    "Golang Software Developer",
+    "Go Systems Programmer",
+    "Golang Network Programmer",
+    "Senior Golang Software Engineer",
+    "Golang Game Developer",
+    "Go Compiler Engineer",
+    "Golang Security Developer",
+    "Go Tools Developer",
+    "Golang Automation Engineer",
+    "Senior Go Lang Developer",
+    "Golang Distributed Systems Engineer",
+    "Go Core Developer",
+    "Golang Infrastructure Engineer",
+    "Go Middle/Senior Engineer",
+    "Golang Data Engineer",
+    "Go Platform Engineer",
+    "Golang Consultant Developer",
+    "Senior Golang Architect",
+    "Go Performance Engineer",
+    "Golang Integration Developer",
+    "Go Backend Engineer",
+    "Golang Technical Lead",
+    "Go Application Developer",
+    "Golang Framework Developer",
+    "Senior Go Solutions Architect",
+    "Golang Middle Developer",
+    "Go Senior Programmer",
+    "Golang Cloud Native Developer",
+    "Go Language Engineer",
+    "Golang Senior Software Engineer",
+    "Go REST API Developer",
+    "Golang Middle/Senior Developer",
+    "Go GRPC Developer",
+    "Golang Senior Backend Developer",
+    "Go Concurrent Programming Specialist",
+    "Golang Senior Engineer"
   ],
   "Graphic Designer": [
     "Graphic/Digital Designer",
     "Графический дизайнер",
     "Графический дизайнер (fashion)",
-    "Графический дизайнер карточек для маркетплейсов"
+    "Графический дизайнер карточек для маркетплейсов",
+    "Графический дизайнер (Middle)",
+    "Графический дизайнер (Маркетплейсы)"
   ],
   "HR Business Partner": [
     "HR BP",
     "HR BP/HR Business Partner",
     "HR BP/HR-бизнес-партнер",
     "HR Business Partner / HR BP (блок IT-персонала)",
-    "HR Business Partner / HR-бизнес-партнер"
+    "HR Business Partner / HR-бизнес-партнер",
+    "Ведущий менеджер по работе с персоналом (HRG, HRBP)"
   ],
   "HR Director": [
     "HR Director/HRD (Директор по персоналу)",
@@ -177,7 +742,8 @@
     "Менеджер по подбору персонала",
     "Менеджер по подбору персонала/рекрутер",
     "Руководитель кадрового подразделения",
-    "Руководитель кадровой службы"
+    "Руководитель кадровой службы",
+    "Менеджер по персоналу / HR-менеджер / Рекрутер"
   ],
   "HR Specialist": [
     "HR-специалист по развитию персонала",
@@ -351,7 +917,11 @@
   ],
   "PHP Developer": [
     "PHP Developer",
-    "Программист PHP (Laravel)"
+    "Программист PHP (Laravel)",
+    "PHP Developer",
+    "Программист PHP (Laravel)",
+    "Ведущий PHP-разработчик (Symfony)",
+    "Инженер-программист PHP"
   ],
   "Public Relations Manager": [
     "PR-менеджер депутата Государственной Думы ФС РФ по международному направлению"
@@ -402,11 +972,23 @@
     "Менеджер проектов в команду спецпроектов",
     "Менеджер проектов отдела проведения мероприятий",
     "Проектный менеджер в AI-стартап",
+    "Менеджер интернет-магазина",
     "Руководитель проекта",
     "Руководитель проекта (структура инвестор/заказчик)",
     "Руководитель проекта / Начальник проектав в строительстве)",
     "Руководитель проекта в службе заказчика (строительство)",
-    "Руководитель проекта/Ведущий специалист отдела по строительству объектов"
+    "Руководитель проекта/Ведущий специалист отдела по строительству объектов",
+    "Менеджер web-проектов Junior/Intern",
+    "Менеджеры проектов по Локализации игр/Project Manager, Game Localization",
+    "Руководитель проекта со знанием английского языка Advanced (автомобилестроение)",
+    "Product Manager / Middle",
+    "Менеджер продукта (Дринкит)",
+    "Менеджер продукта / Product Manager",
+    "Продакт-менеджер / Помощник бренд-менеджера (декоративная косметика)",
+    "Продакт менеджер / Руководитель проекта (Финтех)",
+    "Менеджер Бэк офиса",
+    "Travel-manager",
+    "Менеджер групповых путешествий"
   ],
   "Purchasing Executive": [
     "Purchasing Executive Specialist",
@@ -479,7 +1061,12 @@
     "Тестировщик ПО (junior/junior+)",
     "Тестировщик ПО (ручное тестирование)",
     "Тестировщик ПО / QA Engineer",
-    "Тестировщик по FINTECH"
+    "Тестировщик по FINTECH",
+    "Инженер по тестированию смартфонов"
+  ],
+  "Electronics Engineer": [
+    "Инженер-электроник",
+    "Инженер-электронщик"
   ],
   "QA Specialist": [
     "QA-специалист",
@@ -490,7 +1077,8 @@
   "Content Creator": [
     "Reels Maker/Контент-мейкер",
     "Контент-креатор",
-    "Креатор / блогер (reels)"
+    "Креатор / блогер (reels)",
+    "Контент-мейкер / Videограф / Reels Maker"
   ],
   "SMM Manager": [
     "SMM Manager",
@@ -501,7 +1089,9 @@
     "SMM-менеджер (стажер)",
     "SMM-менеджер / маркетолог",
     "SMM-менеджер Депутата Государственной Думы-Председателя Комитета (Cпециалист по социальным сетям)",
-    "SMM-менеджер клиники NOON"
+    "SMM-менеджер клиники NOON",
+    "Менеджер чатов Telegram",
+    "Менеджер по маркетингу в социальных сетях"
   ],
   "SMM Specialist": [
     "SMM-специалист"
@@ -552,7 +1142,12 @@
     "Technical Project Manager"
   ],
   "Travel Coordinator": [
-    "Travel coordinator"
+    "Travel coordinator",
+    "Ведущий специалист по организации командировок / Тревел-координатор (со знанием английского языка)",
+    "Менеджер по организации деловых поездок / travel manager",
+    "Персональный тревел координатор",
+    "Трэвел координатор",
+    "Офис-менеджер / помощник менеджера по туризму / travel-менеджер"
   ],
   "Travel-manager": [
     "Travel-manager"
@@ -563,7 +1158,8 @@
   ],
   "UX/UI Designer": [
     "UX/UI дизайнер",
-    "UX/UI-дизайнер"
+    "UX/UI-дизайнер",
+    "Веб-дизайнер (UI/UX)"
   ],
   "Vue.js Developer": [
     "Vue.JS разработчик"
@@ -574,7 +1170,8 @@
   "Web Designer": [
     "Web-дизайнер",
     "Веб-дизайнер",
-    "Веб-дизайнер (лендинги)"
+    "Веб-дизайнер (лендинги)",
+    "Веб-дизайнер / UI-дизайнер"
   ],
   "Web Developer": [
     "Web-разработчик сайтов"
@@ -800,7 +1397,8 @@
     "Ассистент стилиста"
   ],
   "Dentist Assistant": [
-    "Ассистент стоматолога ( м.Новаторская, м.Бабушкинская)"
+    "Ассистент стоматолога ( м.Новаторская, м.Бабушкинская)",
+    "Ассистент стоматолога"
   ],
   "Trader Assistant": [
     "Ассистент трейдера / Trader assistant (Trade support)"
@@ -885,7 +1483,8 @@
     "Бухгалтер по документообороту",
     "Бухгалтер по работе с контрагентами",
     "Бухгалтер по расчетам с подотчетными лицами",
-    "Бухгалтер-калькулятор"
+    "Бухгалтер-калькулятор",
+    "Бухгалтер по работе с поставщиками"
   ],
   "Payroll Accountant": [
     "Бухгалтер на зарплату/кадровик",
@@ -994,7 +1593,13 @@
     "Водитель на служебном hyundai solaris",
     "Водитель на собственном грузовом автомобиле",
     "Водитель с личным грузовыми автомобилем",
-    "Водитель со своим грузовым автомобилем"
+    "Водитель со своим грузовым автомобилем",
+    "Водитель автомобиля",
+    "Водитель категории B на автомобиль компании (Склад-ПВЗ)",
+    "Водитель категории В на служебном автомобиле",
+    "Водитель категории В, С",
+    "Водитель категории С",
+    "Водитель школьного автобуса"
   ],
   "Personal Driver": [
     "Водитель (персональный)",
@@ -1028,13 +1633,37 @@
     "Персональный водитель к дочери руководителя",
     "Персональный водитель первого лица компании",
     "Персональный водитель руководителя",
-    "Персональный водитель руководителя/помощник"
+    "Персональный водитель руководителя/помощник",
+    "Водитель автомобиля офисный / персональный",
+    "Персональный водитель / Водитель служебного автомобиля",
+    "Персональный водитель-охранник"
   ],
   "Courier Driver": [
-    "Водитель курьер легких заказов в ресторан"
+    "Водитель курьер легких заказов в ресторан",
+    "Водитель-курьер",
+    "Водитель-курьер (Молжаниново)",
+    "Водитель-курьер (Пушкино)",
+    "Водитель-курьер (категория В)",
+    "Водитель-курьер / Автокурьер",
+    "Водитель-курьер на грузовом автомобиле",
+    "Водитель-курьер на грузовом автомобиле (ЮАО / САО)",
+    "Курьер на автомобиль",
+    "Курьер-водитель",
+    "Курьер-доставщик"
   ],
   "Forklift Driver": [
-    "Водитель погрузчика на склад"
+    "Водитель погрузчика на склад",
+    "Водитель погрузчика",
+    "Водитель погрузчика (дизельный)",
+    "Водитель автопогрузчика на склад",
+    "Водитель электроштабелера-ричтрака"
+  ],
+  "Bus Driver": [
+    "Водитель автобуса",
+    "Водитель автобуса (Московская область)",
+    "Водитель автобуса (категория Д, с проживанием, возможна вахта)",
+    "Водитель автобуса (пассажирские перевозки)",
+    "Водитель микроавтобуса (категории D)"
   ],
   "Medical Driver": [
     "Водитель скорой помощи"
@@ -1046,10 +1675,20 @@
     "Водитель с личным грузовым автомобилем",
     "Водитель со своим грузовым автомобилем",
     "Водитель на личном грузовом автомобиле",
-    "Водитель на автомобиле компании CE (Москва)"
+    "Водитель на автомобиле компании CE (Москва)",
+    "Водитель грузовика",
+    "Водитель категории Е",
+    "Водитель категории С",
+    "Водитель категории С (миксеры и самосвалы)",
+    "Водитель категории С (эвакуатор)",
+    "Водитель трала",
+    "Водитель эвакуатора (Томилино)",
+    "Водитель бензовоза"
   ],
   "Driver-Security": [
-    "Водитель-охранник"
+    "Водитель-охранник",
+    "Водитель-охранник ГБР",
+    "Охранник-водитель 6 разряда в ГБР"
   ],
   "Delivery Driver": [
     "Водитель-экспедитор",
@@ -1058,7 +1697,12 @@
     "Водитель-экспедитор категории Е на кругорейс",
     "Водитель-экспедитор категории Е на кругорейс ВБ",
     "Водитель-экспедитор категория В (машина домашняя)",
-    "Водитель-экспедитор на автомобиле компании"
+    "Водитель-экспедитор на автомобиле компании",
+    "Водитель-экспедитор категории В",
+    "Водитель-экспедитор категории Е (рефрижератор)",
+    "Водитель-экспедитор категории СЕ",
+    "Водитель-экспедитор на газель",
+    "Водитель-экспедитор с личным легковым автомобилем"
   ],
   "Kindergarten Teacher": [
     "Воспитатель",
@@ -1111,7 +1755,8 @@
     "Главный бухгалтер в единственном лице (производство)",
     "Главный бухгалтер в единственном лице (удалёнка, гибрид)",
     "Главный бухгалтер в единственном лице (услуги, УСН)",
-    "Главный бухгалтер в единственном числе (доп. подразделение)"
+    "Главный бухгалтер в единственном числе (доп. подразделение)",
+    "Главный бухгалтер в IT компании (в единственном лице)"
   ],
   "Chief Engineer": [
     "Главный инженер"
@@ -1179,6 +1824,7 @@
     "Охранник в офис (с УЧО)",
     "Охранник в офис на Павелецкой",
     "Охранник в пос. Софрино М.О.",
+    "Охранник на сутки в частный дом с лицензией",
     "Охранник-Администратор"
   ],
   "Maintenance Technician": [
@@ -1197,6 +1843,7 @@
   ],
   "Designer": [
     "Дизайнер",
+    "Младший дизайнер",
     "Дизайнер - иллюстратор",
     "Дизайнер - художник",
     "Дизайнер UX/UI",
@@ -1205,11 +1852,13 @@
     "Дизайнер презентаций"
   ],
   "Illustrator Designer": [
-    "Дизайнер-иллюстратор"
+    "Дизайнер-иллюстратор",
+    "Дизайнер-иллюстратор-принтист"
   ],
   "Director": [
     "Директор / Член совета директоров / Вице-президент",
-    "Директор обособленного подразделения"
+    "Директор обособленного подразделения",
+    "Дивизиональный директор/Директор по реализации (мерчендайзинг)"
   ],
   "IT Director": [
     "Директор ДИТ",
@@ -1283,7 +1932,8 @@
     "Директор по развитию",
     "Директор по развитию (логистика)",
     "Директор по развитию бизнеса",
-    "Директор по развитию партнёрской сети"
+    "Директор по развитию партнёрской сети",
+    "Директор по развитию Детейлинга автомойки/Управляющий"
   ],
   "Supply Chain Director": [
     "Директор по снабжению и логистике",
@@ -1463,7 +2113,8 @@
     "Инженер-Техник-механик"
   ],
   "Design Engineer": [
-    "Инженер-конструктор"
+    "Инженер-конструктор",
+    "Технический менеджер/инженер-конструктор"
   ],
   "HVAC Design Engineer": [
     "Инженер-проектировщик ОВиК"
@@ -1522,7 +2173,8 @@
     "Коммерческий директор (переезд)"
   ],
   "Communication Designer": [
-    "Коммуникационный дизайнер"
+    "Коммуникационный дизайнер",
+    "Графический / Коммуникационный дизайнер (Senior)"
   ],
   "Packer": [
     "Комплектовщик",
@@ -1537,8 +2189,9 @@
   ],
   "Consultant": [
     "Консультант",
-    "Консультант (по личному приему граждан)",
-    "Консультант в салон ОПТИКИ"
+    "Константант (по личному консенсу граждан)",
+    "Консультант в салон ОПТИК",
+    "Консультант в ТБанк (чаты/звочки)"
   ],
   "Content Manager": [
     "Контент менеджер LOOKONLINE",
@@ -1546,7 +2199,8 @@
     "Контент-менеджер (интернет-магазин)",
     "Контент-менеджер / Администратор сайта",
     "Контент-менеджер Библиотека МЭШ",
-    "Контент-менеджер сайта"
+    "Контент-менеджер сайта",
+    "Контент-маркетолог / Контент-менеджер"
   ],
   "Content Editor": [
     "Контент-редактор в медицине"
@@ -1557,7 +2211,9 @@
     "Контролер службы безопасности / охранник"
   ],
   "Cashier": [
-    "Контролер-кассир (Москва, Московская область)"
+    "Контролер-кассир (Москва, Московская область)",
+    "Контент-кассир",
+    "Кассир"
   ],
   "Concert Manager": [
     "Концертный менеджер"
@@ -1578,7 +2234,19 @@
     "Копирайтер",
     "Копирайтер (Телекомпания ПЯТНИЦА)",
     "Копирайтер / Редактор телеграм-канала",
-    "Копирайтер-рерайтер"
+    "Копирайтер-рерайтер",
+    "Копирайтер для соцсетей"
+  ],
+  "Automotive Service Manager": [
+    "Мастер-приемщик",
+    "Менеджер администратор автомойки / детейлинга",
+    "Администратор Детейлинг студии / Мастер-приемщик детейлинга"
+  ],
+  "Crane Operator": [
+    "Машинист автокрана",
+    "Машинист автомобильного крана",
+    "Машинист крана автомобильного",
+    "Машинист крана автомобильного (6-7-8 разряд)"
   ],
   "Corporate Psychologist Consultant": [
     "Корпоративный психолог-консультант"
@@ -1605,6 +2273,85 @@
   ],
   "Courier": [
     "Курьер",
+    "Доставщик",
+    "Курьер-доставщик",
+    "Доставщик товаров",
+    "Доставщик документов",
+    "Доставщик посылок",
+    "Доставщик корреспонденции",
+    "Пеший курьер",
+    "Велокурьер",
+    "Автокурьер",
+    "Мото-курьер",
+    "Курьер на самокате",
+    "Курьер на электросамокате",
+    "Курьер на гироскутере",
+    "Грузовой курьер",
+    "Авиакурьер",
+    "Документовоз",
+    "Медиакурьер",
+    "Аптечный курьер",
+    "Медицинский курьер",
+    "Фарма-курьер",
+    "Продуктовый курьер",
+    "Фуд-курьер",
+    "Курьер цветов",
+    "Ювелирный курьер",
+    "Курьер важных документов",
+    "Курьер ценных грузов",
+    "Курьер-экспедитор",
+    "Курьер банковских документов",
+    "Курьер юридических документов",
+    "Офисный курьер",
+    "Внутренний курьер",
+    "Межофисный курьер",
+    "Городской курьер",
+    "Междугородний курьер",
+    "Международный курьер",
+    "Курьер-почтальон",
+    "Курьер-экспресс",
+    "Срочный курьер",
+    "Ночной курьер",
+    "Выходного дня курьер",
+    "Посыльный",
+    "Гонец",
+    "Доставщик-логист",
+    "Курьер-логист",
+    "Агент доставки",
+    "Специалист по доставке",
+    "Менеджер по доставке",
+    "Оператор доставки",
+    "Координатор доставки",
+    "Исполнитель доставки",
+    "Представитель службы доставки",
+    "Доставщик-оператор",
+    "Курьер-агент",
+    "Доставщик-менеджер",
+    "IT-курьер",
+    "Гастро-курьер",
+    "Бухгалтерский курьер",
+    "Юридический курьер",
+    "Банковский курьер",
+    "Дипломатический курьер",
+    "Корпоративный курьер",
+    "VIP-курьер",
+    "Персональный курьер",
+    "Конфиденциальный курьер",
+    "Курьер с личным авто",
+    "Курьер с грузовым авто",
+    "Старший курьер",
+    "Ведущий курьер",
+    "Главный курьер",
+    "Сменный курьер",
+    "Подменный курьер",
+    "Многостаночник-курьер",
+    "Универсальный курьер",
+    "Мобильный курьер",
+    "Деливери",
+    "Доставщик-райдер",
+    "Курьер-драйвер",
+    "Мессенджер",
+    "Курьер-фулфилмент",
     "Курьер (доставка документов)",
     "Курьер (доставка документов, офис)",
     "Курьер (стоматологическое отделение)",
@@ -1612,7 +2359,8 @@
     "Курьер в офис",
     "Курьер на внутренние перемещения",
     "Курьер офисный",
-    "Курьер пеший"
+    "Курьер пеший",
+    "Офисный курьер"
   ],
   "Personal Bodyguard": [
     "ЛИЧНЫЙ ТЕЛОХРАНИТЕЛЬ",
@@ -1650,7 +2398,12 @@
   "Marketing Specialist": [
     "Маркетолог",
     "Маркетолог (удаленно, из дома)",
-    "Маркетолог / Менеджер по работе с партнёрами"
+    "Маркетолог / Менеджер по работе с партнёрами",
+    "Интернет маркетолог (Со знанием bitrix)",
+    "Креативный маркетолог",
+    "Маркетолог Seniour",
+    "Маркетолог для пластического хирурга",
+    "Лидер контент завода / контент маркетолог"
   ],
   "Massage Therapist": [
     "Массажист (аппарат Эндосфера, Icoon, ручной массаж, спа процедуры)"
@@ -1674,7 +2427,8 @@
     "Медицинская сестра/Медицинский брат",
     "Медицинская сестра/Медицинский брат в стоматологическую клинику",
     "Медицинская сестра/Медицинский брат по проведению предрейсовых осмотров",
-    "Медицинская сестра/медицинский брат"
+    "Медицинская сестра/медицинский брат",
+    "Медицинская сестра по физиотерапии"
   ],
   "Dental Sterilization Nurse": [
     "Медсестра/медбрат ЦСО в стоматологию"
@@ -1722,7 +2476,10 @@
     "Менеджер по продажам автокомпонентов",
     "Менеджер по продажам артистов",
     "Срочно! Менеджер по продажам (удаленно, горячие заявки)",
-    "Торговый директор по продажам"
+    "Торговый директор по продажам",
+    "Менеджер по продажам \ Менеджер по работе с клиентами",
+    "Менеджер по продажам и развитию бизнеса (IT)",
+    "Менеджер по продажам курьерских услуг (удаленно)"
   ],
   "Procurement Manager": [
     "Менеджер отдела снабжения удаленно"
@@ -1741,12 +2498,14 @@
     "Менеджер по работе с органами государственной власти",
     "Менеджер по работе с шоу Первого канала",
     "Менеджер по работе со спонсорами и партнерами",
-    "Менеджер по работе с федеральными сетями удаленно"
+    "Менеджер по работе с федеральными сетями удаленно",
+    "Менеджер клиентской поддержки"
   ],
   "International Sales Manager": [
     "Менеджер ВЭД",
     "Менеджер ВЭД / Импорт - менеджер",
-    "Менеджер отдела ВЭД"
+    "Менеджер отдела ВЭД",
+    "Менеджер по закупкам ВЭД"
   ],
   "Quality Control Manager": [
     "Менеджер отдела контроля качества (ОКК)",
@@ -1768,7 +2527,8 @@
   ],
   "Influencer Manager": [
     "Менеджер по работе с блогерами (Инфлюенс менеджер)",
-    "Менеджер по работе с блогерами / Influence-менеджер"
+    "Менеджер по работе с блогерами / Influence-менеджер",
+    "Инфлюенс менеджер / Influence marketing manager / Influence маркетолог"
   ],
   "Security Manager": [
     "Менеджер по безопасности"
@@ -1822,7 +2582,8 @@
   ],
   "Junior Marketing Specialist": [
     "Младший маркетолог в k-beauty компанию",
-    "Младший менеджер контентного маркетинга"
+    "Младший менеджер контентного маркетинга",
+    "Начинающий маркетолог/Помощник маркетолога в детский образовательный центр (ВАО Измайлово)"
   ],
   "Junior Event Manager": [
     "Младший менеджер в ивент-отдел"
@@ -1980,7 +2741,10 @@
     "Оператор call-центра (входящие)",
     "Оператор call-центра (удаленно)",
     "Оператор call-центра в офис",
-    "Оператор поддержки покупателей / Оператор call-центра / Входящие звонки"
+    "Оператор поддержки покупателей / Оператор call-центра / Входящие звонки",
+    "Оператор кол-центра МТС (удаленная работа)",
+    "Оператор на чаты (узбекский язык)",
+    "Оператор/администратор службы доставки еды"
   ],
   "PC Operator": [
     "Оператор ПК"
@@ -1996,7 +2760,15 @@
   ],
   "Chat Support Operator": [
     "Оператор чат поддержки (хайриск / CS / кейсы / gambling / igaming)",
-    "Оператор чат-поддержки ГИС ЖКХ и «Госуслуги Дом»"
+    "Оператор чат-поддержки ГИС ЖКХ и «Госуслуги Дом»",
+    "Специалист Чат-поддержки в Яндекс",
+    "Специалист поддержки на чаты (удаленная работа)",
+    "Специалист поддержки со знанием бирманского языка (Support Specialist with Burmese)",
+    "Специалист поддержки со знанием вьетнамского языка (Support Specialist with Vietnamese)",
+    "Специалист поддержки со знанием тайского языка (Support Specialist with Thai)",
+    "Специалист службы поддержки со знанием монгольского языка",
+    "Специалист со знанием корейского языка (한국어) / Customer Support specialist Korea"
+  ]
   ],
   "Operator (Weekend)": [
     "Оператор(выходного дня)"
@@ -2025,7 +2797,12 @@
     "Офис-менеджер/делопроизводитель/помощник главного бухгалтера",
     "Офис-менеджер/менеджер-координатор",
     "Офис-менеджер/помощник руководителя/секретарь-делопроизводитель",
-    "Руководитель канцелярии"
+    "Руководитель канцелярии",
+    "Офис-менеджер/менеджер-координатор",
+    "Офис-менеджер/помощник руководителя/секретарь-делопроизводитель",
+    "Руководитель канцелярия",
+    "Офис-менеджер / Помощник руководителя / Секретарь",
+    "Офис-менеджер / Секретарь/Администратор"
   ],
   "Office Driver": [
     "Офисный водитель"
@@ -2055,10 +2832,6 @@
   "Translator": [
     "Переводчик (английский язык)",
     "Переводчик с английского языка"
-  ],
-  "Walking Courier": [
-    "Пеший курьер",
-    "Пеший курьер (доставка документов)"
   ],
   "People Partner": [
     "Пипл-партнер (финлигал, маркетинг, B2C)"
@@ -2166,7 +2939,12 @@
     "Продавец-консультант в магазин SuperStep",
     "Продавец-консультант в магазин пряжи",
     "Продавец-консультант в оптику/оптик консультант",
-    "Продавец-консультант в салон связи t2 (г. Москва и Московская область)"
+    "Продавец-консультант в салон связи t2 (г. Москва и Московская область)",
+    "Менеджер/Продавец-консультант в магазин обуви и одежды"
+  ],
+  "Automotive Mechanic": [
+    "Механик по автотранспорту",
+    "Механик по выпуску автотранспорта"
   ],
   "Product QA Engineer": [
     "Продуктовый QA Инженер (Junior)"
@@ -2242,7 +3020,8 @@
   ],
   "Recruiter": [
     "Рекрутер",
-    "Специалист по подбору персонала/Рекрутер"
+    "Специалист по подбору персонала/Рекрутер",
+    "Менеджер по персоналу / HR-менеджер / Рекрутер"
   ],
   "Photo Retoucher": [
     "Ретушер",
@@ -2393,7 +3172,15 @@
     "Секретарь / офис менеджер",
     "Секретарь на ресепшен",
     "Секретарь приемной руководителя (первого лица компании)",
-    "Секретарь учебной части (документовед)"
+    "Секретарь учебной части (документовед)",
+    "Секретарь в лабораторию",
+    "Секретарь на reception",
+    "Секретарь на ресепшен со знанием английского языка",
+    "Секретарь на ресепшн",
+    "Секретарь ресепшена",
+    "Секретарь руководителя",
+    "Секретарь-диспетчер",
+    "Подменный секретарь на ресепшен в Бизнес-Центр"
   ],
   "Gardener": [
     "Садовник"
@@ -2419,27 +3206,49 @@
     "Секретарь-переводчик"
   ],
   "Receptionist": [
-    "Секретарь-ресепшионист"
+    "Секретарь-ресепшионист",
+    "Секретарь на reception",
+    "Секретарь на ресепшен со знанием английского языка",
+    "Секретарь на ресепшн",
+    "Секретарь ресепшена"
   ],
   "Secretary/Office Manager": [
     "Секретарь/Офис-менеджер"
   ],
   "Network Engineer": [
     "Сетевой инженер / Network Engineer (low-latency, RF)",
-    "Сетевой инженер Cisco (сменный график)"
+    "Сетевой инженер Cisco (сменный график)",
+    "Сетевой инженер внедрения / Телеком-инженер внедрения (Москва)"
   ],
   "Caregiver": [
     "Сиделка-помощница/помощник по хозяйству для женщины 85 лет"
   ],
   "System Administrator": [
     "Системный администратор",
-    "Системный администратор/ DevOps-инженер"
+    "Системный администратор/ DevOps-инженер",
+    "Системный администратор в школу",
+    "Старший системный администратор/Senior System Administrator",
+    "Старший системный администратор"
+  ],
+  "System Architect": [
+    "Системный архитектор / Solution Architect"
+  ],
+  "Music Scout": [
+    "Скаут в A&R отдел Legacy Music"
+  ],
+  "Assembler": [
+    "Сборщик БПЛА",
+    "Сборщик НКУ/трансформаторов (сухие трансформаторы)",
+    "Сборщик ПК",
+    "Специалист 1С (EDI)",
+    "Слесарь-сборщик, слесарь МСР"
   ],
   "System Analyst": [
     "Системный аналитик",
     "Системный аналитик (Junior+), онлайн оплата",
     "Системный аналитик / System Analyst / СА",
-    "Системный аналитик Middle (офис)"
+    "Системный аналитик Middle (офис)",
+    "Системный аналитик (Офис)"
   ],
   "Event Scanner": [
     "Сканировщик на фестиваль \"Дикая Мята 2025\""
@@ -2498,7 +3307,8 @@
     "Специалист службы безопасности",
     "Специалист службы кадровой безопасности",
     "Специалист службы экономической безопасности (Аналитик)",
-    "Специалист по экономической безопасности"
+    "Специалист по экономической безопасности",
+    "Специалист по комплексной безопасности"
   ],
   "Office Security Specialist": [
     "Специалист охраны офиса"
@@ -2594,7 +3404,15 @@
     "Специалист технической поддержки L2",
     "Специалист технической поддержки/Support в IGaming",
     "Специалист техподдержки (верификация пользователей)",
-    "Специалист третьей линии технической поддержки"
+    "Специалист третьей линии технической поддержки",
+    "Специалист техподдержки (верификация пользователей)",
+    "Специалист третьей линии технической поддержки",
+    "Младший специалист технической поддержки (1 линия)",
+    "Специалист технической поддержки (веб-платформа, 1 линия)",
+    "Специалист Технической Поддержки (чаты и тикеты) / Администратор"
+  ],
+  "Transport Manager": [
+    "Начальник транспортного отдела, специалист по БДД"
   ],
   "International Cooperation Specialist": [
     "Специалист управления по международному сотрудничеству"
