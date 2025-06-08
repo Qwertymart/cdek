@@ -295,15 +295,15 @@ class VacancyConsumer:
 
             self.pg_conn.commit()
             self.processed_count += 1
-            print(f"✅ Успешно обработано вакансий: {len(vacancies)} (всего: {self.processed_count})")
+            print(f"Успешно обработано вакансий: {len(vacancies)} (всего: {self.processed_count})")
             return True
 
         except json.JSONDecodeError as e:
-            print(f"❌ Ошибка декодирования JSON: {e}")
+            print(f"Ошибка декодирования JSON: {e}")
             self.error_count += 1
             return False
         except Exception as e:
-            print(f"❌ Ошибка обработки сообщения: {e}")
+            print(f"Ошибка обработки сообщения: {e}")
             self.pg_conn.rollback()
             self.error_count += 1
             return False
@@ -320,8 +320,8 @@ class VacancyConsumer:
         if not self._connect_databases():
             sys.exit(1)
 
-        print(f"🚀 Потребитель запущен. Ожидание сообщений в очереди '{self.queue_name}'...")
-        print("⏹️ Для остановки нажмите CTRL+C")
+        print(f"Потребитель запущен. Ожидание сообщений в очереди '{self.queue_name}'...")
+        print("Для остановки нажмите CTRL+C")
 
         try:
             self.rabbit_channel.basic_consume(
@@ -330,12 +330,12 @@ class VacancyConsumer:
             )
             self.rabbit_channel.start_consuming()
         except KeyboardInterrupt:
-            print("\n⏹️ Остановлено пользователем")
+            print("\nОстановлено пользователем")
         except Exception as e:
             print(f"❌ Критическая ошибка: {e}")
         finally:
             self._close_connections()
-            print("\n📊 Статистика:")
+            print("\nСтатистика:")
             print(f"   Успешно обработано: {self.processed_count}")
             print(f"   Ошибок: {self.error_count}")
 
@@ -349,7 +349,7 @@ class VacancyConsumer:
             self.rabbit_channel.close()
         if self.rabbit_conn and self.rabbit_conn.is_open:
             self.rabbit_conn.close()
-        print("🔌 Все соединения закрыты")
+        print("Все соединения закрыты")
 
 if __name__ == "__main__":
     consumer = VacancyConsumer()
