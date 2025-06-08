@@ -5,19 +5,41 @@ import FilterPanel from "@/components/FilterPanel";
 import AnalyticsResults from "@/components/AnalyticsResults";
 import type { Response } from "@/types/response";
 import { FilterSource } from "@/types";
+import { fakeDb_positions } from "@/utils/fakeDb";
 
 const Dashboard: React.FC = () => {
   const [results, setResults] = useState<Response | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const positions = ["Frontend Developer", "Backend Developer", "DevOps"];
+  //   const positions = ["Frontend Developer", "Backend Developer", "DevOps"];
+  const positions = fakeDb_positions;   
   const regions = ["Москва", "Санкт-Петербург", "Новосибирск"];
   const companies = ["Boxberry", "Почта России", "ЯндексДоставка"];
   const sources: FilterSource[] = [
-    { id: 1, name: "Headhunter", url: "https://hh.ru" },
-    { id: 2, name: "Habr", url: "https://career.habr.com" },
-    { id: 3, name: "Avito", url: "https://avito.ru/vakansii" },
-    { id: 4, name: "SuperJob", url: "https://avito.ru/vakansii" },
+    {
+      id: 1,
+      name: "HeadHunter",
+      url: "https://hh.ru",
+      availability: true,
+    },
+    {
+      id: 2,
+      name: "Habr",
+      url: "https://career.habr.com",
+      availability: false,
+    },
+    {
+      id: 3,
+      name: "Avito",
+      url: "https://avito.ru/vakansii",
+      availability: false,
+    },
+    {
+      id: 4,
+      name: "SuperJob",
+      url: "https://superjob.ru",
+      availability: true,
+    },
   ];
 
   const handleResults = (data: Response) => {
