@@ -10,12 +10,15 @@ import time
 import re
 import pika
 
-
-class HHVacancyParser:
+class SuperJobVacancyParser:
     def __init__(self, log_dir: str = "../logs", rabbitmq_host: str = 'localhost',
                  queue_name: str = 'json_processing_queue'):
-        self.base_url = "https://api.hh.ru/vacancies"
-        self.headers = {"User-Agent": "CDEK HR Analytics/1.0"}
+        self.base_url = "https://api.superjob.ru/2.0/vacancies/"
+        self.headers = {
+            "X-Api-App-Id": "v3.h.4905791.f72938d0c57d8956a4524c02a06d50409fcb4198.0e4294e23cc795178fe05e210746a2aa21881acc",
+            "User-Agent": "CDEK HR Analytics/1.0",
+            "Content-Type": "application/x-www-form-urlencoded"
+        }
         self.output_dir = None
         self.chunk_size = 10
         self.saved_files = []
@@ -28,7 +31,7 @@ class HHVacancyParser:
         self.channel = None
         self.rabbitmq_connected = False
 
-        self.logger = logging.getLogger("HHVacancyParser")
+        self.logger = logging.getLogger("SuperJobVacancyParser")
         self.logger.setLevel(logging.DEBUG)
 
         formatter = logging.Formatter(
@@ -41,14 +44,13 @@ class HHVacancyParser:
         console_handler.setFormatter(formatter)
         self.logger.addHandler(console_handler)
 
-        # Создаем папку для логов
         log_path = Path(__file__).parent.parent.parent / log_dir
         log_path.mkdir(exist_ok=True)
 
         file_handler = logging.handlers.RotatingFileHandler(
-            filename=str(log_path / "hh_parser.log"),
+            filename=str(log_path / "sj_parser.log"),
             maxBytes=1_000_000,
-            backupCount=5
+            backupCount=100
         )
         file_handler.setLevel(logging.DEBUG)
         file_handler.setFormatter(formatter)
@@ -112,8 +114,8 @@ class HHVacancyParser:
                 response = requests.get(self.base_url, params=params, headers=self.headers)
                 response.raise_for_status()
                 data = response.json()
-                self.logger.info(f"Получено {len(data.get('items', []))} вакансий для параметров {params}")
-                return data.get("items", [])
+                self.logger.info(f"Получено {len(data.get('objects', []))} вакансий для параметров {params}")
+                return data.get("objects", [])
             except requests.exceptions.HTTPError as e:
                 if response.status_code == 403:
                     self.logger.error(f"403 Forbidden для параметров {params}: {e}")
@@ -134,7 +136,7 @@ class HHVacancyParser:
         self.logger.debug(f"Запрос данных для вакансии {vacancy_id}")
         for attempt in range(retries):
             try:
-                response = requests.get(f"{self.base_url}/{vacancy_id}", headers=self.headers)
+                response = requests.get(f"{self.base_url}{vacancy_id}", headers=self.headers)
                 response.raise_for_status()
                 self.logger.info(f"Успешно получены данные для вакансии {vacancy_id}")
                 return response.json()
@@ -154,9 +156,13 @@ class HHVacancyParser:
         self.logger.error(f"Не удалось получить данные для вакансии {vacancy_id} после {retries} попыток")
         return None
 
-    def normalize_salary(self, salary_data: Optional[Dict]) -> Dict:
+    def normalize_salary(self, salary_data: Dict) -> Dict:
         """Нормализует данные о зарплате, округляя медианную зарплату до целого"""
-        if not salary_data:
+        salary_from = salary_data.get("payment_from")
+        salary_to = salary_data.get("payment_to")
+        currency = salary_data.get("currency", "RUB")
+
+        if not salary_from and not salary_to:
             self.logger.warning("Данные о зарплате отсутствуют, создается компенсация с пустыми значениями")
             compensation_str = "no_salary:default"
             compensation_id = hashlib.md5(compensation_str.encode("utf-8")).hexdigest()
@@ -173,20 +179,15 @@ class HHVacancyParser:
                 "payment_type": ""
             }
 
-        gross = salary_data.get("gross", False)
-        salary_from = salary_data.get("from")
-        salary_to = salary_data.get("to")
-        currency = salary_data.get("currency", "RUR")
-
+        gross = False
         avg_salary = None
         if salary_from and salary_to:
             avg_salary = round((salary_from + salary_to) / 2)
         elif salary_from:
             avg_salary = round(salary_from * 1.15)
         elif salary_to:
-            avg_salary = round(salary_to * 0.85)  # Assume median is 85% of max if only max is provided
+            avg_salary = round(salary_to * 0.85)
 
-        # Handle None values in compensation_str to ensure consistent hashing
         salary_from_str = str(salary_from) if salary_from is not None else "none"
         salary_to_str = str(salary_to) if salary_to is not None else "none"
         currency_str = str(currency) if currency is not None else "none"
@@ -207,7 +208,6 @@ class HHVacancyParser:
             "payment_frequency": "monthly",
             "payment_type": "fixed"
         }
-
 
     def parse_benefits(self, description: str) -> Dict:
         """Анализирует описание и извлекает бенефиты"""
@@ -249,10 +249,10 @@ class HHVacancyParser:
         self.logger.debug(f"Сгенерирован company_id: {company_id} для {name}")
         return company_id
 
-    def extract_experience_from_description(self, description: str, experience: Optional[Dict]) -> str:
+    def extract_experience_from_description(self, description: str, experience: Optional[str]) -> str:
         """Извлекает требования к опыту из описания и данных API"""
-        if experience and experience.get("name"):
-            return experience["name"]
+        if experience:
+            return experience
 
         desc_lower = description.lower()
         experience_patterns = [
@@ -278,48 +278,46 @@ class HHVacancyParser:
         """Парсит данные вакансии в формат для БД"""
         self.logger.info(f"Парсинг вакансии {vacancy_data.get('id')}")
 
-        description = vacancy_data.get("description", "").strip()
+        description = vacancy_data.get("candidat", "").strip()
         if not description:
             self.logger.warning(f"Вакансия {vacancy_data.get('id')} пропущена: пустое описание")
             return None
 
-        salary_info = self.normalize_salary(vacancy_data.get("salary"))
+        salary_info = self.normalize_salary(vacancy_data)
 
-        # Пропускаем вакансии без данных о зарплате
-        if salary_info["salary_min"] is None and salary_info["salary_max"] is None:
+        if require_salary and salary_info["salary_min"] is None and salary_info["salary_max"] is None:
             self.logger.warning(f"Вакансия {vacancy_data.get('id')} пропущена: отсутствуют данные о зарплате")
             return None
 
         benefits = self.parse_benefits(description)
-        publication_date = vacancy_data.get("published_at")
+        publication_date = vacancy_data.get("date_published")
         if publication_date:
             try:
-                publication_date = datetime.strptime(publication_date, "%Y-%m-%dT%H:%M:%S%z").date().isoformat()
+                publication_date = datetime.fromtimestamp(publication_date).date().isoformat()
             except ValueError as e:
                 self.logger.error(f"Ошибка формата даты публикации для вакансии {vacancy_data.get('id')}: {e}")
                 publication_date = None
 
-        employer_data = vacancy_data.get("employer", {})
-        company_name = employer_data.get("name") or "Не указан"
+        employer_data = vacancy_data.get("firm_name", "Не указан")
+        company_name = employer_data or "Не указан"
         company_id = self.generate_company_id(company_name)
 
         name_variations = [self.normalize_company_name(company_name)]
 
         return {
             "vacancies": {
-                "external_id": vacancy_data.get("id"),
+                "external_id": str(vacancy_data.get("id")),
                 "similar_titles": [],
-                "title": vacancy_data.get("name"),
+                "title": vacancy_data.get("profession"),
                 "exclude_keywords": [],
                 "description": description,
-                "requirements": vacancy_data.get("snippet", {}).get("requirement") or "",
+                "requirements": vacancy_data.get("candidat") or "",
                 "work_format": self.detect_work_format(vacancy_data),
-                "employment_type": vacancy_data.get("employment", {}).get("name") or "Не указан",
-                "schedule": vacancy_data.get("schedule", {}).get("name") or "Не указан",
-                "experience_required": self.extract_experience_from_description(description,
-                                                                                vacancy_data.get("experience")),
-                "source_url": vacancy_data.get("alternate_url"),
-                "source_name": "hh.ru",
+                "employment_type": vacancy_data.get("type_of_work", {}).get("title") or "Не указан",
+                "schedule": vacancy_data.get("place_of_work", {}).get("title") or "Не указан",
+                "experience_required": self.extract_experience_from_description(description, None),
+                "source_url": vacancy_data.get("link"),
+                "source_name": "superjob.ru",
                 "publication_date": publication_date,
                 "is_relevant": True,
                 "company_id": company_id,
@@ -332,9 +330,9 @@ class HHVacancyParser:
                 "name": company_name,
                 "name_variations": name_variations,
                 "industry": "Не указан",
-                "size": self.determine_company_size(employer_data),
+                "size": self.determine_company_size({}),
                 "is_foreign": False,
-                "location_city": vacancy_data.get("area", {}).get("name") or "Не указан",
+                "location_city": vacancy_data.get("town", {}).get("title") or "Не указан",
                 "location_radius_km": 50
             },
             "compensations": salary_info,
@@ -343,11 +341,11 @@ class HHVacancyParser:
 
     def detect_work_format(self, vacancy_data: Dict) -> str:
         """Определяет формат работы"""
-        schedule = vacancy_data.get("schedule", {}).get("name", "").lower()
-        description = vacancy_data.get("description", "").lower()
-        if "удален" in schedule or "remote" in schedule or "удаленная работа" in description:
+        place_of_work = vacancy_data.get("place_of_work", {}).get("title", "").lower()
+        description = vacancy_data.get("candidat", "").lower()
+        if "удал" in place_of_work or "remote" in place_of_work or "удаленная работа" in description:
             work_format = "remote"
-        elif "гибрид" in schedule or "гибридный" in description:
+        elif "гибрид" in place_of_work or "гибридный" in description:
             work_format = "hybrid"
         else:
             work_format = "office"
@@ -360,7 +358,7 @@ class HHVacancyParser:
             self.logger.warning("Папка для сохранения не инициализирована")
             return False
 
-        filename = self.output_dir / f"hh_vacancies_part{chunk_number}.json"
+        filename = self.output_dir / f"sj_vacancies_part{chunk_number}.json"
         try:
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(chunk_data, f, ensure_ascii=False, indent=2)
@@ -373,7 +371,7 @@ class HHVacancyParser:
 
     def process_and_send(self, vacancy: Dict):
         """Обрабатывает вакансию и отправляет в RabbitMQ при накоплении достаточного количества"""
-        parsed = self.parse_vacancy(vacancy, require_salary=True)  # Добавлен параметр require_salary
+        parsed = self.parse_vacancy(vacancy, require_salary=True)
         if parsed:
             self.parsed_data.append(parsed)
 
@@ -418,12 +416,12 @@ class HHVacancyParser:
         try:
             for title in job_titles:
                 self.logger.info(f"Поиск вакансий для: {title}")
-                params = {"text": title, "area": 1, "per_page": 100}
+                params = {"keyword": title, "town": 4, "count": 100}
 
                 vacancies = self.fetch_vacancies(params)
                 for vacancy in vacancies:
-                    time.sleep(0.1)
-                    full_data = self.get_vacancy_details(vacancy["id"])
+                    time.sleep(0.5)
+                    full_data = self.get_vacancy_details(str(vacancy["id"]))
                     if full_data:
                         self.process_and_send(full_data)
 
