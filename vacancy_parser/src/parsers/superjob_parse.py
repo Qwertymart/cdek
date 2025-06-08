@@ -50,7 +50,7 @@ class SuperJobVacancyParser:
         file_handler = logging.handlers.RotatingFileHandler(
             filename=str(log_path / "sj_parser.log"),
             maxBytes=1_000_000,
-            backupCount=5
+            backupCount=100
         )
         file_handler.setLevel(logging.DEBUG)
         file_handler.setFormatter(formatter)
@@ -268,7 +268,7 @@ class SuperJobVacancyParser:
                 years = match.group(1)
                 return f"От {years} лет"
 
-        return "Не указан"
+        return "От 1 года до 3 лет"
 
     def determine_company_size(self, employer_data: Dict) -> str:
         """Определяет размер компании на основе доступных данных"""
@@ -416,7 +416,7 @@ class SuperJobVacancyParser:
         try:
             for title in job_titles:
                 self.logger.info(f"Поиск вакансий для: {title}")
-                params = {"keyword": title, "town": 4, "count": 5}
+                params = {"keyword": title, "town": 4, "count": 100}
 
                 vacancies = self.fetch_vacancies(params)
                 for vacancy in vacancies:

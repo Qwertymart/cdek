@@ -163,9 +163,9 @@ const AnalyticsResults: React.FC<AnalyticsResultsProps> = ({ data }) => {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Зарплата
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              {/* <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Опыт
-              </th>
+              </th> */}
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Регион
               </th>
@@ -192,9 +192,9 @@ const AnalyticsResults: React.FC<AnalyticsResultsProps> = ({ data }) => {
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                   {vacancy.salary.toLocaleString()} ₽
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                {/* <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {vacancy.experience} лет
-                </td>
+                </td> */}
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {vacancy.region}
                 </td>

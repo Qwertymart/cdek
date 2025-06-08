@@ -268,7 +268,7 @@ class HHVacancyParser:
                 years = match.group(1)
                 return f"От {years} лет"
 
-        return "Не указан"
+        return "От 1 года до 3 лет"
 
     def determine_company_size(self, employer_data: Dict) -> str:
         """Определяет размер компании на основе доступных данных"""
