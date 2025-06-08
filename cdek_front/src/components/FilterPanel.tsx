@@ -82,6 +82,13 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
     }
   };
 
+  // рассчитываем проценты ползунка зарплаты: 1000000 - max; 30000 - min
+  const percent = (value: number) =>
+    ((value - 30000) / (1000000 - 30000)) * 100;
+
+  // рассчитываем проценты ползунка стажа: 20 - max; 0 - min
+  const percentExp = (value: number) => ((value - 0) / (20 - 0)) * 100;
+
   return (
     <form
       onSubmit={handleSubmit}
@@ -98,12 +105,44 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
               <input
                 type="range"
                 min="30000"
-                max="500000"
+                max="1000000"
                 step="10000"
                 value={filters.salaryRange[0]}
                 onChange={(e) => handleSalaryChange(e, 0)}
-                className="flex-1"
+                className="salary-slider_0 flex-1 w-full h-2 rounded-lg appearance-none cursor-pointer"
+                style={{
+                  background: `linear-gradient(
+      to right,
+      #22c55e 0%,
+      #22c55e ${percent(filters.salaryRange[0])}%,
+rgb(255, 255, 255) ${percent(filters.salaryRange[0])}%,
+      #e5e7eb 100%
+    )`,
+                }}
               />
+              <style jsx>{`
+                .salary-slider_0::-webkit-slider-thumb {
+                  -webkit-appearance: none;
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .salary-slider_0::-moz-range-thumb {
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+              `}</style>
+              {/*accent-green-500 focus:accent-green-500*/}
               <span className="text-sm w-24">
                 {filters.salaryRange[0].toLocaleString()}
               </span>
@@ -113,12 +152,43 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
               <input
                 type="range"
                 min="30000"
-                max="500000"
+                max="1000000"
                 step="10000"
                 value={filters.salaryRange[1]}
                 onChange={(e) => handleSalaryChange(e, 1)}
-                className="flex-1"
+                className="salary-slider_1 flex-1 w-full h-2 rounded-lg appearance-none cursor-pointer"
+                style={{
+                  background: `linear-gradient(
+      to right,
+      #22c55e 0%,
+      #22c55e ${percent(filters.salaryRange[1])}%,
+rgb(255, 255, 255) ${percent(filters.salaryRange[1])}%,
+      #e5e7eb 100%
+    )`,
+                }}
               />
+              <style jsx>{`
+                .salary-slider_1::-webkit-slider-thumb {
+                  -webkit-appearance: none;
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .salary-slider_1::-moz-range-thumb {
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+              `}</style>
               <span className="text-sm w-24">
                 {filters.salaryRange[1].toLocaleString()}
               </span>
@@ -174,8 +244,39 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
                 step="1"
                 value={filters.experience[0]}
                 onChange={(e) => handleExperienceChange(e, 0)}
-                className="flex-1"
+                className="exp-slider_0 flex-1 w-full h-2 rounded-lg appearance-none cursor-pointer"
+                style={{
+                  background: `linear-gradient(
+      to right,
+      #22c55e 0%,
+      #22c55e ${percentExp(filters.experience[0])}%,
+rgb(255, 255, 255) ${percentExp(filters.experience[0])}%,
+      #e5e7eb 100%
+    )`,
+                }}
               />
+              <style jsx>{`
+                .exp-slider_0::-webkit-slider-thumb {
+                  -webkit-appearance: none;
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .exp-slider_0::-moz-range-thumb {
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+              `}</style>
               <span className="text-sm w-4">{filters.experience[0]}</span>
             </div>
             <div className="flex items-center gap-2">
@@ -187,8 +288,48 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
                 step="1"
                 value={filters.experience[1]}
                 onChange={(e) => handleExperienceChange(e, 1)}
-                className="flex-1"
+                className="exp-slider_1 flex-1 w-full h-2 rounded-lg appearance-none cursor-pointer"
+                style={{
+                  background: `linear-gradient(
+      to right,
+      #22c55e 0%,
+      #22c55e ${percentExp(filters.experience[1])}%,
+rgb(255, 255, 255) ${percentExp(filters.experience[1])}%,
+      #e5e7eb 100%
+    )`,
+                }}
               />
+              <style jsx>{`
+                .exp-slider_1::-webkit-slider-thumb {
+                  -webkit-appearance: none;
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .exp-slider_1::-moz-range-thumb {
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                  background: white;
+                  border: 2px solid #22c55e;
+                  cursor: pointer;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+              `}</style>
+              {/* <input
+                type="range"
+                min="0"
+                max="20"
+                step="1"
+                value={filters.experience[1]}
+                onChange={(e) => handleExperienceChange(e, 1)}
+                className="flex-1"
+              /> */}
               <span className="text-sm w-4">{filters.experience[1]}</span>
             </div>
           </div>
@@ -197,7 +338,8 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
         <div className="flex items-end">
           <button
             type="submit"
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md shadow transition-colors"
+            style={{ backgroundColor: "#1ab248", color: "white" }}
+            className="w-full text-white px-6 py-2 rounded-md shadow transition-colors"
           >
             Применить фильтры
           </button>
