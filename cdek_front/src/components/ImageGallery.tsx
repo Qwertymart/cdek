@@ -35,39 +35,37 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images = [] }) => {
   return (
     <div>
       {/* Основная галерея */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {images.map((img, index) => (
           <div
             key={index}
-            className="bg-gray-100 p-2 rounded hover:bg-gray-200 transition-colors"
+            className="bg-gray-100 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow"
           >
-            <h4 className="text-sm font-medium text-gray-700 mb-2">
+            <h4 className="text-base font-semibold text-gray-700 mb-2">
               {img.name}
             </h4>
             <div
-              className="relative group cursor-pointer aspect-square"
+              className="relative group cursor-pointer h-72"
               onClick={() => openModal(img)}
             >
-              {/* Изменение: добавлен атрибут decoding="async" и объект-заполнитель */}
               <img
                 src={`data:image/png;base64,${img.data}`}
                 alt={img.name}
                 className="w-full h-full object-contain rounded transition-transform group-hover:scale-105"
                 decoding="async"
                 onError={(e) => {
-                  // Фоллбэк на прозрачный пиксель при ошибке загрузки
-                  e.currentTarget.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+                  e.currentTarget.src =
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
                 }}
               />
-              {/* Иконка увеличения при наведении */}
-              <div className="absolute inset-0 group-hover:bg-opacity-30 transition-all duration-200 rounded flex items-center justify-center">
+              <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-30 transition-all duration-200 rounded flex items-center justify-center">
                 <ZoomIn
                   className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200"
-                  size={24}
+                  size={28}
                 />
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-1">
+            <p className="text-sm text-gray-500 mt-2">
               Размер: {(img.size / 1024).toFixed(1)} KB
             </p>
           </div>
@@ -109,7 +107,8 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images = [] }) => {
                 decoding="async"
                 onError={(e) => {
                   // Фоллбэк на прозрачный пиксель при ошибке загрузки
-                  e.currentTarget.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+                  e.currentTarget.src =
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
                 }}
               />
             </div>
