@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+option go_package = "pkg/dashboard_anal_pb;dashboard_anal_pb";
+
+service AnalysisService {
+  rpc GetAnalysisData(AnalysisRequest) returns (AnalysisResponse);
+}
+
+// Запрос с фильтрами для анализа
+message AnalysisRequest {
+  repeated uint32 salary = 1;
+  string position = 2;
+  repeated uint32 experience = 3;
+  repeated string regions = 4;
+  repeated string companies = 5;
+  repeated string sources = 6;
+}
+
+// Ответ с данными анализа
+message AnalysisResponse {
+  bool success = 1;
+  string error = 2;
+
+  // PDF файл
+  bytes pdf_data = 3;
+
+  // Картинки аналитики
+  repeated AnalysisImage images = 4;
+
+  // Остальные данные
+  AnalysisItem items = 5;
+  repeated Table table = 6;
+}
+
+message AnalysisImage {
+  string name = 1;        // "chart1.png", "graph2.jpg"
+  uint32 type = 2;
+  bytes image_data = 3;   // сами байты картинки
+  int64 size = 4;         // размер файла
+}
+
+//таблица вакансий
+message Table{
+  string name = 1;
+  uint32 salary = 2;
+  string link = 3;
+  repeated uint32 experience = 4;
+  string region = 5;
+
+}
+
+// Отдельный элемент анализа
+message AnalysisItem {
+    uint32 total_number = 1;
+    float avg = 2;
+    uint32 median = 3;
+}

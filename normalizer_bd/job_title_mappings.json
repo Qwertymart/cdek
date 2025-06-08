@@ -1,0 +1,3649 @@
+{
+  "2D Artist": [
+    "2D Artist / 2D художник (Mobile F2P)"
+  ],
+  "3D Artist": [
+    "3D Artist (Hard Surface/Sci-Fi, Unity) для онлайн-игры, Junior-friendly",
+    "3D clothing artist",
+    "3D дизайнер"
+  ],
+  "3D Visualizer": [
+    "3D-визуализатор",
+    "3D-визуализатор !",
+    "3d-визуализатор"
+  ],
+  "3D Designer": [
+    "3D-дизайнер"
+  ],
+  "3D Modeler": [
+    "3D-моделлер"
+  ],
+  "A&R Manager": [
+    "A&R менеджер",
+    "A&R-менеджер"
+  ],
+  "Agile Project Manager": [
+    "Agile Project Manager"
+  ],
+  "Android Developer": [
+    "Android-разработчик (в офис)"
+  ],
+  "BI Analyst": [
+    "BI Analyst"
+  ],
+  "Junior Python Backend Developer": [
+    "Backend разработчик python (junior)"
+  ],
+  "Backend Developer": [
+    "Backend-разработчик",
+    "Backend-разработчик (junior/middle)",
+    "Backend-разработчик / Backend-developer",
+    "Бекенд Разработчик для ВПН-сервиса",
+    "Back-end разработчик",
+    "Старший Backend-разработчик (Typescript) | Senior Typescript Backend Engineer"
+  ],
+  "Business Analyst": [
+    "Business Analyst (Back Office)",
+    "Бизнес-аналитик",
+    "Бизнес-аналитик (финтех)",
+    "Бизнес-аналитик Junior/Middle (Гибрид)"
+  ],
+  "Business Assistant": [
+    "Business Assistant of CEO",
+    "Бизнес-ассистент",
+    "Бизнес-ассистент (команда продаж)",
+    "Бизнес-ассистент (руководитель направления)",
+    "Бизнес-ассистент (удаленно)",
+    "Бизнес-ассистент / Помощник руководителя",
+    "Бизнес-ассистент генерального директора",
+    "Бизнес-ассистент директора Дом Моды",
+    "Бизнес-ассистент руководителя",
+    "Бизнесс-ассистент основателя стартапа в Барселоне"
+  ],
+  "C# .Net Developer": [
+    "C# .Net Developer",
+    "C# .Net разработчик"
+  ],
+  "C#/.NET Developer": [
+    "C#/.NET-разработчик"
+  ],
+  "CRM Specialist": [
+    "CRM Specialist"
+  ],
+  "CTO": [
+    "CTO (Chief technology officer)",
+    "Технический директор",
+    "Технический директор (CTO)",
+    "Технический директор/Главный инженер"
+  ],
+  "Chief Technical Officer (CTO)": [
+    "Chief Technical Officer (CTO)",
+    "Chief Technical Officer/CTO"
+  ],
+  "Family Driver": [
+    "Cемейный водитель (сменный график)",
+    "Семейный водитель",
+    "Семейный водитель (Кузнецкий Мост)",
+    "Семейный водитель/Личный помощник"
+  ],
+  "Data Scientist": [
+    "Data Scientist / ML Engineer"
+  ],
+  "Event Manager": [
+    "Event-менеджер",
+    "Менеджер по концертной деятельности в лейбл",
+    "Тур-менеджер / администратор мероприятий в концертной индустрии",
+    "Ведущий мероприятий / Event-менеджер",
+    "Младший event-менеджер"
+  ],
+  "Financial Controller": [
+    "Financial Controller / Финансовый контролер"
+  ],
+  "Frontend Developer": [
+    "Front-end Developer (React)",
+    "Front-end разработчик (React)",
+    "Frontend (JavaScript-разработчик)",
+    "Frontend Developer",
+    "Frontend Developer (React)",
+    "Frontend Developer (React, Vue)",
+    "Frontend Developer (React/Vue)",
+    "Frontend React разработчик",
+    "Frontend developer / Frontend - разработчик (Platrum)",
+    "Frontend разработчик (React)",
+    "Frontend-разработчик",
+    "Frontend developer",
+    "Frontend-разработчик (Middle)",
+    "Frontend-разработчик (Middle/Senior)",
+    "Frontend-разработчик (Middle/Senior, fintech)",
+    "Frontend-разработчик (React + TypeScript)",
+    "Frontend-разработчик (React)",
+    "Frontend-разработчик (React), middle+/senior",
+    "Frontend-разработчик (React/TypeScript) в LegalTech",
+    "Frontend-разработчик (Vue 3)",
+    "Frontend-разработчик (web-компоненты)",
+    "Frontend-разработчик (Лукоморье)",
+    "Frontend-разработчик (офис)",
+    "Frontend-разработчик React",
+    "Frontend-разработчик Vue/Middle",
+    "Инженер-программист / frontend-разработчик (создание интерфейсов, разработка приложений)",
+    "Разработчик Frontend React.js",
+    "Разработчик Frontend TypeScript/React ДБО ЮЛ (Цифровизация ВЭД)",
+    "Разработчик Frontend Vue.js",
+    "Frontend программист / Web-разработчик",
+    "Frontend-разработчик (Junior frontend developer)",
+    "Frontend-разработчик (React Native) Middle/Senior",
+    "Frontend программист / Web-разработчик",
+    "Фронтенд-разработчик для программирования на нативном JS",
+    "Senior Frontend Engineer (React)",
+    "Middle Frontend Developer (Vue.js)",
+    "JavaScript Developer (Frontend)",
+    "Frontend Architect (React/TypeScript)",
+    "Frontend Tech Lead",
+    "Angular Developer",
+    "Frontend Developer (Next.js)",
+    "React.js Developer",
+    "Vue.js Developer",
+    "Svelte Developer",
+    "Frontend Developer (TypeScript)",
+    "Frontend Performance Engineer",
+    "UI Developer",
+    "UX Engineer (Frontend)",
+    "Frontend Developer (Remote)",
+    "Frontend Developer (Contract)",
+    "Frontend Developer (Web Components)",
+    "Frontend Developer (PWA)",
+    "Frontend Developer (SPA)",
+    "Frontend Developer (SSR)",
+    "Frontend Developer (Jamstack)",
+    "Frontend Developer (GraphQL)",
+    "Frontend Developer (Redux)",
+    "Frontend Developer (MobX)",
+    "Frontend Developer (Node.js)",
+    "Fullstack Developer (Frontend-heavy)",
+    "Frontend Developer (Testing)",
+    "Frontend Developer (Accessibility)",
+    "Frontend Developer (i18n)",
+    "Frontend Developer (WebGL)",
+    "Frontend Developer (Canvas)",
+    "Frontend Developer (WebAssembly)",
+    "Frontend Developer (Micro Frontends)",
+    "Frontend Developer (Design Systems)",
+    "Frontend Developer (CMS Integration)",
+    "Frontend Developer (E-commerce)",
+    "Frontend Developer (FinTech)",
+    "Frontend Developer (EdTech)",
+    "Frontend Developer (HealthTech)",
+    "Frontend Developer (GameDev)",
+    "Frontend Developer (AR/VR)",
+    "Frontend Developer (Mobile Web)",
+    "Frontend Developer (Cross-platform)",
+    "Frontend Developer (International Team)",
+    "Frontend Developer (Startup)",
+    "Frontend Developer (Enterprise)",
+    "Frontend Developer (B2B)",
+    "Frontend Developer (B2C)",
+    "Frontend Developer (SaaS)",
+    "Frontend Developer (Paas)",
+    "Frontend Developer (AI/ML Interfaces)",
+    "Frontend Developer (Data Visualization)",
+    "Frontend Developer (D3.js)",
+    "Frontend Developer (Three.js)",
+    "Frontend Developer (GIS)",
+    "Frontend Developer (Maps)",
+    "Frontend Developer (Video Streaming)",
+    "Frontend Developer (Audio Processing)",
+    "Frontend Developer (Real-time)",
+    "Frontend Developer (WebSockets)",
+    "Frontend Developer (WebRTC)",
+    "Frontend Developer (Blockchain)",
+    "Frontend Developer (Crypto)",
+    "Frontend Developer (NFT)",
+    "Frontend Developer (Metaverse)",
+    "Frontend Developer (Web3)",
+    "Frontend Developer (DeFi)",
+    "Frontend Developer (Smart Contracts UI)",
+    "Frontend Developer (Security)",
+    "Frontend Developer (Penetration Testing)",
+    "Frontend Developer (CI/CD)",
+    "Frontend Developer (DevOps)",
+    "Frontend Developer (Testing Automation)",
+    "Frontend Developer (E2E)",
+    "Frontend Developer (Unit Testing)",
+    "Frontend Developer (Integration Testing)",
+    "Frontend Developer (Performance Optimization)",
+    "Frontend Developer (Lighthouse)",
+    "Frontend Developer (Core Web Vitals)",
+    "Frontend Developer (SEO)",
+    "Frontend Developer (SSG)",
+    "Frontend Developer (Documentation)",
+    "Frontend Developer (Technical Writing)",
+    "Frontend Developer (Mentoring)",
+    "Frontend Developer (Team Lead)",
+    "Frontend Developer (CTO)",
+    "Frontend Developer (Freelance)",
+    "Frontend Developer (Part-time)",
+    "Frontend Developer (Consulting)",
+    "Frontend Developer (Outstaff)",
+    "Frontend Developer (Outsource)",
+    "Frontend Developer (Agency)",
+    "Frontend Developer (Product)",
+    "Frontend Developer (Service)",
+    "Frontend Developer (White Label)",
+    "Frontend Developer (Custom Solutions)",
+    "Frontend Developer (Legacy Code)",
+    "Frontend Developer (Modernization)",
+    "Frontend Developer (Migration)",
+    "Frontend Developer (Internationalization)",
+    "Frontend Developer (Localization)",
+    "Frontend Developer (RTL)",
+    "Frontend Developer (Multi-language)",
+    "Frontend Developer (Multi-region)",
+    "Frontend Developer (Multi-currency)",
+    "Frontend Developer (High-load)",
+    "Frontend Developer (Low-latency)",
+    "Frontend Developer (Offline-first)",
+    "Frontend Developer (Progressive Enhancement)",
+    "Frontend Developer (Graceful Degradation)",
+    "Frontend Developer (WCAG)",
+    "Frontend Developer (ADA Compliance)",
+    "Frontend Developer (Section 508)",
+    "Frontend Developer (A11y)",
+    "Frontend Developer (Dark Mode)",
+    "Frontend Developer (Theming)",
+    "Frontend Developer (Custom Properties)",
+    "Frontend Developer (CSS-in-JS)",
+    "Frontend Developer (Styled Components)",
+    "Frontend Developer (Emotion)",
+    "Frontend Developer (Tailwind CSS)",
+    "Frontend Developer (Bootstrap)",
+    "Frontend Developer (Material UI)",
+    "Frontend Developer (Ant Design)",
+    "Frontend Developer (Chakra UI)",
+    "Frontend Developer (Figma to Code)",
+    "Frontend Developer (Design Handoff)",
+    "Frontend Developer (Pixel Perfect)",
+    "Frontend Developer (UI Kit)",
+    "Frontend Developer (Component Library)",
+    "Frontend Developer (Storybook)",
+    "Frontend Developer (Design Tokens)",
+    "Frontend Developer (Style Guide)",
+    "Frontend Developer (Branding)",
+    "Frontend Developer (Marketing Sites)",
+    "Frontend Developer (Landing Pages)",
+    "Frontend Developer (Portals)",
+    "Frontend Developer (Dashboards)",
+    "Frontend Developer (Admin Panels)",
+    "Frontend Developer (CRM)",
+    "Frontend Developer (ERP)",
+    "Frontend Developer (CMS)",
+    "Frontend Developer (Headless CMS)",
+    "Frontend Developer (Shopify)",
+    "Frontend Developer (Magento)",
+    "Frontend Developer (WooCommerce)",
+    "Frontend Developer (BigCommerce)",
+    "Frontend Developer (Salesforce)",
+    "Frontend Developer (HubSpot)",
+    "Frontend Developer (Marketing Automation)",
+    "Frontend Developer (Email Templates)",
+    "Frontend Developer (PDF Generation)",
+    "Frontend Developer (Print Styles)",
+    "Frontend Developer (Responsive Design)",
+    "Frontend Developer (Adaptive Design)",
+    "Frontend Developer (Mobile First)",
+    "Frontend Developer (Desktop First)",
+    "Frontend Developer (Cross-browser)",
+    "Frontend Developer (IE11 Support)",
+    "Frontend Developer (Legacy Browser Support)",
+    "Frontend Developer (Polyfills)",
+    "Frontend Developer (Babel)",
+    "Frontend Developer (Webpack)",
+    "Frontend Developer (Vite)",
+    "Frontend Developer (Rollup)",
+    "Frontend Developer (Parcel)",
+    "Frontend Developer (Snowpack)",
+    "Frontend Developer (ESBuild)",
+    "Frontend Developer (SWC)",
+    "Frontend Developer (Bun)",
+    "Frontend Developer (Deno)",
+    "Frontend Developer (Node.js)",
+    "Frontend Developer (Express)",
+    "Frontend Developer (NestJS)",
+    "Frontend Developer (Fastify)",
+    "Frontend Developer (Koa)",
+    "Frontend Developer (Hono)",
+    "Frontend Developer (Cloudflare Workers)",
+    "Frontend Developer (AWS Amplify)",
+    "Frontend Developer (Firebase)",
+    "Frontend Developer (Supabase)",
+    "Frontend Developer (Vercel)",
+    "Frontend Developer (Netlify)",
+    "Frontend Developer (Heroku)",
+    "Frontend Developer (Docker)",
+    "Frontend Developer (Kubernetes)",
+    "Frontend Developer (CI/CD)",
+    "Frontend Developer (GitHub Actions)",
+    "Frontend Developer (GitLab CI)",
+    "Frontend Developer (Jenkins)",
+    "Frontend Developer (CircleCI)",
+    "Frontend Developer (Travis CI)",
+    "Frontend Developer (Azure DevOps)",
+    "Frontend Developer (Bitbucket Pipelines)",
+    "Frontend Developer (Testing Library)",
+    "Frontend Developer (Jest)",
+    "Frontend Developer (Vitest)",
+    "Frontend Developer (Mocha)",
+    "Frontend Developer (Chai)",
+    "Frontend Developer (Jasmine)",
+    "Frontend Developer (Karma)",
+    "Frontend Developer (Cypress)",
+    "Frontend Developer (Playwright)",
+    "Frontend Developer (Puppeteer)",
+    "Frontend Developer (Selenium)",
+    "Frontend Developer (Appium)",
+    "Frontend Developer (Detox)",
+    "Frontend Developer (Espresso)",
+    "Frontend Developer (XCUITest)",
+    "Frontend Developer (Unit Testing)",
+    "Frontend Developer (Integration Testing)",
+    "Frontend Developer (E2E Testing)",
+    "Frontend Developer (Snapshot Testing)",
+    "Frontend Developer (Visual Regression)",
+    "Frontend Developer (Performance Testing)",
+    "Frontend Developer (Load Testing)",
+    "Frontend Developer (Stress Testing)",
+    "Frontend Developer (Security Testing)",
+    "Frontend Developer (Penetration Testing)",
+    "Frontend Developer (Accessibility Testing)",
+    "Frontend Developer (Cross-browser Testing)",
+    "Frontend Developer (Cross-device Testing)",
+    "Frontend Developer (Cross-platform Testing)",
+    "Frontend Developer (Internationalization Testing)",
+    "Frontend Developer (Localization Testing)",
+    "Frontend Developer (RTL Testing)",
+    "Frontend Developer (Dark Mode Testing)",
+    "Frontend Developer (Theming Testing)",
+    "Frontend Developer (Design System Testing)",
+    "Frontend Developer (Component Testing)",
+    "Frontend Developer (Module Testing)",
+    "Frontend Developer (System Testing)",
+    "Frontend Developer (Acceptance Testing)",
+    "Frontend Developer (Regression Testing)",
+    "Frontend Developer (Smoke Testing)",
+    "Frontend Developer (Sanity Testing)",
+    "Frontend Developer (Exploratory Testing)",
+    "Frontend Developer (Ad-hoc Testing)",
+    "Frontend Developer (Mutation Testing)",
+    "Frontend Developer (Property-based Testing)",
+    "Frontend Developer (Fuzz Testing)",
+    "Frontend Developer (A/B Testing)",
+    "Frontend Developer (Multivariate Testing)",
+    "Frontend Developer (Canary Testing)",
+    "Frontend Developer (Blue-green Deployment)",
+    "Frontend Developer (Feature Flags)",
+    "Frontend Developer (Experimentation)",
+    "Frontend Developer (Personalization)",
+    "Frontend Developer (Recommendation Systems)",
+    "Frontend Developer (Search Systems)",
+    "Frontend Developer (Navigation Systems)",
+    "Frontend Developer (Filtering Systems)",
+    "Frontend Developer (Sorting Systems)",
+    "Frontend Developer (Pagination Systems)",
+    "Frontend Developer (Infinite Scroll)",
+    "Frontend Developer (Virtualized Lists)",
+    "Frontend Developer (Windowing)",
+    "Frontend Developer (Lazy Loading)",
+    "Frontend Developer (Code Splitting)",
+    "Frontend Developer (Tree Shaking)",
+    "Frontend Developer (Dead Code Elimination)",
+    "Frontend Developer (Minification)",
+    "Frontend Developer (Obfuscation)",
+    "Frontend Developer (Compression)",
+    "Frontend Developer (Bundling)",
+    "Frontend Developer (Chunking)",
+    "Frontend Developer (Prefetching)",
+    "Frontend Developer (Preloading)",
+    "Frontend Developer (Prerendering)",
+    "Frontend Developer (Server-side Rendering)",
+    "Frontend Developer (Static Site Generation)",
+    "Frontend Developer (Incremental Static Regeneration)",
+    "Frontend Developer (Edge Rendering)",
+    "Frontend Developer (Streaming)",
+    "Frontend Developer (Suspense)",
+    "Frontend Developer (Error Boundaries)",
+    "Frontend Developer (Fallbacks)",
+    "Frontend Developer (Placeholders)",
+    "Frontend Developer (Skeletons)",
+    "Frontend Developer (Loading States)",
+    "Frontend Developer (Error States)",
+    "Frontend Developer (Empty States)",
+    "Frontend Developer (Success States)",
+    "Frontend Developer (Form States)",
+    "Frontend Developer (Validation States)",
+    "Frontend Developer (Submission States)",
+    "Frontend Developer (Pending States)",
+    "Frontend Developer (Optimistic Updates)",
+    "Frontend Developer (Pessimistic Updates)",
+    "Frontend Developer (Undo/Redo)",
+    "Frontend Developer (Time Travel)",
+    "Frontend Developer (State Management)",
+    "Frontend Developer (Global State)",
+    "Frontend Developer (Local State)",
+    "Frontend Developer (Server State)",
+    "Frontend Developer (URL State)",
+    "Frontend Developer (Storage State)",
+    "Frontend Developer (Cache State)",
+    "Frontend Developer (Offline State)",
+    "Frontend Developer (Sync State)",
+    "Frontend Developer (Conflict Resolution)",
+    "Frontend Developer (Data Fetching)",
+    "Frontend Developer (Polling)",
+    "Frontend Developer (WebSockets)",
+    "Frontend Developer (Server-sent Events)",
+    "Frontend Developer (GraphQL Subscriptions)",
+    "Frontend Developer (Live Queries)",
+    "Frontend Developer (Real-time Updates)",
+    "Frontend Developer (Push Notifications)",
+    "Frontend Developer (Service Workers)",
+    "Frontend Developer (Web Push API)",
+    "Frontend Developer (Notifications API)",
+    "Frontend Developer (Clipboard API)",
+    "Frontend Developer (File API)",
+    "Frontend Developer (Drag and Drop API)",
+    "Frontend Developer (Fullscreen API)",
+    "Frontend Developer (Payment Request API)",
+    "Frontend Developer (Credential Management API)",
+    "Frontend Developer (Web Authentication API)",
+    "Frontend Developer (Web Bluetooth API)",
+    "Frontend Developer (Web USB API)",
+    "Frontend Developer (Web Serial API)",
+    "Frontend Developer (Web MIDI API)",
+    "Frontend Developer (Web NFC API)",
+    "Frontend Developer (Web Speech API)",
+    "Frontend Developer (Web Audio API)",
+    "Frontend Developer (WebRTC API)",
+    "Frontend Developer (WebVR API)",
+    "Frontend Developer (WebXR API)",
+    "Frontend Developer (Device Orientation API)",
+    "Frontend Developer (Geolocation API)",
+    "Frontend Developer (Ambient Light API)",
+    "Frontend Developer (Proximity API)",
+    "Frontend Developer (Battery Status API)",
+    "Frontend Developer (Network Information API)",
+    "Frontend Developer (Vibration API)",
+    "Frontend Developer (Screen Orientation API)",
+    "Frontend Developer (Presentation API)",
+    "Frontend Developer (Remote Playback API)",
+    "Frontend Developer (Media Session API)",
+    "Frontend Developer (Media Capture API)",
+    "Frontend Developer (MediaStream API)",
+    "Frontend Developer (MediaRecorder API)",
+    "Frontend Developer (Image Capture API)",
+    "Frontend Developer (Shape Detection API)",
+    "Frontend Developer (Barcode Detection API)",
+    "Frontend Developer (Face Detection API)",
+    "Frontend Developer (Text Detection API)",
+    "Frontend Developer (Object Detection API)",
+    "Frontend Developer (Web Codecs API)",
+    "Frontend Developer (Web Assembly)",
+    "Frontend Developer (WebGPU)",
+    "Frontend Developer (WebGL)",
+    "Frontend Developer (WebGL 2)",
+    "Frontend Developer (Three.js)",
+    "Frontend Developer (Babylon.js)",
+    "Frontend Developer (PlayCanvas)",
+    "Frontend Developer (PixiJS)",
+    "Frontend Developer (Phaser)",
+    "Frontend Developer (D3.js)",
+    "Frontend Developer (Chart.js)",
+    "Frontend Developer (Highcharts)",
+    "Frontend Developer (ECharts)",
+    "Frontend Developer (ApexCharts)",
+    "Frontend Developer (Victory)",
+    "Frontend Developer (Recharts)",
+    "Frontend Developer (Visx)",
+    "Frontend Developer (Nivo)",
+    "Frontend Developer (Plotly)",
+    "Frontend Developer (Observable)",
+    "Frontend Developer (Datawrapper)",
+    "Frontend Developer (Tableau)",
+    "Frontend Developer (Power BI)",
+    "Frontend Developer (Google Charts)",
+    "Frontend Developer (Canvas)",
+    "Frontend Developer (SVG)",
+    "Frontend Developer (Web Animations)",
+    "Frontend Developer (GSAP)",
+    "Frontend Developer (Framer Motion)",
+    "Frontend Developer (React Spring)",
+    "Frontend Developer (Anime.js)",
+    "Frontend Developer (Mo.js)",
+    "Frontend Developer (Popmotion)",
+    "Frontend Developer (Velocity.js)",
+    "Frontend Developer (ScrollMagic)",
+    "Frontend Developer (Lottie)",
+    "Frontend Developer (Rive)",
+    "Frontend Developer (Spine)",
+    "Frontend Developer (DragonBones)",
+    "Frontend Developer (CreateJS)",
+    "Frontend Developer (Paper.js)",
+    "Frontend Developer (Processing)",
+    "Frontend Developer (p5.js)",
+    "Frontend Developer (TensorFlow.js)",
+    "Frontend Developer (ML5.js)",
+    "Frontend Developer (Brain.js)",
+    "Frontend Developer (Synaptic)",
+    "Frontend Developer (Neataptic)",
+    "Frontend Developer (ConvNetJS)",
+    "Frontend Developer (Keras.js)",
+    "Frontend Developer (ONNX.js)",
+    "Frontend Developer (WebDNN)",
+    "Frontend Developer (DeepLearn.js)",
+    "Frontend Developer (Propeller)",
+    "Frontend Developer (Stripe)",
+    "Frontend Developer (PayPal)",
+    "Frontend Developer (Braintree)",
+    "Frontend Developer (Square)",
+    "Frontend Developer (Adyen)",
+    "Frontend Developer (Authorize.Net)",
+    "Frontend Developer (2Checkout)",
+    "Frontend Developer (WePay)",
+    "Frontend Developer (Dwolla)",
+    "Frontend Developer (Alipay)",
+    "Frontend Developer (WeChat Pay)",
+    "Frontend Developer (Amazon Pay)",
+    "Frontend Developer (Google Pay)",
+    "Frontend Developer (Apple Pay)",
+    "Frontend Developer (Samsung Pay)",
+    "Frontend Developer (Visa Checkout)",
+    "Frontend Developer (Masterpass)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)",
+    "Frontend Developer (Affirm)",
+    "Frontend Developer (Afterpay)",
+    "Frontend Developer (Klarna)",
+    "Frontend Developer (Sezzle)",
+    "Frontend Developer (Quadpay)",
+    "Frontend Developer (Zip)",
+    "Frontend Developer (Splitit)",
+    "Frontend Developer (PayBright)",
+    "Frontend Developer (PayLater)",
+    "Frontend Developer (PayPal Credit)",
+    "Frontend Developer (Amazon Lending)",
+    "Frontend Developer (Shop Pay Installments)"
+  ],
+  "Full Stack Developer": [
+    "Full Stack разработчик (React / Node.js)",
+    "Full Stack разработчик"
+  ],
+  "Luxury Retail Development Director": [
+    "GKAM/Директор по развитию люксовой розницы"
+  ],
+  "Golang Developer": [
+    "Golang Developer | Golang-разработчик",
+    "Golang developer",
+    "Go",
+    "Go developer",
+    "golang developer",
+    "golang разработчик",
+    "go разработчик",
+    "GO разработчик",
+    "GO разработчик teamlead",
+    "Go Developer",
+    "Go developer (middle)",
+    "Golang Back-end разработчик",
+    "Golang Backend Developer",
+    "Golang разработчик",
+    "Golang-разработчик",
+    "Бэкенд разработчик сеньор/мидл (Golang)",
+    "Разработчик Backend Golang (Senior+)",
+    "Разработчик Go (middle)",
+    "Senior Golang Engineer",
+    "Middle Golang Developer",
+    "Junior Go Developer",
+    "Lead Golang Developer",
+    "Golang Software Engineer",
+    "Go Lang Developer",
+    "Go/Golang разработчик",
+    "Разработчик на Go",
+    "Программист Golang",
+    "Инженер-программист Go",
+    "Backend Developer (Golang)",
+    "Cloud Engineer (Golang)",
+    "Golang Microservices Developer",
+    "Go API Developer",
+    "Golang System Programmer",
+    "DevOps Engineer (Golang)",
+    "Senior Backend Engineer (Go)",
+    "Golang Tech Lead",
+    "Go Middle/Senior Developer",
+    "Golang Developer (Remote)",
+    "Full-stack Developer (Golang + React)",
+    "Golang Architect",
+    "Разработчик ПО на Go",
+    "Инженер по разработке на Golang",
+    "Специалист по Go-разработке",
+    "Golang консультант",
+    "Go Developer (Киев)",
+    "Golang-программист",
+    "Go-разработчик (удаленно)",
+    "Senior Go Engineer (Highload)",
+    "Golang Performance Engineer",
+    "Blockchain Developer (Golang)",
+    "Golang Team Lead",
+    "Разработчик микросервисов на Go",
+    "Go Developer (Middle+)",
+    "Golang Backend Engineer",
+    "Golang Web Developer",
+    "Go Developer (Contract)",
+    "Golang Ninja Developer",
+    "Senior Golang Programmer",
+    "Golang Database Developer",
+    "Go Cloud Developer",
+    "Golang Embedded Developer",
+    "Go Language Specialist",
+    "Golang Solutions Architect",
+    "Go Backend Developer",
+    "Golang Fullstack Developer",
+    "Senior Go Backend Developer",
+    "Golang API Developer",
+    "Go Middle Developer",
+    "Golang Software Developer",
+    "Go Systems Programmer",
+    "Golang Network Programmer",
+    "Senior Golang Software Engineer",
+    "Golang Game Developer",
+    "Go Compiler Engineer",
+    "Golang Security Developer",
+    "Go Tools Developer",
+    "Golang Automation Engineer",
+    "Senior Go Lang Developer",
+    "Golang Distributed Systems Engineer",
+    "Go Core Developer",
+    "Golang Infrastructure Engineer",
+    "Go Middle/Senior Engineer",
+    "Golang Data Engineer",
+    "Go Platform Engineer",
+    "Golang Consultant Developer",
+    "Senior Golang Architect",
+    "Go Performance Engineer",
+    "Golang Integration Developer",
+    "Go Backend Engineer",
+    "Golang Technical Lead",
+    "Go Application Developer",
+    "Golang Framework Developer",
+    "Senior Go Solutions Architect",
+    "Golang Middle Developer",
+    "Go Senior Programmer",
+    "Golang Cloud Native Developer",
+    "Go Language Engineer",
+    "Golang Senior Software Engineer",
+    "Go REST API Developer",
+    "Golang Middle/Senior Developer",
+    "Go GRPC Developer",
+    "Golang Senior Backend Developer",
+    "Go Concurrent Programming Specialist",
+    "Golang Senior Engineer"
+  ],
+  "Graphic Designer": [
+    "Graphic/Digital Designer",
+    "Графический дизайнер",
+    "Графический дизайнер (fashion)",
+    "Графический дизайнер карточек для маркетплейсов",
+    "Графический дизайнер (Middle)",
+    "Графический дизайнер (Маркетплейсы)"
+  ],
+  "HR Business Partner": [
+    "HR BP",
+    "HR BP/HR Business Partner",
+    "HR BP/HR-бизнес-партнер",
+    "HR Business Partner / HR BP (блок IT-персонала)",
+    "HR Business Partner / HR-бизнес-партнер",
+    "Ведущий менеджер по работе с персоналом (HRG, HRBP)"
+  ],
+  "HR Director": [
+    "HR Director/HRD (Директор по персоналу)",
+    "HR-директор (HRD)",
+    "Директор департамента по персоналу (HR Director)",
+    "Директор по персоналу (HRD)",
+    "Директор по персоналу (финтех)",
+    "Руководитель HR-отдела (производство) / HRD"
+  ],
+  "HR Generalist": [
+    "HR Generalist",
+    "HR менеджер / Менеджер по подбору персонала / HRG"
+  ],
+  "HR Manager": [
+    "HR менеджер",
+    "HR-менеджер / Менеджер по персоналу в digital-агентство",
+    "Менеджер по персоналу",
+    "Менеджер по подбору и адаптации персонала",
+    "Менеджер по подбору и обучению временного персонала",
+    "Менеджер по подбору персонала",
+    "Менеджер по подбору персонала/рекрутер",
+    "Руководитель кадрового подразделения",
+    "Руководитель кадровой службы",
+    "Менеджер по персоналу / HR-менеджер / Рекрутер"
+  ],
+  "HR Specialist": [
+    "HR-специалист по развитию персонала",
+    "Специалист локального центра по работе с персоналом и корпоративной культуре",
+    "Специалист по кадрам",
+    "Специалист по кадрам в единственном лице",
+    "Специалист по кадровому администрированию",
+    "Специалист по кадровому делопроизводству",
+    "Специалист по кадровому делопроизводству со знанием воинского учета",
+    "Специалист по адаптации персонала"
+  ],
+  "HRD": [
+    "HRD"
+  ],
+  "HTML Developer": [
+    "HTML-верстальщик(гибрид)"
+  ],
+  "Head of E-commerce": [
+    "Head of E-commerce"
+  ],
+  "Head of Family Office": [
+    "Head of Family Office",
+    "Head of legal - Family office"
+  ],
+  "Head of Product": [
+    "Head of Product"
+  ],
+  "Head of Production": [
+    "Head of Production",
+    "Начальник производства/руководитель производства/начальник производственного участка",
+    "Начальник участка/смены",
+    "Начальник цеха"
+  ],
+  "Head of Sales": [
+    "Head of Sales / Руководитель отдела продаж"
+  ],
+  "Head of Digital Marketing": [
+    "Head of digital/Руководитель группы интернет-маркетинга"
+  ],
+  "Head of Product Design": [
+    "Head of Product design / Руководитель отдела дизайна"
+  ],
+  "Homologation Manager": [
+    "Homologation manager"
+  ],
+  "iOS Developer": [
+    "IOS Разработчик (Middle/Senior)",
+    "IOS-разработчик (VPN-приложение)"
+  ],
+  "IT Project Manager": [
+    "IT Project Manager (Moscow)",
+    "IT Project manager в продуктовую команду"
+  ],
+  "IT Specialist": [
+    "IT специалист"
+  ],
+  "IT Recruiter": [
+    "IT-рекрутер"
+  ],
+  "Interpreter/Translator/Assistant": [
+    "Interpreter/Translator/Assistant"
+  ],
+  "JavaScript Developer": [
+    "JS-разработчик"
+  ],
+  "Java Developer": [
+    "Java developer",
+    "Java разработчик",
+    "Java разработчик/Backend разработчик",
+    "Java-разработчик",
+    "Java-разработчик (Middle+/Senior)",
+    "Java-разработчик (Инвестиционный бизнес)",
+    "Java-разработчик (офис на ИС, после удаленно)",
+    "Java-разработчик (разработка баллистических систем)",
+    "Java-разработчик Middle",
+    "Java-разработчик в IT-компанию",
+    "Java-разработчик в проект страховой компании",
+    "Java-разработчик младшего/среднего уровня (junior/middle Java developer)",
+    "Разработчик JAVA 8 (legacy)"
+  ],
+  "Junior Backend Developer": [
+    "Junior Backend Developer (младший разработчик)"
+  ],
+  "Junior Brand Manager": [
+    "Junior Brand Manager",
+    "Младший бренд - менеджер (beauty brands)"
+  ],
+  "Junior Frontend Developer": [
+    "Junior Front-End Developer (удаленно)",
+    "Junior Frontend Developer",
+    "Junior frontend-разработчик (Saas, IT, Integration team)"
+  ],
+  "Junior Graphic Designer": [
+    "Junior Graphic Designer"
+  ],
+  "Junior HR Business Partner": [
+    "Junior HR Business Partner",
+    "Младший HRBP (корпоративный блок)"
+  ],
+  "Junior Media Buyer": [
+    "Junior Media Buyer (помощник медибайера)"
+  ],
+  "Junior QA Specialist": [
+    "Junior QA специалист",
+    "Младший специалист по тестированию",
+    "Младший специалист по тестированию (Junior QA)",
+    "Младший тестировщик ПО (Junior QA) (офис)"
+  ],
+  "Junior UI/UX Designer": [
+    "Junior UI/UX дизайнер"
+  ],
+  "Junior Analyst": [
+    "Junior аналитик"
+  ],
+  "Machine Learning Developer": [
+    "ML-разработчик"
+  ],
+  "Manual QA Engineer": [
+    "Manual QA",
+    "Manual QA (junior/middle)/ Ручной тестировщик",
+    "Manual QA Engineer",
+    "Manual QA Engineer (Middle)",
+    "Manual QA инженер (Платежные системы)",
+    "QA-инженер/Manual Middle/Тестировщик"
+  ],
+  "Mechanical Design Engineer": [
+    "Mechanical Design Engineer"
+  ],
+  "Middle 3D Artist": [
+    "Middle 3d Artist"
+  ],
+  "Middle Frontend Developer": [
+    "Middle Frondend-разработчик (VueJS)",
+    "Middle FrontEnd developer",
+    "Middle Frontend developer",
+    "Middle Frontend разработчик (React)",
+    "Middle Frontend-разработчик",
+    "Middle+ Frontend - разработчик (VueJS)"
+  ],
+  "Middle Golang Developer": [
+    "Middle Golang разработчик",
+    "Middle+ Разработчик Golang"
+  ],
+  "Middle IT Recruiter": [
+    "Middle IT-рекрутер"
+  ],
+  "Middle Manual QA": [
+    "Middle Manual QA",
+    "Middle Manual QA Specialist",
+    "Middle QA Manual - remote",
+    "Middle QA engineer (Manual), HR платформа"
+  ],
+  "Middle PHP Developer": [
+    "Middle PHP-разработчик"
+  ],
+  "Middle PR Manager": [
+    "Middle PR Manager"
+  ],
+  "Middle QA Engineer": [
+    "Middle QA Engineer",
+    "Middle QA Engineer (web/back/mob/api)",
+    "Middle QA Engineer (мобильное тестирование)",
+    "Middle QA Инженер (трайб Daily Banking)"
+  ],
+  "Senior QA Engineer": [
+    "Middle+/Senior QA инженер",
+    "Senior QA Engineer",
+    "Senior QA engineer",
+    "Senior QA инженер",
+    "Старший инженер по функциональному тестированию/Senior"
+  ],
+  "PHP Developer": [
+    "PHP Developer",
+    "Программист PHP (Laravel)",
+    "PHP Developer",
+    "Программист PHP (Laravel)",
+    "Ведущий PHP-разработчик (Symfony)",
+    "Инженер-программист PHP"
+  ],
+  "Public Relations Manager": [
+    "PR-менеджер депутата Государственной Думы ФС РФ по международному направлению"
+  ],
+  "PR Manager": [
+    "PR-менеджер"
+  ],
+  "Personal Assistant": [
+    "Personal assistant/Family Assistant",
+    "Personal assistant/Interpreter/Translator",
+    "Личный ассистент",
+    "Личный ассистент (Family Office)",
+    "Личный ассистент в Москве",
+    "Личный ассистент руководителя",
+    "Личный ассистент семьи",
+    "Личный ассистент эксперта-блогера в Москве (неполный день, 4 часа)",
+    "Персональный ассистент",
+    "Персональный ассистент в Family Office, работа с международными проектами",
+    "Персональный ассистент креативного директора",
+    "Персональный ассистент руководителя / Personal assistant",
+    "Помощник руководителя",
+    "Помощник руководителя (личный помощник)"
+  ],
+  "Product Manager": [
+    "Product Manager / Middle",
+    "Менеджер продукта (Дринкит)",
+    "Менеджер продукта / Product Manager",
+    "Продакт-менеджер / Помощник бренд-менеджера (декоративная косметика)"
+  ],
+  "Product Marketing Manager": [
+    "Product Marketing Manager/Продуктовый маркетолог"
+  ],
+  "Project Manager": [
+    "Project Manager (Fintech)/Менеджер проектов (Финтех)",
+    "Project Manager (GameDev)",
+    "Project Manager (Junior +)",
+    "Project Manager (Менеджер проектов)",
+    "Project Manager / Координатор проектов / Администратор проектов",
+    "Project Manager / Руководитель проектов",
+    "Project Manager // middle",
+    "Project Manager/ Аккаунт-менеджер",
+    "Project менеджер",
+    "Менеджер проекта (девелопмент)",
+    "Менеджер проекта | Project Manager",
+    "Менеджер проектов",
+    "Менеджер проектов (музеи и выставки)",
+    "Менеджер проектов (организация мероприятий)",
+    "Менеджер проектов в команду спецпроектов",
+    "Менеджер проектов отдела проведения мероприятий",
+    "Проектный менеджер в AI-стартап",
+    "Менеджер интернет-магазина",
+    "Руководитель проекта",
+    "Руководитель проекта (структура инвестор/заказчик)",
+    "Руководитель проекта / Начальник проектав в строительстве)",
+    "Руководитель проекта в службе заказчика (строительство)",
+    "Руководитель проекта/Ведущий специалист отдела по строительству объектов",
+    "Менеджер web-проектов Junior/Intern",
+    "Менеджеры проектов по Локализации игр/Project Manager, Game Localization",
+    "Руководитель проекта со знанием английского языка Advanced (автомобилестроение)",
+    "Product Manager / Middle",
+    "Менеджер продукта (Дринкит)",
+    "Менеджер продукта / Product Manager",
+    "Продакт-менеджер / Помощник бренд-менеджера (декоративная косметика)",
+    "Продакт менеджер / Руководитель проекта (Финтех)",
+    "Менеджер Бэк офиса",
+    "Travel-manager",
+    "Менеджер групповых путешествий"
+  ],
+  "Purchasing Executive": [
+    "Purchasing Executive Specialist",
+    "Специалист по закупкам"
+  ],
+  "Python Developer": [
+    "Python -разработчик",
+    "Python Developer",
+    "Python developer",
+    "Python developer (Senior)",
+    "Python разработчик",
+    "Python-разработчик",
+    "Python-разработчик (Linux / Highload инфраструктура)"
+  ],
+  "QA Engineer": [
+    "QA Automation Engineer (Logistics Platform) | Инженер по тестированию",
+    "QA Engineer",
+    "QA Engineer (Manual)",
+    "QA Engineer (Middle)",
+    "QA Engineer (middle)",
+    "QA Engineer - Тестировщик",
+    "QA Engineer / Тестировщик",
+    "QA Engineer Junior",
+    "QA Engineer/Специалист по тестированию",
+    "QA Engineer/Тестировщик (Middle,Senior)",
+    "QA Manual Engineer/Тестировщик Middle+",
+    "QA Mobile Engineer (Android, IOS + WEB)/Ручное тестирование",
+    "QA engineer",
+    "QA engineer (Middle)",
+    "QA engineer (стажер)",
+    "QA engineer Middle / инженер - тестировщик",
+    "QA engineer, ритейл",
+    "QA manual",
+    "QA manual (Senior)",
+    "QA manual (junior)",
+    "QA Инженер junior/junior upper",
+    "QA инженер",
+    "QA тестировщик",
+    "Qa manual (siebel)",
+    "QA-инженер",
+    "Инженер по тестированию",
+    "Инженер по тестированию (QA - Web Team)",
+    "Инженер по тестированию (портал gosuslugi.ru)",
+    "Инженер по тестированию (ручной)",
+    "Инженер по тестированию / Manual QA (middle+)",
+    "Инженер по тестированию / QA engineer (операционные системы)",
+    "Инженер по тестированию СХД и ПАК",
+    "Инженер по функциональному тестированию ПО",
+    "Инженер по ручному тестированию",
+    "Инженер-тестировщик",
+    "Инженер-тестировщик (middle)",
+    "Инженер-тестировщик (web, mobile)",
+    "Инженер-тестировщик Web",
+    "Инженер-тестировщик ПО",
+    "Тестировщик",
+    "Тестировщик ( ручное тестирование )",
+    "Тестировщик (QA)",
+    "Тестировщик (middle)",
+    "Тестировщик (middle) фронт",
+    "Тестировщик (web/мобильное приложение)",
+    "Тестировщик (начинающий уровень)",
+    "Тестировщик (ручное тестирование)",
+    "Тестировщик / QA - engineer (Проект Сбера)",
+    "Тестировщик / QA Engineer",
+    "Тестировщик / QA engineer",
+    "Тестировщик BI",
+    "Тестировщик QA manual (frontend/backend)",
+    "Тестировщик ПО",
+    "Тестировщик ПО (QA)",
+    "Тестировщик ПО (junior/junior+)",
+    "Тестировщик ПО (ручное тестирование)",
+    "Тестировщик ПО / QA Engineer",
+    "Тестировщик по FINTECH",
+    "Инженер по тестированию смартфонов"
+  ],
+  "Electronics Engineer": [
+    "Инженер-электроник",
+    "Инженер-электронщик"
+  ],
+  "QA Specialist": [
+    "QA-специалист",
+    "QA-специалист / Manual QA Lead",
+    "QA-специалист / Mobile QA engineer",
+    "QA/Специалист по тестированию"
+  ],
+  "Content Creator": [
+    "Reels Maker/Контент-мейкер",
+    "Контент-креатор",
+    "Креатор / блогер (reels)",
+    "Контент-мейкер / Videограф / Reels Maker"
+  ],
+  "SMM Manager": [
+    "SMM Manager",
+    "SMM менеджер (fashion бренд)",
+    "SMM-менеджер",
+    "SMM-менеджер (junior)",
+    "SMM-менеджер (middle)",
+    "SMM-менеджер (стажер)",
+    "SMM-менеджер / маркетолог",
+    "SMM-менеджер Депутата Государственной Думы-Председателя Комитета (Cпециалист по социальным сетям)",
+    "SMM-менеджер клиники NOON",
+    "Менеджер чатов Telegram",
+    "Менеджер по маркетингу в социальных сетях"
+  ],
+  "SMM Specialist": [
+    "SMM-специалист"
+  ],
+  "SQL Developer": [
+    "SQL-разработчик"
+  ],
+  "Senior Brand Designer": [
+    "Senior Brand Designer"
+  ],
+  "Senior Frontend Developer": [
+    "Senior Frontend (React, TypeScript)",
+    "Senior Frontend Developer",
+    "Senior Frontend developer",
+    "Senior Frontend разработчик",
+    "Senior Frontend-разработчик"
+  ],
+  "Senior IT Project Manager": [
+    "Senior IT Project Manager / Старший менеджер проектов"
+  ],
+  "Senior IT Recruiter": [
+    "Senior IT Recruiter"
+  ],
+  "Senior JavaScript Developer": [
+    "Senior JavaScript developer"
+  ],
+  "Senior Marketing Manager": [
+    "Senior Marketing Manager / Head of Marketing",
+    "Senior marketing manager (маркетинг, реклама и pr)"
+  ],
+  "Senior Influencer Collaboration Manager": [
+    "Senior Менеджер по коллаборациям с топ‑инфлюенсерами (обяз. кейсы коллаб брендов и инфлю от 1М+)"
+  ],
+  "Support Specialist": [
+    "Support Manager (iGaming)",
+    "Support specialist (Чаты)",
+    "Специалист поддержки L1 (IT, чаты)",
+    "Специалист поддержки пользователей (чаты)",
+    "Специалист службы поддержки",
+    "Специалист чат-поддержки",
+    "Агент поддержки/Support Agent",
+    "Customer Support / Специалист службы поддержки (iGaming)"
+  ],
+  "Frontend Team Lead": [
+    "Teamlead Frontend"
+  ],
+  "Technical Project Manager": [
+    "Technical Project Manager"
+  ],
+  "Travel Coordinator": [
+    "Travel coordinator",
+    "Ведущий специалист по организации командировок / Тревел-координатор (со знанием английского языка)",
+    "Менеджер по организации деловых поездок / travel manager",
+    "Персональный тревел координатор",
+    "Трэвел координатор",
+    "Офис-менеджер / помощник менеджера по туризму / travel-менеджер"
+  ],
+  "Travel-manager": [
+    "Travel-manager"
+  ],
+  "UI/UX Designer": [
+    "UI/UX-Дизайнер",
+    "UI/UX-дизайнер (Финтех, торговая платформа, международный проект)"
+  ],
+  "UX/UI Designer": [
+    "UX/UI дизайнер",
+    "UX/UI-дизайнер",
+    "Веб-дизайнер (UI/UX)"
+  ],
+  "Vue.js Developer": [
+    "Vue.JS разработчик"
+  ],
+  "Web Tester": [
+    "Web тестировщик"
+  ],
+  "Web Designer": [
+    "Web-дизайнер",
+    "Веб-дизайнер",
+    "Веб-дизайнер (лендинги)",
+    "Веб-дизайнер / UI-дизайнер"
+  ],
+  "Web Developer": [
+    "Web-разработчик сайтов"
+  ],
+  "Funeral Agent": [
+    "Агент ритуальных услуг"
+  ],
+  "Technical Support Agent": [
+    "Агент технической поддержки"
+  ],
+  "Real Estate Agent": [
+    "Агент/Стажер/Брокер по продаже и аренде элитного жилья в ЖК LUCKY (без поиска клиентов)",
+    "Агент по недвижимости",
+    "Агент по продажам"
+  ],
+  "Administrative Director": [
+    "Административный директор в крупное российское промышленное предприятие"
+  ],
+  "Administrator": [
+    "Администратор",
+    "Администратор (в частную школу)",
+    "Администратор (патологоанатомическое отделение)",
+    "Администратор (подменный)",
+    "Администратор / медицинский регистратор (архивариус)",
+    "Администратор Службы связи",
+    "Администратор Тату студии",
+    "Администратор автосалона",
+    "Администратор автотехцентра BMW / Сервис-менеджер БМВ",
+    "Администратор в детейлинг",
+    "Администратор в конный клуб",
+    "Администратор в офис",
+    "Администратор в регистрационно-статистический отдел",
+    "Администратор в частный детский сад",
+    "Администратор информационных баз",
+    "Администратор квеста",
+    "Администратор культурных мероприятий",
+    "Администратор магазина Аккумуляторов",
+    "Администратор медицинского центра",
+    "Администратор онлайн школы по теннису",
+    "Администратор офиса",
+    "Администратор посуточной аренды квартир",
+    "Администратор ресепшен",
+    "Администратор- продавец интернет-магазина",
+    "Администратор (Савеловская)",
+    "Администратор (м. Савеловская)",
+    "Администратор (медицинский регистратор)",
+    "Администратор (ресурсный центр)",
+    "Администратор / Секретарь детского бассейна",
+    "Администратор / медицинский регистратор в центре Москвы",
+    "Администратор Reception",
+    "Администратор «Rybakov PlaySchool»",
+    "Администратор Детейлинг студии / Мастер-приемщик детейлинга",
+    "Администратор ИТ проектов / IT Project Administrator",
+    "Администратор ИТ-проектов",
+    "Администратор автомойки",
+    "Администратор автомойки и детейлинга",
+    "Администратор автомойки-детейлинга",
+    "Администратор автосалона Geely (м.Дубровка)",
+    "Администратор баз данных (SQL)",
+    "Администратор в Barberia",
+    "Администратор в автосалон (м. Текстильщики)",
+    "Администратор в автосалон (ст.м. Аэропорт)",
+    "Администратор в автосалон / хоста",
+    "Администратор в автотехцентр",
+    "Администратор в детский салон красоты",
+    "Администратор в студию",
+    "Администратор в частную Гимназию",
+    "Администратор в частную музыкальную школу (Тропарёво)",
+    "Администратор в частную школу (м. Октябрьское поле)",
+    "Администратор в элитный ЖК",
+    "Администратор детейлинг центра",
+    "Администратор детейлинг студии",
+    "Администратор детского центра",
+    "Администратор на ресепшен в автосалон",
+    "Администратор на ресепшен в магазин мужских костюмов",
+    "Администратор на ресепшен в отель 4*",
+    "Администратор отеля",
+    "Администратор оформитель м. Выхино/ м. Марьино",
+    "Администратор парка (ТЦ РИО Дмитровка)",
+    "Администратор по записи на ТО в автосалон",
+    "Администратор по продажам автомобилей премиум-класса",
+    "Администратор регистратуры",
+    "Администратор ресепшен в ДЦ \"Jetour Центр Измайлово\"",
+    "Администратор сайта",
+    "Администратор сервис-бюро в автосалон",
+    "Администратор сервис-бюро в кузовной цех BMW",
+    "Администратор сервиса в автосалон",
+    "Администратор сервисной службы 3/3",
+    "Администратор торгового центра",
+    "Администратор частной школы",
+    "Администратор-кассир",
+    "Администратор-консьерж службы порядка",
+    "Администратор-координатор службы звука",
+    "Администратор-менеджер",
+    "Администратор-регистратор в медицинский центр",
+    "Администратор/Подменный Администратор в спа-салон \"Вай Тай\" (м. ЦСКА, м. 1905г)",
+    "Администратор/Координатор",
+    "Администратор/Менеджер по продажам в детейлинг",
+    "Администратор/Офис-менеджер в тату салон",
+    "Администратор/оператор автосалона",
+    "Администратор/хозяюшка офиса",
+    "Архивариус / Администратор / Медицинский регистратор",
+    "Подменный Администратор в ЖК",
+    "Менеджер-администратор",
+    "Медицинский регистратор / администратор",
+    "Медицинский регистратор/Администратор",
+    "Старший администратор (подменный)",
+    "Старший администратор (ресурсный центр)",
+    "Старший подменный администратор салона",
+    "Управляющий администратор малярного цеха"
+  ],
+  "Beauty Salon Administrator": [
+    "Администратор / Управляющий салоном красоты",
+    "Администратор в салон красоты",
+    "Администратор салона красоты",
+    "Администратор салона красоты (м.Менделеевская/Новослободская)",
+    "Администратор студии красоты",
+    "Администратор студии маникюра",
+    "Администратор (салон красоты)",
+    "Администратор premium салона красоты",
+    "Администратор СПА кабинета Вай Тай (м. ЦСКА)",
+    "Администратор салона красоты (м. Речной вокзал)",
+    "Хостес/администратор в спа салон"
+  ],
+  "Restaurant Administrator": [
+    "Администратор ресторана (м. Нагатинская)"
+  ],
+  "Medical Clinic Administrator": [
+    "Администратор в медицинскую клинику (с функцией кассира)",
+    "Администратор клиники/медрегистратор",
+    "Администратор медицинской клиники (без кассы и без звонков) / Медицинский регистратор",
+    "Администратор стоматологической клиники",
+    "Администратор-регистратор в медицинский центр",
+    "Администратор (медицинский регистратор)",
+    "Администратор/регистратор женской консультации"
+  ],
+  "Security Administrator": [
+    "Администратор-охранник"
+  ],
+  "Women's Consultation Administrator": [
+    "Администратор/регистратор женской консультации"
+  ],
+  "Account Manager": [
+    "Аккаунт-менеджер в IT"
+  ],
+  "Business Systems Analyst": [
+    "Аналитик",
+    "Аналитик (Бизнес-Системный)",
+    "Аналитик проектной деятельности"
+  ],
+  "Data Analyst": [
+    "Аналитик (проверка качества данных, визуализация)",
+    "Аналитик данных",
+    "Аналитик данных (SQL/Excel)",
+    "Аналитик данных в направление Поиска",
+    "Аналитик (специалист Excel)"
+  ],
+  "Art Director": [
+    "Арт-директор"
+  ],
+  "Art Manager": [
+    "Арт-менеджер"
+  ],
+  "Assistant": [
+    "Ассистент (подработка)",
+    "Ассистент CEO / Chief of Flow",
+    "Ассистент генерального директора/Бизнес-ассистент",
+    "Ассистент категории",
+    "Ассистент руководителя",
+    "Ассистент руководителя Голливудской кинокомпании",
+    "Ассистент руководителя сети кофеен",
+    "Ассистент руководителя/Администратор отдела",
+    "Ассистент учителя школы",
+    "Ассистент бренд-менеджера",
+    "Ассистент бренд-менеджера / Младший бренд-менеджер",
+    "Бизнес-ассистент для Татьяны Фомичевой, основательницы STUDIO 29",
+    "Бизнес-ассистент по переписке со знанием английского или итальянского/французского/немецкого языка"
+  ],
+  "Artist Assistant": [
+    "Ассистент артиста",
+    "Ассистент в команду артиста",
+    "Помощник Художника"
+  ],
+  "Doctor Assistant": [
+    "Ассистент врача-дерматолога, косметолога",
+    "Ассистент врача-косметолога"
+  ],
+  "Design Studio Assistant": [
+    "Ассистент дизайн-студии"
+  ],
+  "Marketing Assistant": [
+    "Ассистент маркетолога",
+    "Ассистент маркетолога (Junior)",
+    "Ассистент отдела маркетинга"
+  ],
+  "Sales Assistant": [
+    "Ассистент менеджера по продажам fashion",
+    "Ассистент отдела продаж/Координатор",
+    "Продавец-кассир в магазин Levi's (ДЦ \"Орджоникидзе\")",
+    "Продавец-кассир в магазин ХС (ТЦ Европейский)",
+    "Продавец-кассир в магазин корейской косметики (м. Сретенский бульвар)"
+  ],
+  "Project Assistant": [
+    "Ассистент менеджера по проектам"
+  ],
+  "Data Collection Assistant": [
+    "Ассистент менеджера по сбору данных"
+  ],
+  "Product Manager Assistant": [
+    "Ассистент продакт-менеджера"
+  ],
+  "Project Manager Assistant": [
+    "Ассистент проджект менеджера"
+  ],
+  "Producer Assistant": [
+    "Ассистент продюсера",
+    "Ассистент продюсера в продакшн"
+  ],
+  "Director Assistant": [
+    "Ассистент режиссера"
+  ],
+  "Stylist Assistant": [
+    "Ассистент стилиста"
+  ],
+  "Dentist Assistant": [
+    "Ассистент стоматолога ( м.Новаторская, м.Бабушкинская)",
+    "Ассистент стоматолога"
+  ],
+  "Trader Assistant": [
+    "Ассистент трейдера / Trader assistant (Trade support)"
+  ],
+  "Photographer Assistant": [
+    "Ассистент фотографа CHARUEL"
+  ],
+  "Marketplace Manager Assistant": [
+    "Ассистент менеджера WB",
+    "Ассистент менеджера Wildberries",
+    "Ассистент менеджера маркетплейсов удаленно",
+    "Ассистент менеджера маркетплэйса Wildberries",
+    "Помощник менеджера маркетплейсов (Ozon, Wildberries, Yandex Market)",
+    "Помощник менеджера по маркетплейсам Wildberries",
+    "Помощник менеджера по маркетплейсам Wildberries/OZON",
+    "Ассистент менеджера маркетплейса ОЗОН(удаленно)"
+  ],
+  "Tourism Company Assistant": [
+    "Ассистент в туристическую компанию со знанием испанского языка"
+  ],
+  "Assistant Director": [
+    "Ассистенты режиссера программ \"Секрет на миллион\" и \"ДНК\""
+  ],
+  "Banking Specialist": [
+    "Банковский специалист"
+  ],
+  "Bath Master": [
+    "Банщица-Пармастерица / Банщик-Пармастер в женское отделение"
+  ],
+  "Bar Manager": [
+    "Бар-менеджер в отель"
+  ],
+  "Barista": [
+    "Бариста",
+    "Бариста-кассир"
+  ],
+  "Bartender": [
+    "Бармен",
+    "Бармен в ресторан “Narnia” (м. Пушкинская)"
+  ],
+  "Librarian": [
+    "Библиотекарь"
+  ],
+  "Executive Assistant": [
+    "Бизнес ассистент/ помощник руководителя",
+    "Бизнес-ассистент/помощник руководителя",
+    "Помощник/ассистент руководителя",
+    "Помощник/ассистент руководителя проекта"
+  ],
+  "Business Architect": [
+    "Бизнес-архитектор"
+  ],
+  "Brand Manager": [
+    "Бренд менеджер / Менеджер по оптовым продажам итальянских брендов одежды (без холодного поиска)"
+  ],
+  "Brand Chef": [
+    "Бренд шеф частной резиденции",
+    "Бренд-шеф"
+  ],
+  "Eyebrow Specialist": [
+    "Бровист"
+  ],
+  "Luxury Real Estate Broker": [
+    "Брокер по продаже премиальной недвижимости"
+  ],
+  "Buffet Worker": [
+    "Буфетчик"
+  ],
+  "Accountant": [
+    "Бухгалтер",
+    "Бухгалтер (Бюджетный учет)",
+    "Бухгалтер (не удаленно)",
+    "Бухгалтер (сдача в аренду коммерческой недвижимости)",
+    "Бухгалтер (удаленно или гибрид)",
+    "Бухгалтер банк-клиент/документооборот",
+    "Бухгалтер в единственном лице ( удаленно)",
+    "Бухгалтер на первичную документацию",
+    "Бухгалтер на первичную документацию (покупатели)",
+    "Бухгалтер на участок \"Основные средства\"",
+    "Бухгалтер на участок банк-клиент",
+    "Бухгалтер на хозяйственные операции",
+    "Бухгалтер по документообороту",
+    "Бухгалтер по работе с контрагентами",
+    "Бухгалтер по расчетам с подотчетными лицами",
+    "Бухгалтер-калькулятор",
+    "Бухгалтер по работе с поставщиками"
+  ],
+  "Payroll Accountant": [
+    "Бухгалтер на зарплату/кадровик",
+    "Бухгалтер по расчету заработной платы",
+    "Бухгалтер по расчету заработной платы (УДАЛЕННО)",
+    "Бухгалтер по расчету заработной платы / Бухгалтер по заработной плате",
+    "Бухгалтер по расчёту заработной платы (Строительный сектор)"
+  ],
+  "Lead Java Developer": [
+    "Ведущий java-разработчик"
+  ],
+  "Lead Accountant": [
+    "Ведущий бухгалтер",
+    "Ведущий бухгалтер (ГИБРИД)",
+    "Ведущий бухгалтер ВЭД",
+    "Ведущий бухгалтер в IT компанию (удаленно)",
+    "Ведущий бухгалтер по международному учету"
+  ],
+  "Lead Design Engineer": [
+    "Ведущий инженер-конструктор"
+  ],
+  "Lead Construction Engineer": [
+    "Ведущий инженер ПТО"
+  ],
+  "Lead Consultant": [
+    "Ведущий консультант отдела противодействия коррупции на государственной службе и в организациях"
+  ],
+  "Lead Manager": [
+    "Ведущий менеджер",
+    "Ведущий менеджер по маркетплейсам ОЗОН",
+    "Ведущий менеджер по персоналу / HRG",
+    "Ведущий менеджер по продажам",
+    "Ведущий менеджер по работе с ключевыми клиентами"
+  ],
+  "News Anchor": [
+    "Ведущий новостей на Радио 1",
+    "Ведущий новостей на радио Sputnik"
+  ],
+  "Lead Recruiter": [
+    "Ведущий рекрутер"
+  ],
+  "Lead Specialist": [
+    "Ведущий специалист",
+    "Ведущий специалист отдела закупок",
+    "Ведущий специалист отдела кадров",
+    "Ведущий специалист по документационному обеспечению",
+    "Ведущий специалист по закупкам/поставкам оборудования",
+    "Ведущий специалист по кадровому делопроизводству",
+    "Ведущий специалист по комплексной безопасности и антитеррористической защите",
+    "Ведущий специалист службы психосоциальной поддержки"
+  ],
+  "Morning Show Host": [
+    "Ведущий утреннего шоу",
+    "Ведущий утреннего шоу Studio 21"
+  ],
+  "Lead Expert": [
+    "Ведущий эксперт"
+  ],
+  "Lead Legal Consultant": [
+    "Ведущий юрисконсульт",
+    "Ведущий юрисконсульт юридического отдела"
+  ],
+  "Lead Lawyer": [
+    "Ведущий юрист"
+  ],
+  "Lead Recruitment Specialist": [
+    "Ведущий/Главный специалист по подбору персонала"
+  ],
+  "Videographer": [
+    "Видеограф",
+    "Видеооператор в подкаст студию"
+  ],
+  "Video Editor": [
+    "Видеомонтажер коротких роликов",
+    "Видеомонтажёр / Видеоэдитор",
+    "Video Editor"
+  ],
+  "Visa Manager": [
+    "Визовый менеджер"
+  ],
+  "Visualizer": [
+    "Визуализатор"
+  ],
+  "Visual Designer": [
+    "Визуальный дизайнер",
+    "Digital дизайнер"
+  ],
+  "Product Lead": [
+    "Владелец продукта/Product Lead"
+  ],
+  "Driver": [
+    "Водитель",
+    "Водитель (Московская Область)",
+    "Водитель автомобили, категория \"B\"",
+    "Водитель категории B",
+    "Водитель категории «В» / Водитель Техстанции",
+    "Водитель категории В",
+    "Водитель категории С,Д",
+    "Водитель легкового автомобиля",
+    "Водитель микроавтобуса",
+    "Водитель на автомобиле компании",
+    "Водитель на автомобиле компании CE (Москва)",
+    "Водитель на автомобиле компании Mercedes-benz, Склад (категории B)",
+    "Водитель на личном грузовом автомобиле",
+    "Водитель на склад (категории B)",
+    "Водитель на служебном hyundai solaris",
+    "Водитель на собственном грузовом автомобиле",
+    "Водитель с личным грузовыми автомобилем",
+    "Водитель со своим грузовым автомобилем",
+    "Водитель автомобиля",
+    "Водитель категории B на автомобиль компании (Склад-ПВЗ)",
+    "Водитель категории В на служебном автомобиле",
+    "Водитель категории В, С",
+    "Водитель категории С",
+    "Водитель школьного автобуса"
+  ],
+  "Personal Driver": [
+    "Водитель (персональный)",
+    "Водитель Руководителя",
+    "Водитель автомобиля генерального директора",
+    "Водитель в Парк Патриот",
+    "Водитель в офис",
+    "Водитель генерального директора",
+    "Водитель для руководителя",
+    "Водитель персональный",
+    "Водитель руководителя",
+    "Личный водитель",
+    "Личный водитель в семью",
+    "Личный водитель к даме",
+    "Личный водитель руководителя",
+    "Личный семейный водитель",
+    "Персональный (семейный) водитель",
+    "Персональный / Семейный водитель",
+    "Персональный Водитель",
+    "Персональный водитель",
+    "Персональный водитель (Toyota Camry)",
+    "Персональный водитель (Новая Рига)",
+    "Персональный водитель (Одинцовский район)",
+    "Персональный водитель (бизнес)",
+    "Персональный водитель (направление Новой Риги)",
+    "Персональный водитель (с функциями личного помощника)",
+    "Персональный водитель (семейный)",
+    "Персональный водитель / личный водитель, г. Москва (офис)",
+    "Персональный водитель генерального директора",
+    "Персональный водитель для бизнес-вумен",
+    "Персональный водитель к дочери руководителя",
+    "Персональный водитель первого лица компании",
+    "Персональный водитель руководителя",
+    "Персональный водитель руководителя/помощник",
+    "Водитель автомобиля офисный / персональный",
+    "Персональный водитель / Водитель служебного автомобиля",
+    "Персональный водитель-охранник"
+  ],
+  "Courier Driver": [
+    "Водитель курьер легких заказов в ресторан",
+    "Водитель-курьер",
+    "Водитель-курьер (Молжаниново)",
+    "Водитель-курьер (Пушкино)",
+    "Водитель-курьер (категория В)",
+    "Водитель-курьер / Автокурьер",
+    "Водитель-курьер на грузовом автомобиле",
+    "Водитель-курьер на грузовом автомобиле (ЮАО / САО)",
+    "Курьер на автомобиль",
+    "Курьер-водитель",
+    "Курьер-доставщик"
+  ],
+  "Forklift Driver": [
+    "Водитель погрузчика на склад",
+    "Водитель погрузчика",
+    "Водитель погрузчика (дизельный)",
+    "Водитель автопогрузчика на склад",
+    "Водитель электроштабелера-ричтрака"
+  ],
+  "Bus Driver": [
+    "Водитель автобуса",
+    "Водитель автобуса (Московская область)",
+    "Водитель автобуса (категория Д, с проживанием, возможна вахта)",
+    "Водитель автобуса (пассажирские перевозки)",
+    "Водитель микроавтобуса (категории D)"
+  ],
+  "Medical Driver": [
+    "Водитель скорой помощи"
+  ],
+  "Truck Driver": [
+    "Водитель Автокрана",
+    "Водитель грузового тягача седельного DAF",
+    "Водитель на собственном грузовом автомобиле",
+    "Водитель с личным грузовым автомобилем",
+    "Водитель со своим грузовым автомобилем",
+    "Водитель на личном грузовом автомобиле",
+    "Водитель на автомобиле компании CE (Москва)",
+    "Водитель грузовика",
+    "Водитель категории Е",
+    "Водитель категории С",
+    "Водитель категории С (миксеры и самосвалы)",
+    "Водитель категории С (эвакуатор)",
+    "Водитель трала",
+    "Водитель эвакуатора (Томилино)",
+    "Водитель бензовоза"
+  ],
+  "Driver-Security": [
+    "Водитель-охранник",
+    "Водитель-охранник ГБР",
+    "Охранник-водитель 6 разряда в ГБР"
+  ],
+  "Delivery Driver": [
+    "Водитель-экспедитор",
+    "Водитель-экспедитор (категории В), Москва-Московская область",
+    "Водитель-экспедитор категории \"В\" (Форд, Ивеко)",
+    "Водитель-экспедитор категории Е на кругорейс",
+    "Водитель-экспедитор категории Е на кругорейс ВБ",
+    "Водитель-экспедитор категория В (машина домашняя)",
+    "Водитель-экспедитор на автомобиле компании",
+    "Водитель-экспедитор категории В",
+    "Водитель-экспедитор категории Е (рефрижератор)",
+    "Водитель-экспедитор категории СЕ",
+    "Водитель-экспедитор на газель",
+    "Водитель-экспедитор с личным легковым автомобилем"
+  ],
+  "Kindergarten Teacher": [
+    "Воспитатель",
+    "Воспитатель старшей группы/воспитатель-педагог"
+  ],
+  "Clinical Laboratory Physician": [
+    "Врач клинической лабораторной диагностики"
+  ],
+  "Cardiologist": [
+    "Врач-кардиолог"
+  ],
+  "Dentist": [
+    "Врач-стоматолог (профосмотры)"
+  ],
+  "Dog Walker": [
+    "Выгульщик собак"
+  ],
+  "Field Representative": [
+    "Выездной представитель"
+  ],
+  "Cloakroom Attendant": [
+    "Гардеробщик"
+  ],
+  "Game Designer": [
+    "Гейм-дизайнер"
+  ],
+  "CEO": [
+    "Генеральный Директор (Производство/B2B)",
+    "Генеральный директор",
+    "Генеральный директор (CEO)",
+    "Генеральный директор (FMCG)",
+    "Генеральный директор (start-up, малотоннажная химия)",
+    "Генеральный директор (беспилотная авиация)",
+    "Генеральный директор бизнес единицы (пищевое производство)",
+    "Генеральный директор на ГОЗ"
+  ],
+  "Chief Nursing Officer": [
+    "Главная медицинская сестра/главный медицинский брат"
+  ],
+  "Chief Accountant": [
+    "Главный бухгалтер",
+    "Главный бухгалтер (ОЦО/ГК)",
+    "Главный бухгалтер (в единственном лице)",
+    "Главный бухгалтер (на предприятие в г. Тула)",
+    "Главный бухгалтер (оптовая торговля)",
+    "Главный бухгалтер (ритейл)",
+    "Главный бухгалтер (с функциями финансового директора)",
+    "Главный бухгалтер (строительство)",
+    "Главный бухгалтер в единственном лице (заместитель главного бухгалтера, бухгалтер)",
+    "Главный бухгалтер в единственном лице (производство)",
+    "Главный бухгалтер в единственном лице (удалёнка, гибрид)",
+    "Главный бухгалтер в единственном лице (услуги, УСН)",
+    "Главный бухгалтер в единственном числе (доп. подразделение)",
+    "Главный бухгалтер в IT компании (в единственном лице)"
+  ],
+  "Chief Engineer": [
+    "Главный инженер"
+  ],
+  "Senior Specialist": [
+    "Главный специалист (аналитик)",
+    "Главный специалист - сметчик (удалённо)",
+    "Главный специалист МТО",
+    "Главный специалист отдела кадров",
+    "Главный специалист отдела материально-технического обеспечения",
+    "Главный специалист отдела региональной безопасности",
+    "Главный специалист отдела тендеров и закупок",
+    "Главный специалист по договорной работе",
+    "Главный специалист по закупкам",
+    "Главный специалист по кадровому делопроизводству",
+    "Главный специалист по работе с клиентами ОПЕРУ",
+    "Главный специалист по экономической безопасности (Бангладеш)",
+    "Главный специалист тендерного отдела (с перспективой роста до руководителя тендерного отдела)",
+    "Главный специалист юридического отдела"
+  ],
+  "Chief Legal Counsel": [
+    "Главный юрисконсульт",
+    "Главный юрисконсульт / Юрист (единственный в штате)",
+    "Главный юрисконсульт-дженералист HoReCa / Retail (Руководитель блока)",
+    "Главный юрист ВЭБ.РФ"
+  ],
+  "Chief Auditor": [
+    "Главный аудитор"
+  ],
+  "Housekeeper": [
+    "Горничная",
+    "Домработница (домработник)",
+    "Домработница / Домработник",
+    "Домработница / домработник",
+    "Домработница-домработник/горничная",
+    "Домработница",
+    "домработник",
+    "помощница по дому",
+    "помощник по дому",
+    "экономка",
+    "Кастелянша",
+    "Помощница/Помощник по дому в загородный дом",
+    "Помощница/помощник в загородную резиденцию"
+  ],
+  "Governess": [
+    "Гувернантка/Гувернер"
+  ],
+  "Security Guard": [
+    "Дежурный охранник в офис",
+    "Дежурный по комплексу зданий",
+    "Контролер-охранник",
+    "Контролер-охранник в бутик",
+    "Охранник",
+    "Охранник (в офис)",
+    "Охранник (гбр и охранник без лицензии)",
+    "Охранник (сотрудник ГБР)",
+    "Охранник 1/3 , 5/2",
+    "Охранник 1/3 или 2/4",
+    "Охранник без лицензии (административно-офисное здание)",
+    "Охранник в Центральный офис (м. Павелецкая)",
+    "Охранник в банк (Москва)",
+    "Охранник в загородный дом",
+    "Охранник в отель",
+    "Охранник в офис",
+    "Охранник в офис (с УЧО)",
+    "Охранник в офис на Павелецкой",
+    "Охранник в пос. Софрино М.О.",
+    "Охранник на сутки в частный дом с лицензией",
+    "Охранник-Администратор"
+  ],
+  "Maintenance Technician": [
+    "Дежурный техник"
+  ],
+  "Electrician": [
+    "Дежурный электрик"
+  ],
+  "Records Manager": [
+    "Делопроизводитель",
+    "Делопроизводитель в службу расписания"
+  ],
+  "Speech Therapist": [
+    "Дефектолог/логопед",
+    "Учитель-логопед"
+  ],
+  "Designer": [
+    "Дизайнер",
+    "Младший дизайнер",
+    "Дизайнер - иллюстратор",
+    "Дизайнер - художник",
+    "Дизайнер UX/UI",
+    "Дизайнер в агентство",
+    "Дизайнер на маркетплейсы",
+    "Дизайнер презентаций"
+  ],
+  "Illustrator Designer": [
+    "Дизайнер-иллюстратор",
+    "Дизайнер-иллюстратор-принтист"
+  ],
+  "Director": [
+    "Директор / Член совета директоров / Вице-президент",
+    "Директор обособленного подразделения",
+    "Дивизиональный директор/Директор по реализации (мерчендайзинг)"
+  ],
+  "IT Director": [
+    "Директор ДИТ",
+    "Директор по информационным технологиям",
+    "Руководитель IT / IT-менеджер",
+    "Руководитель IT-отдела",
+    "Руководитель IT-отдела | CIO",
+    "Руководитель ИТ подразделения"
+  ],
+  "Planning Director": [
+    "Директор Департамента анализа и планирования"
+  ],
+  "Sales Director": [
+    "Директор департамента продаж",
+    "Директор по продажам",
+    "Директор по продажам (Food)",
+    "Директор по продажам / Руководитель отдела продаж",
+    "Руководитель отдела продаж",
+    "Руководитель отдела продаж (DEAZ.io)",
+    "Руководитель отдела продаж (РОП)",
+    "Руководитель отдела продаж (продажа импортных товаров под заказ)",
+    "Руководитель отдела продаж / Head of sales",
+    "Руководитель отдела продаж B2B-продажи Foodtech E-com",
+    "Руководитель отдела продаж, Честный знак"
+  ],
+  "Plant Director": [
+    "Директор завода/Управляющий",
+    "Директор производственной площадки"
+  ],
+  "International Business Director": [
+    "Директор международного направления / Head of International Business"
+  ],
+  "Analytics Director": [
+    "Директор по аналитике (ведущий российский ритейлер)",
+    "Руководитель отдела аналитики",
+    "Руководитель отдела аналитики Hugo Boss (планирование и анализ закупок)"
+  ],
+  "Security Director": [
+    "Директор по безопасности",
+    "Директор по внутренней безопасности и работе с государственными структурами",
+    "Руководитель службы безопасности"
+  ],
+  "Accounting Director": [
+    "Директор по бухгалтерскому и налоговому учету"
+  ],
+  "Development Director": [
+    "Директор по девелопменту"
+  ],
+  "Design Director": [
+    "Директор по дизайну"
+  ],
+  "Procurement Director": [
+    "Директор по закупкам",
+    "Директор по закупкам (Закупки, Цепочки поставок)",
+    "Директор по закупкам (Минеральные удобрения)",
+    "Руководитель отдела закупок",
+    "Руководитель направления закупок и логистики"
+  ],
+  "Marketing Director": [
+    "Директор по маркетингу",
+    "Директор по маркетингу B2B",
+    "Директор по маркетингу и PR",
+    "Руководитель маркетинга в Электро",
+    "Руководитель отдела маркетинга"
+  ],
+  "Product Director": [
+    "Директор по продукту (CPO)",
+    "Директор продуктового офиса (Российский ритейлер)"
+  ],
+  "Business Development Director": [
+    "Директор по развитию",
+    "Директор по развитию (логистика)",
+    "Директор по развитию бизнеса",
+    "Директор по развитию партнёрской сети",
+    "Директор по развитию Детейлинга автомойки/Управляющий"
+  ],
+  "Supply Chain Director": [
+    "Директор по снабжению и логистике",
+    "Директор по управлению цепями поставок (переезд)"
+  ],
+  "Construction Director": [
+    "Директор по строительству",
+    "Директор по строительству (СЗ)",
+    "Директор строительной компании"
+  ],
+  "Chief Digital Officer": [
+    "Директор по цифровизации",
+    "Директор по цифровой трансформации / Chief Digital Officer (CDO)"
+  ],
+  "Legal Director": [
+    "Директор юридического департамента",
+    "Руководитель отдела правового сопровождения проектов в юридический департамент",
+    "Руководитель юридических отделов",
+    "Руководитель юридического направления",
+    "Руководитель юридического отдела",
+    "Руководитель юридического отдела (GLA)"
+  ],
+  "Director of Promotion Department": [
+    "Директора департамента продвижения"
+  ],
+  "Dispatcher": [
+    "Диспетчер",
+    "Диспетчер ритуальной службы"
+  ],
+  "Domestic Worker": [
+    "Домработница/Домработник",
+    "Домработница/Домработник (м.Киевская)",
+    "Домработница/домработник",
+    "Домработница/домработник в дом"
+  ],
+  "Associate Professor": [
+    "Доцент"
+  ],
+  "Journalist-Copywriter": [
+    "Журналист-копирайтер"
+  ],
+  "Journalist-Editor": [
+    "Журналист-редактор"
+  ],
+  "Journalist": [
+    "Журналист/Корреспондент (шоу-бизнес)"
+  ],
+  "Pharmacy Manager": [
+    "Заведующий аптекой"
+  ],
+  "Garage Manager": [
+    "Заведующий гаражом/Начальник гаража"
+  ],
+  "Anesthesiology and Resuscitation Group Manager": [
+    "Заведующий группой анестезиологии и реанимации/Врач анестезиолог-реаниматолог"
+  ],
+  "Food Production Manager": [
+    "Заведующий пищевым производством в столовую"
+  ],
+  "Deputy General Director": [
+    "Заместитель Генерального Директора (в г. Калининград)",
+    "Заместитель генерального директора",
+    "Заместитель генерального директора по продажам / Руководитель коммерческого блока",
+    "Заместитель генерального директора по строительству"
+  ],
+  "Deputy Director": [
+    "Заместитель директора Департамента",
+    "Заместитель директора по административным вопросам",
+    "Заместитель директора школы по Воспитательной Работе (ВР) (м. Зорге/Октябрьске поле)"
+  ],
+  "Deputy Chief Accountant": [
+    "Заместитель главного бухгалтера"
+  ],
+  "Deputy Chief Engineer": [
+    "Заместитель главного инженера"
+  ],
+  "Deputy Head of Laboratory": [
+    "Заместитель заведующего лаборатории (м. Бибирево)"
+  ],
+  "Deputy Commercial Director": [
+    "Заместитель коммерческого директора"
+  ],
+  "Deputy Head of Methodology and Project Management Service": [
+    "Заместитель начальника Службы методологии и управления проектами"
+  ],
+  "Deputy Head of Education, Science and Innovation Audit Department": [
+    "Заместитель начальника инспекции Департамента аудита образования, науки и инноваций"
+  ],
+  "Deputy Head of Infrastructure and Operations Department/IT Manager": [
+    "Заместитель начальника отдела инфраструктуры и эксплуатации/руководитель ИТ направления"
+  ],
+  "Deputy Head of Professional Development Department for Civil Servants": [
+    "Заместитель начальника отдела профессионального развития государственных служащих"
+  ],
+  "Deputy Head of Security Service": [
+    "Заместитель начальника службы безопасности"
+  ],
+  "Deputy Head of Competitive Procurement Management": [
+    "Заместитель начальника управления конкурентных закупок"
+  ],
+  "Deputy IT Manager/CIO (Fintech)": [
+    "Заместитель руководителя ИТ/CIO (Fintech)"
+  ],
+  "Deputy Head of Contract Department": [
+    "Заместитель руководителя договорного отдела"
+  ],
+  "Deputy Head of Sales Department": [
+    "Заместитель руководителя отдела продаж"
+  ],
+  "Deputy Head of Transport (Chief Mechanic)": [
+    "Заместитель руководителя по транспорту (главный механик)"
+  ],
+  "Deputy Head of Legal Department": [
+    "Заместитель руководителя юридического отдела"
+  ],
+  "Deputy Technical Director": [
+    "Заместитель технического директора"
+  ],
+  "Deputy Financial Director": [
+    "Заместитель финансового директора"
+  ],
+  "Deputy Manager (Restaurant)": [
+    "Заместитель Управляющего в ресторан Novikov Group"
+  ],
+  "Sound Engineer": [
+    "Звукооператор/звукорежиссер"
+  ],
+  "CIO": [
+    "ИТ Директор (CIO)",
+    "ИТ директор в крупный российский холдинг"
+  ],
+  "Illustrator": [
+    "Иллюстратор",
+    "Иллюстратор / 2D artist (IGaming)",
+    "Художник-Иллюстратор"
+  ],
+  "Investment Director": [
+    "Инвестиционный директор / Investment Director"
+  ],
+  "HVAC Engineer": [
+    "Инженер ОВ (Главный специалист отопления и вентиляции)"
+  ],
+  "PTO Engineer": [
+    "Инженер ПТО",
+    "Инженер ПТО (Монолитные работы)"
+  ],
+  "Surveillance Systems Engineer": [
+    "Инженер видеонаблюдения, ОПС, СКУД"
+  ],
+  "Geodetic Engineer": [
+    "Инженер геодезист",
+    "Инженер-геодезист"
+  ],
+  "Sound/Light/Video Engineer": [
+    "Инженер по звуку/свету/видео"
+  ],
+  "Infrastructure Engineer": [
+    "Инженер по инфраструктуре/Системный инженер (можно удаленно)"
+  ],
+  "Reliability Engineer": [
+    "Инженер по надежности"
+  ],
+  "Fire Protection Systems Engineer": [
+    "Инженер по обслуживанию противопожарных систем"
+  ],
+  "OTC Tester": [
+    "Инженер – тестировщик ОТК"
+  ],
+  "Construction Engineer": [
+    "Инженер по строительству (республика Филиппины)",
+    "Инженер-строитель (Пекин, Китай)"
+  ],
+  "Server Engineer": [
+    "Инженер(сервера)"
+  ],
+  "Mechanical Engineer": [
+    "Инженер-Техник-механик"
+  ],
+  "Design Engineer": [
+    "Инженер-конструктор",
+    "Технический менеджер/инженер-конструктор"
+  ],
+  "HVAC Design Engineer": [
+    "Инженер-проектировщик ОВиК"
+  ],
+  "FPV Drone Assembly Engineer": [
+    "Инженер-сборщик FPV дронов"
+  ],
+  "Power Engineer": [
+    "Инженер-энергетик",
+    "Энергетик"
+  ],
+  "Ventilation and Air Conditioning Engineer": [
+    "Инженер/Старший Механик по вентиляции и кондиционированию (ОВиК)"
+  ],
+  "Interior Photographer": [
+    "Интерьерный фотограф в агентство недвижимости"
+  ],
+  "Chief Executive Officer": [
+    "Исполнительный директор",
+    "Исполнительный директор (CEO)",
+    "Исполнительный директор (пищевое производство)",
+    "Исполнительный директор / CEO (сервис каршеринга)",
+    "Исполнительный директор предприятия (завода)",
+    "Исполнительный директор/ Генеральный директор"
+  ],
+  "Sommelier": [
+    "Кавист",
+    "Сомелье"
+  ],
+  "Treasurer": [
+    "Казначей"
+  ],
+  "Treasury Operator": [
+    "Казначей-операционист"
+  ],
+  "Capsulator": [
+    "Капсулятор"
+  ],
+  "Ticket Cashier": [
+    "Кассир билетный в театр"
+  ],
+  "Category Manager": [
+    "Категорийный менеджер"
+  ],
+  "Storekeeper": [
+    "Кладовщик"
+  ],
+  "Zone Supervisor": [
+    "Комендант по зонам"
+  ],
+  "Chief Commercial Officer": [
+    "Коммерческий директор",
+    "Коммерческий директор (B2B)",
+    "Коммерческий директор (CCO)",
+    "Коммерческий директор (CCO), автокомпоненты",
+    "Коммерческий директор (переезд)"
+  ],
+  "Communication Designer": [
+    "Коммуникационный дизайнер",
+    "Графический / Коммуникационный дизайнер (Senior)"
+  ],
+  "Packer": [
+    "Комплектовщик",
+    "Упаковщица / Упаковщик детского текстиля (ОТК / ВТО)"
+  ],
+  "Community Manager": [
+    "Комьюнити-менеджер / Менеджер по работе с резидентами",
+    "Комьюнити-менеджер/SMM"
+  ],
+  "Furniture Designer": [
+    "Конструктор мебели (удалённо)"
+  ],
+  "Consultant": [
+    "Консультант",
+    "Константант (по личному консенсу граждан)",
+    "Консультант в салон ОПТИК",
+    "Консультант в ТБанк (чаты/звочки)"
+  ],
+  "Content Manager": [
+    "Контент менеджер LOOKONLINE",
+    "Контент-менеджер",
+    "Контент-менеджер (интернет-магазин)",
+    "Контент-менеджер / Администратор сайта",
+    "Контент-менеджер Библиотека МЭШ",
+    "Контент-менеджер сайта",
+    "Контент-маркетолог / Контент-менеджер"
+  ],
+  "Content Editor": [
+    "Контент-редактор в медицине"
+  ],
+  "Ticket Controller": [
+    "Контролер билетов",
+    "Контролер в офис",
+    "Контролер службы безопасности / охранник"
+  ],
+  "Cashier": [
+    "Контролер-кассир (Москва, Московская область)",
+    "Контент-кассир",
+    "Кассир"
+  ],
+  "Concert Manager": [
+    "Концертный менеджер"
+  ],
+  "Coordinator": [
+    "Координатор",
+    "Координатор в Домашнюю школу",
+    "Координатор лечения/менеджер по работе с клиентами в стоматологии",
+    "Координатор отдела закупок по направлению МТО",
+    "Координатор отдела продаж",
+    "Координатор по организации мероприятий (Направление \"Международное сотрудничество\")",
+    "Координатор по работе с наставниками",
+    "Координатор проекта",
+    "Координатор проектов",
+    "Координатор съёмочных групп"
+  ],
+  "Copywriter": [
+    "Копирайтер",
+    "Копирайтер (Телекомпания ПЯТНИЦА)",
+    "Копирайтер / Редактор телеграм-канала",
+    "Копирайтер-рерайтер",
+    "Копирайтер для соцсетей"
+  ],
+  "Automotive Service Manager": [
+    "Мастер-приемщик",
+    "Менеджер администратор автомойки / детейлинга",
+    "Администратор Детейлинг студии / Мастер-приемщик детейлинга"
+  ],
+  "Crane Operator": [
+    "Машинист автокрана",
+    "Машинист автомобильного крана",
+    "Машинист крана автомобильного",
+    "Машинист крана автомобильного (6-7-8 разряд)"
+  ],
+  "Corporate Psychologist Consultant": [
+    "Корпоративный психолог-консультант"
+  ],
+  "Proofreader": [
+    "Корректор",
+    "Корректор (русский язык)"
+  ],
+  "Cosmetologist": [
+    "Косметолог",
+    "Косметолог-эстетист"
+  ],
+  "Coffee Lady": [
+    "Кофе-леди / кофе-мен на VIP этаж"
+  ],
+  "Office Coffee Assistant": [
+    "Кофе-леди/кофе-мен в офис"
+  ],
+  "Creative Producer": [
+    "Креативный продюсер"
+  ],
+  "Loan Officer": [
+    "Кредитный специалист автокредитования"
+  ],
+  "Courier": [
+    "Курьер",
+    "Доставщик",
+    "Курьер-доставщик",
+    "Доставщик товаров",
+    "Доставщик документов",
+    "Доставщик посылок",
+    "Доставщик корреспонденции",
+    "Пеший курьер",
+    "Велокурьер",
+    "Автокурьер",
+    "Мото-курьер",
+    "Курьер на самокате",
+    "Курьер на электросамокате",
+    "Курьер на гироскутере",
+    "Грузовой курьер",
+    "Авиакурьер",
+    "Документовоз",
+    "Медиакурьер",
+    "Аптечный курьер",
+    "Медицинский курьер",
+    "Фарма-курьер",
+    "Продуктовый курьер",
+    "Фуд-курьер",
+    "Курьер цветов",
+    "Ювелирный курьер",
+    "Курьер важных документов",
+    "Курьер ценных грузов",
+    "Курьер-экспедитор",
+    "Курьер банковских документов",
+    "Курьер юридических документов",
+    "Офисный курьер",
+    "Внутренний курьер",
+    "Межофисный курьер",
+    "Городской курьер",
+    "Междугородний курьер",
+    "Международный курьер",
+    "Курьер-почтальон",
+    "Курьер-экспресс",
+    "Срочный курьер",
+    "Ночной курьер",
+    "Выходного дня курьер",
+    "Посыльный",
+    "Гонец",
+    "Доставщик-логист",
+    "Курьер-логист",
+    "Агент доставки",
+    "Специалист по доставке",
+    "Менеджер по доставке",
+    "Оператор доставки",
+    "Координатор доставки",
+    "Исполнитель доставки",
+    "Представитель службы доставки",
+    "Доставщик-оператор",
+    "Курьер-агент",
+    "Доставщик-менеджер",
+    "IT-курьер",
+    "Гастро-курьер",
+    "Бухгалтерский курьер",
+    "Юридический курьер",
+    "Банковский курьер",
+    "Дипломатический курьер",
+    "Корпоративный курьер",
+    "VIP-курьер",
+    "Персональный курьер",
+    "Конфиденциальный курьер",
+    "Курьер с личным авто",
+    "Курьер с грузовым авто",
+    "Старший курьер",
+    "Ведущий курьер",
+    "Главный курьер",
+    "Сменный курьер",
+    "Подменный курьер",
+    "Многостаночник-курьер",
+    "Универсальный курьер",
+    "Мобильный курьер",
+    "Деливери",
+    "Доставщик-райдер",
+    "Курьер-драйвер",
+    "Мессенджер",
+    "Курьер-фулфилмент",
+    "Курьер (доставка документов)",
+    "Курьер (доставка документов, офис)",
+    "Курьер (стоматологическое отделение)",
+    "Курьер в интернет-магазин",
+    "Курьер в офис",
+    "Курьер на внутренние перемещения",
+    "Курьер офисный",
+    "Курьер пеший",
+    "Офисный курьер"
+  ],
+  "Personal Bodyguard": [
+    "ЛИЧНЫЙ ТЕЛОХРАНИТЕЛЬ",
+    "Личный охранник (соло)",
+    "Личный охранник/Охранник 6 разряда"
+  ],
+  "Personal Assistant/Manager": [
+    "Личный менеджер / Агент / организатор мероприятий"
+  ],
+  "Personal Assistant to Executive": [
+    "Личный помощник",
+    "Личный помощник - водитель",
+    "Личный помощник для руководителя",
+    "Личный помощник руководителя",
+    "Личный помощник/Ассистент руководителя",
+    "Личный помощник / ассистент руководителя"
+  ],
+  "Label Manager": [
+    "Лейбл-менеджер"
+  ],
+  "QA Competence Leader": [
+    "Лидер компетенций по QA"
+  ],
+  "Line Producer": [
+    "Линейный продюсер",
+    "Линейный продюсер (Project Manager)"
+  ],
+  "Logistics Manager": [
+    "Логист / менеджер по логистике",
+    "Менеджер по логистике (ЮВАО)"
+  ],
+  "Painter": [
+    "Маляр"
+  ],
+  "Marketing Specialist": [
+    "Маркетолог",
+    "Маркетолог (удаленно, из дома)",
+    "Маркетолог / Менеджер по работе с партнёрами",
+    "Интернет маркетолог (Со знанием bitrix)",
+    "Креативный маркетолог",
+    "Маркетолог Seniour",
+    "Маркетолог для пластического хирурга",
+    "Лидер контент завода / контент маркетолог"
+  ],
+  "Massage Therapist": [
+    "Массажист (аппарат Эндосфера, Icoon, ручной массаж, спа процедуры)"
+  ],
+  "Nail Technician": [
+    "Мастер маникюра/мастер ногтевого сервиса"
+  ],
+  "Bulldozer Operator": [
+    "Машинист бульдозера (открытые горные работы)"
+  ],
+  "Media Director": [
+    "Медиа-директор (Мальдивские острова)"
+  ],
+  "Brand Ambassador": [
+    "Медиаблогер БМВ / Бренд-амбассадор BMW",
+    "Бренд-амбассадор BMW"
+  ],
+  "Nurse": [
+    "Медицинская сестра / Медицинский брат",
+    "Медицинская сестра / медицинский брат",
+    "Медицинская сестра/Медицинский брат",
+    "Медицинская сестра/Медицинский брат в стоматологическую клинику",
+    "Медицинская сестра/Медицинский брат по проведению предрейсовых осмотров",
+    "Медицинская сестра/медицинский брат",
+    "Медицинская сестра по физиотерапии"
+  ],
+  "Dental Sterilization Nurse": [
+    "Медсестра/медбрат ЦСО в стоматологию"
+  ],
+  "General Manager": [
+    "Менеджер",
+    "Менеджер на удаленную работу",
+    "Менеджер в \"Davidoff\"",
+    "Менеджер в Кремль",
+    "Менеджер в банный комплекс",
+    "Менеджер приемной комиссии",
+    "Менеджер программ лояльности",
+    "Менеджер выпускного отдела",
+    "Менеджер в службу доставки (м. Зорге)",
+    "Менеджер интернета-магазина",
+    "Менеджер постпродажного обслуживания (ВИП сегмент)"
+  ],
+  "Sales Manager": [
+    "Менеджер по продажам",
+    "Менеджер по продажам (Account Executive)",
+    "Менеджер по продажам (B2B)",
+    "Менеджер по продажам (B2B, без холодных звонков)",
+    "Менеджер по продажам (АI решения)",
+    "Менеджер по продажам (Варшавское шоссе)",
+    "Менеджер по продажам (Входящие звонки)",
+    "Менеджер по продажам (ДПО)",
+    "Менеджер по продажам (Удаленно)",
+    "Менеджер по продажам (без поиска клиентов)",
+    "Менеджер по продажам (конечные заказчики)",
+    "Менеджер по продажам (рассмотрим из любой сферы продаж / входящие заявки)",
+    "Менеджер по продажам (электронные компоненты)",
+    "Менеджер по продажам b2b услуг Оклад + %",
+    "Менеджер по продажам КАСКО И ОСАГО",
+    "Менеджер по продажам автозапчастей",
+    "Менеджер по продажам автокомпонентов",
+    "Менеджер по продажам артистов",
+    "Менеджер по продажам в ателье мебели Mr.Doors",
+    "Менеджер по продажам жилья премиум ЖК",
+    "Менеджер по продажам заказной разработки",
+    "Менеджер по продажам игровых компьютеров",
+    "Менеджер по продажам освещения (люстры, свет, предметы интерьера)",
+    "Менеджер по продажам со знанием английского языка",
+    "Менеджер по продажам/торговый представитель (без поиска)",
+    "Менеджер по продажам автозапчастей",
+    "Менеджер по продажам автокомпонентов",
+    "Менеджер по продажам артистов",
+    "Срочно! Менеджер по продажам (удаленно, горячие заявки)",
+    "Торговый директор по продажам",
+    "Менеджер по продажам \ Менеджер по работе с клиентами",
+    "Менеджер по продажам и развитию бизнеса (IT)",
+    "Менеджер по продажам курьерских услуг (удаленно)"
+  ],
+  "Procurement Manager": [
+    "Менеджер отдела снабжения удаленно"
+  ],
+  "Marketing Manager": [
+    "Менеджер по маркетингу и рекламе"
+  ],
+  "Customer Service Manager": [
+    "Менеджер по работе с клиентами",
+    "Менеджер по работе с клиентами (спортивные услуги)",
+    "Менеджер по работе с клиентами в кейтеринг компанию Министерство",
+    "Менеджер по работе с клиентами по России и странам СНГ",
+    "Менеджер по работе с клиентами, Глобальный офис продаж в России",
+    "Менеджер по работе с дистрибьюторами",
+    "Менеджер по работе с застройщиками",
+    "Менеджер по работе с органами государственной власти",
+    "Менеджер по работе с шоу Первого канала",
+    "Менеджер по работе со спонсорами и партнерами",
+    "Менеджер по работе с федеральными сетями удаленно",
+    "Менеджер клиентской поддержки"
+  ],
+  "International Sales Manager": [
+    "Менеджер ВЭД",
+    "Менеджер ВЭД / Импорт - менеджер",
+    "Менеджер отдела ВЭД",
+    "Менеджер по закупкам ВЭД"
+  ],
+  "Quality Control Manager": [
+    "Менеджер отдела контроля качества (ОКК)",
+    "Менеджер по контролю за качеством коммуникации с пациентами",
+    "Менеджер по контролю качества звонков"
+  ],
+  "Training and Development Manager": [
+    "Менеджер по обучению и развитию (Training & Development Specialist)"
+  ],
+  "Communications Manager": [
+    "Менеджер по внутренним коммуникациям",
+    "Менеджер по связям с общественностью"
+  ],
+  "Operations Manager": [
+    "Менеджер административного отдела",
+    "Менеджер по сопровождению деятельности",
+    "Менеджер по сопровождению клиентов",
+    "Менеджер по сопровождению мероприятий в сфере Event"
+  ],
+  "Influencer Manager": [
+    "Менеджер по работе с блогерами (Инфлюенс менеджер)",
+    "Менеджер по работе с блогерами / Influence-менеджер",
+    "Инфлюенс менеджер / Influence marketing manager / Influence маркетолог"
+  ],
+  "Security Manager": [
+    "Менеджер по безопасности"
+  ],
+  "Administrative Manager": [
+    "Менеджер административного отдела"
+  ],
+  "Talent Acquisition Manager": [
+    "Менеджер по подбору персонала/рекрутер"
+  ],
+  "Marketplace Manager": [
+    "Менеджер кабинета маркетплейсов (Wildberries / Ozon)",
+    "Менеджер по работе с маркетплейсами"
+  ],
+  "Document Management Manager": [
+    "Менеджер по документообороту",
+    "Менеджер по документообороту (специалист по работе с первичной документацией)"
+  ],
+  "Customer Experience Manager": [
+    "Менеджер по счастью (внутренние коммуникации и корпоративная культура)"
+  ],
+  "Manager": [
+    "Менеджер(с опытом Dota 2)",
+    "Управляющий",
+    "Управляющий в загородный дом",
+    "Управляющий в ресторан",
+    "Управляющий в ресторан «PIVАLDI»",
+    "Управляющий галереей",
+    "Управляющий директор (крупная российская FMCG-компания)",
+    "Управляющий многопрофильным медицинским центром",
+    "Управляющий премиального объекта",
+    "Управляющий рестораном",
+    "Управляющий, Помощник по хозяйству, (Одинцовский р-н, от 200 т.р. в мес.)"
+  ],
+  "Tattoo Studio Manager": [
+    "Менеджер-администратор Тату-студии"
+  ],
+  "Learning Experience Designer": [
+    "Методист образовательных продуктов (Learning Experience Designer)",
+    "Learning Experience Designer"
+  ],
+  "Junior Marketplace Manager": [
+    "Младший Менеджер по работе с Маркетплейсами (Wildberries, Ozon)",
+    "Младший менеджер по работе с маркетплейсом Wildberries"
+  ],
+  "Junior Data Analyst": [
+    "Младший аналитик данных"
+  ],
+  "Junior Process Analyst": [
+    "Младший аналитик процессов"
+  ],
+  "Junior Marketing Specialist": [
+    "Младший маркетолог в k-beauty компанию",
+    "Младший менеджер контентного маркетинга",
+    "Начинающий маркетолог/Помощник маркетолога в детский образовательный центр (ВАО Измайлово)"
+  ],
+  "Junior Event Manager": [
+    "Младший менеджер в ивент-отдел"
+  ],
+  "Junior Product Manager": [
+    "Младший менеджер по продукту/Продакт менеджер"
+  ],
+  "Junior Online Store Manager": [
+    "Младший менеджер по управлению интернет-магазином и продвижению бренда Infinix"
+  ],
+  "Junior Producer": [
+    "Младший продюсер / ассистент продюсера"
+  ],
+  "Junior Sommelier": [
+    "Младший сомелье"
+  ],
+  "Junior Content Procurement Specialist": [
+    "Младший специалист по закупке контента"
+  ],
+  "Junior International Trade Assistant": [
+    "Младший специалист/ассистент отдела ВЭД"
+  ],
+  "Moderator": [
+    "Модератор"
+  ],
+  "Reels Maker": [
+    "Монтажер Reels / видеомонтажер reels / Reels Maker / Контент мейкер",
+    "Монтажер коротких форматов",
+    "Рилсмейкер"
+  ],
+  "Installer": [
+    "Монтажник",
+    "Монтажник карнизов, жалюзи, штор",
+    "Монтажник наружных трубопроводов"
+  ],
+  "Museum Attendant": [
+    "Музейный смотритель",
+    "Музейный смотритель в малый музей"
+  ],
+  "Music Expert": [
+    "Музыкальный эксперт"
+  ],
+  "Research Scientist": [
+    "Научный сотрудник в центр геномных исследований"
+  ],
+  "Head of LNG and Hydrocarbon Fuel Commercial Project Development": [
+    "Начальник Управления развития коммерческих проектов с СПГ и углеводородным топливом"
+  ],
+  "Head of Legal Department": [
+    "Начальник Юридического отдела/юрисконсульт",
+    "Начальник юридического отдела",
+    "Начальник юридического отдела (ген. подряд)"
+  ],
+  "Head of Administrative and Economic Department": [
+    "Начальник административно-хозяйственного отдела"
+  ],
+  "Head of Administrative Services Department": [
+    "Начальник отдела административного сервиса"
+  ],
+  "Head of Construction Analytics and Cost Department": [
+    "Начальник отдела аналитики и себестоимости строительства"
+  ],
+  "Head of Task Execution Control Department": [
+    "Начальник отдела контроля исполнения поручений"
+  ],
+  "Head of Marketing and Business Development Department": [
+    "Начальник отдела маркетинга и развития бизнеса"
+  ],
+  "Head of Labor Organization and Remuneration Department": [
+    "Начальник отдела организации труда и заработной платы"
+  ],
+  "Head of Occupational Safety and Industrial Safety Department": [
+    "Начальник отдела охраны труда и промышленной безопасности"
+  ],
+  "Head of Human Resources Department": [
+    "Начальник отдела по работе с персоналом"
+  ],
+  "Head of Legal Editing and Linguistic Expertise Department": [
+    "Начальник отдела правового редактирования и лингвистической экспертизы"
+  ],
+  "Head of Asset Realization Department": [
+    "Начальник отдела реализации активов"
+  ],
+  "Head of Planning and Economic Department": [
+    "Начальник планово-экономического отдела"
+  ],
+  "Head of Warehouse": [
+    "Начальник склада",
+    "Начальник складского учета"
+  ],
+  "Head of Security Service": [
+    "Начальник службы безопасности"
+  ],
+  "Head of Transport Service": [
+    "Начальник транспортной службы (Гвинея, Африка)"
+  ],
+  "Head of Logistics": [
+    "Начальник управления (Логистика, Казахстан)"
+  ],
+  "Head of Environmental and Industrial Safety Department": [
+    "Начальник управления охраны труда, экологической и промышленной безопасности"
+  ],
+  "Head of Economics and Finance Department": [
+    "Начальник управления экономики и финансов"
+  ],
+  "Head of Automotive Support Center": [
+    "Начальник центра автотранспортного обеспечения"
+  ],
+  "Head of Legal Affairs for Nuclear Power Plant Project El Dabaa": [
+    "Начальник юридического управления проекта АЭС \"Эль-Дабаа\""
+  ],
+  "Head of Project Management Department": [
+    "Начальника отдела управления проектами"
+  ],
+  "Junior Programmer": [
+    "Начинающий (Junior) Программист/Стажер"
+  ],
+  "Junior Interior Designer": [
+    "Начинающий дизайнер интерьеров"
+  ],
+  "Junior Public Service Specialist": [
+    "Начинающий специалист (госслужба)"
+  ],
+  "Junior Specialist with English": [
+    "Начинающий специалист - стажер со знанием английского языка"
+  ],
+  "Junior IT Specialist": [
+    "Начинающий специалист в IT проект"
+  ],
+  "Junior Oil and Gas Specialist": [
+    "Начинающий специалист в нефтегазовой отрасли (Помощник руководителя)"
+  ],
+  "Junior Mobile Salon Specialist": [
+    "Начинающий специалист в салон сотовой связи (г.Москва)"
+  ],
+  "Nanny": [
+    "Няня",
+    "Няня к девочке 2,3 года (Дубай)",
+    "Няня-Гувернантка/Гувернер для девочки 10 лет (Москва, Рублёвка)",
+    "Няня-гувернантка/гувернер к близнецам 1 года",
+    "Няня-воспитатель (Троицк)",
+    "Няня-воспитатель к мальчику 3 года (метро Пушкинская)",
+    "Опытная няня для девочки с 16 июня"
+  ],
+  "Online Administrator": [
+    "Онлайн администратор в beauty"
+  ],
+  "1C Operator": [
+    "Оператор 1C",
+    "Оператор 1С",
+    "Оператор 1С на складе"
+  ],
+  "Call Center Operator": [
+    "Оператор call-центра",
+    "Оператор call-центра (входящие)",
+    "Оператор call-центра (удаленно)",
+    "Оператор call-центра в офис",
+    "Оператор поддержки покупателей / Оператор call-центра / Входящие звонки",
+    "Оператор кол-центра МТС (удаленная работа)",
+    "Оператор на чаты (узбекский язык)",
+    "Оператор/администратор службы доставки еды"
+  ],
+  "PC Operator": [
+    "Оператор ПК"
+  ],
+  "CNC Machine Operator": [
+    "Оператор ЧПУ станка"
+  ],
+  "Operations Support Operator": [
+    "Оператор поддержки операций"
+  ],
+  "Video Surveillance Systems Operator": [
+    "Оператор систем видеонаблюдения/ администратор контроля"
+  ],
+  "Chat Support Operator": [
+    "Оператор чат поддержки (хайриск / CS / кейсы / gambling / igaming)",
+    "Оператор чат-поддержки ГИС ЖКХ и «Госуслуги Дом»",
+    "Специалист Чат-поддержки в Яндекс",
+    "Специалист поддержки на чаты (удаленная работа)",
+    "Специалист поддержки со знанием бирманского языка (Support Specialist with Burmese)",
+    "Специалист поддержки со знанием вьетнамского языка (Support Specialist with Vietnamese)",
+    "Специалист поддержки со знанием тайского языка (Support Specialist with Thai)",
+    "Специалист службы поддержки со знанием монгольского языка",
+    "Специалист со знанием корейского языка (한국어) / Customer Support specialist Korea"
+  ]
+  ],
+  "Operator (Weekend)": [
+    "Оператор(выходного дня)"
+  ],
+  "Cashier Operator": [
+    "Оператор-кассир в крипто-обменник"
+  ],
+  "Chief Operating Officer": [
+    "Операционный директор",
+    "Операционный директор (COO)",
+    "Операционный директор (Производство)",
+    "Операционный директор (общепит)",
+    "Операционный директор в творческий проект",
+    "Операционный директор по маркетингу"
+  ],
+  "Executive Chef": [
+    "Операционный шеф-повар"
+  ],
+  "Office Manager": [
+    "Офис менеджер",
+    "Офис-менеджер",
+    "Офис-менеджер / Операционный ассистент в DeloBeauty - Кадровый резерв",
+    "Офис-менеджер / секретарь",
+    "Офис-менеджер в ИТ компанию",
+    "Офис-менеджер в музыкальный лейбл",
+    "Офис-менеджер/делопроизводитель/помощник главного бухгалтера",
+    "Офис-менеджер/менеджер-координатор",
+    "Офис-менеджер/помощник руководителя/секретарь-делопроизводитель",
+    "Руководитель канцелярии",
+    "Офис-менеджер/менеджер-координатор",
+    "Офис-менеджер/помощник руководителя/секретарь-делопроизводитель",
+    "Руководитель канцелярия",
+    "Офис-менеджер / Помощник руководителя / Секретарь",
+    "Офис-менеджер / Секретарь/Администратор"
+  ],
+  "Office Driver": [
+    "Офисный водитель"
+  ],
+  "Waiter": [
+    "Официант",
+    "Официант в итальянский ресторан в центре города",
+    "Официант в офис (vip-приемная)",
+    "Официант в ресторан Ava (на Патриках)"
+  ],
+  "Personal Security Guard": [
+    "Охранник личный"
+  ],
+  "Supplementary Education Teacher": [
+    "Педагог дополнительного образования (Москва)"
+  ],
+  "Event Coordinator": [
+    "Педагог-организатор"
+  ],
+  "Educational Psychologist": [
+    "Педагог-психолог",
+    "Педагог-психолог в колледж"
+  ],
+  "Baker": [
+    "Пекарь"
+  ],
+  "Translator": [
+    "Переводчик (английский язык)",
+    "Переводчик с английского языка"
+  ],
+  "People Partner": [
+    "Пипл-партнер (финлигал, маркетинг, B2C)"
+  ],
+  "Editor": [
+    "Пишущий редактор"
+  ],
+  "Cook": [
+    "Повар",
+    "Повар Любой цех 5.000р СМЕНА 12 часов",
+    "Повар в Bosco Cafe (ГУМ)",
+    "Повар в ресторан Кофемания",
+    "Повар в семью",
+    "Повар в семью на 5/2 с проживанием и без",
+    "Повар горячего цеха"
+  ],
+  "Universal Cook": [
+    "Повар-универсал"
+  ],
+  "Concierge": [
+    "Подработка/Консьерж"
+  ],
+  "Laborer": [
+    "Подсобный рабочий ЭХО"
+  ],
+  "Assistant Accountant": [
+    "Помощник бухгалтера",
+    "Помощник бухгалтера (гибрид)"
+  ],
+  "CEO Assistant": [
+    "Помощник генерального директора"
+  ],
+  "Deputy Assistant": [
+    "Помощник депутата (секретарь в приемную)",
+    "Помощник депутата Государственной Думы",
+    "Помощник депутата Государственной Думы - Председателя Комитета"
+  ],
+  "Houshold Assistant": [
+    "Помощник по хозяйству"
+  ],
+  "Judge's Assistant": [
+    "Помощник судьи арбитражного суда / секретарь судебного заседания"
+  ],
+  "Client Manager Assistant": [
+    "Помощник РОПа - Менеджер по работе с клиентами"
+  ],
+  "Shooting Instructor Assistant": [
+    "Помощник инструктора по стрельбе"
+  ],
+  "Office Assistant": [
+    "Помощник в офис"
+  ],
+  "Chief of Duty Assistant": [
+    "Помощник оперативного дежурного 1/3 (ТД Москва)"
+  ],
+  "Airport Assistant": [
+    "Помощник в аэропорт с правами категории B"
+  ],
+  "Forensic Psychologist Assistant": [
+    "Помощник судебного эксперта-психолога"
+  ],
+  "Dark Lord Assistant": [
+    "Помощник Волан-де-Морта"
+  ],
+  "Company Representative in China": [
+    "Представитель компании в Китае"
+  ],
+  "English Teacher": [
+    "Преподаватель английского языка",
+    "Учитель английского языка"
+  ],
+  "History and Social Studies Teacher": [
+    "Преподаватель истории и обществоведения"
+  ],
+  "Medical Subjects Teacher": [
+    "Преподаватель медицинских дисциплин"
+  ],
+  "Press Secretary": [
+    "Пресс-секретарь"
+  ],
+  "Pharmacist": [
+    "Провизор",
+    "Провизор в ЛПУ",
+    "Фармацевт",
+    "Фармацевт-провизор"
+  ],
+  "1C Developer": [
+    "Программист 1C"
+  ],
+  "CNC Programmer/Operator": [
+    "Программист станков с ЧПУ / Оператор станков с ЧПУ"
+  ],
+  "Software Developer": [
+    "Программист-разработчик"
+  ],
+  "Salesperson": [
+    "Продавец",
+    "Продавец мороженого",
+    "Продавец по выкладке товаров"
+  ],
+  "Sales Consultant": [
+    "Продавец-Консультант (м. Проспект Мира)",
+    "Продавец-консультант",
+    "Продавец-консультант Rendez-Vous/Рандеву (ТЦ Охотный Ряд)",
+    "Продавец-консультант в магазин SuperStep",
+    "Продавец-консультант в магазин пряжи",
+    "Продавец-консультант в оптику/оптик консультант",
+    "Продавец-консультант в салон связи t2 (г. Москва и Московская область)",
+    "Менеджер/Продавец-консультант в магазин обуви и одежды"
+  ],
+  "Automotive Mechanic": [
+    "Механик по автотранспорту",
+    "Механик по выпуску автотранспорта"
+  ],
+  "Product QA Engineer": [
+    "Продуктовый QA Инженер (Junior)"
+  ],
+  "Product Editor": [
+    "Продуктовый редактор"
+  ],
+  "Producer": [
+    "Продюсер",
+    "Продюсер деловых мероприятий",
+    "Продюсер медиапроектов"
+  ],
+  "Production Director": [
+    "Производственный директор",
+    "Руководитель производства",
+    "Руководитель производственных проектов"
+  ],
+  "Promoter Consultant": [
+    "Промоутер-консультант Dreame"
+  ],
+  "Industrial Alpinist": [
+    "Промышленный альпинист"
+  ],
+  "Industrial Designer": [
+    "Промышленный дизайнер в R&D"
+  ],
+  "Construction Foreman": [
+    "Прораб общестроительных работ",
+    "Прораб отделочных работ"
+  ],
+  "Psychologist": [
+    "Психолог",
+    "Психолог - Новая Москва (ТиНАО)",
+    "Психолог по работе с зависимыми пациентами (постлечебная программа)"
+  ],
+  "Counseling Psychologist": [
+    "Психолог-консультант"
+  ],
+  "Office Worker": [
+    "Рабочий по офису"
+  ],
+  "Animal Care Worker": [
+    "Рабочий по уходу за животными",
+    "Рабочий по уходу за животными (орнитолог)"
+  ],
+  "Junior Developer": [
+    "Разработчик (junior)",
+    "Разработчик фронтенд (junior)"
+  ],
+  "C# Developer": [
+    "Разработчик C#"
+  ],
+  "C++ Developer": [
+    "Разработчик C++"
+  ],
+  "AI/Python Backend Developer": [
+    "Разработчик искусственного интеллекта/python-backend"
+  ],
+  "Regional Sales Director": [
+    "Региональный директор по продажам в розничной сети"
+  ],
+  "Regional Manager": [
+    "Региональный менеджер"
+  ],
+  "Regional HR Manager": [
+    "Региональный менеджер по персоналу"
+  ],
+  "Aircraft Registrar (UAV)": [
+    "Регистратор воздушных судов (БПЛА)"
+  ],
+  "Podcast Editor": [
+    "Редактор в подкасты"
+  ],
+  "Recruiter": [
+    "Рекрутер",
+    "Специалист по подбору персонала/Рекрутер",
+    "Менеджер по персоналу / HR-менеджер / Рекрутер"
+  ],
+  "Photo Retoucher": [
+    "Ретушер",
+    "Ретушёр",
+    "Ретушёр каталога"
+  ],
+  "E-commerce Director": [
+    "Руководитель e-commerce"
+  ],
+  "Administration Manager": [
+    "Руководитель АХО/Начальник АХО",
+    "Руководитель административно-хозяйственного отдела (АХО) в управляющую компанию"
+  ],
+  "Occupational Health and Safety Director": [
+    "Руководитель Управления по охране труда и промышленной безопасности"
+  ],
+  "Team Leader": [
+    "Руководитель группы / Делопроизводитель (Египет)",
+    "Руководитель группы быстрой доставки",
+    "Руководитель группы закупок",
+    "Руководитель группы обучения, оценки и развития персонала"
+  ],
+  "Project Director": [
+    "Руководитель проектов",
+    "Руководитель проектов (Бизнес + IT)",
+    "Руководитель проектов (строительство и реконструкция)",
+    "Руководитель проектов (строительство)",
+    "Руководитель проектов капитального строительства",
+    "Руководитель проектов корпоративного обучения",
+    "Руководитель проектов по работе с молодежью"
+  ],
+  "Contact Center Director": [
+    "Руководитель контактного центра"
+  ],
+  "Corporate University Director": [
+    "Руководитель корпоративного университета"
+  ],
+  "Business Unit Director": [
+    "Руководитель направления",
+    "Руководитель направления (нефтегазовая компания)",
+    "Руководитель направления СМК",
+    "Руководитель направления закупок и логистики",
+    "Руководитель направления коммуникаций",
+    "Руководитель направления по договорной работе",
+    "Руководитель направления по социальной политике",
+    "Руководитель направления по цифровой трансформации",
+    "Руководитель направления складская логистика (Warehouse Manager)",
+    "Руководитель направления стратегических проектов",
+    "Руководитель направления управления правовой поддержки добычи в \"ЗН Экспертиза\""
+  ],
+  "Educational Complex Director": [
+    "Руководитель образовательного комплекса"
+  ],
+  "Operations Director": [
+    "Руководитель операционного блока"
+  ],
+  "Documentation Director": [
+    "Руководитель отдела документооборота"
+  ],
+  "HR Administration Manager": [
+    "Руководитель отдела кадрового администрирования",
+    "Руководитель управления кадрового делопроизводства",
+    "Руководитель отдела кадрового делопроизводства"
+  ],
+  "Client Service Director": [
+    "Руководитель отдела клиентского сервиса"
+  ],
+  "Contracts Director": [
+    "Руководитель отдела контрактования и соблюдения процедур"
+  ],
+  "Corporate Culture Director": [
+    "Руководитель отдела корпоративной культуры"
+  ],
+  "Corporate Finance Director": [
+    "Руководитель отдела корпоративных финансов и казначейства",
+    "Руководитель функции корпоративных финансов"
+  ],
+  "Logistics Director": [
+    "Руководитель отдела логистики (удалённо)",
+    "Руководитель по логистике",
+    "Руководитель по складской и транспортной логистике"
+  ],
+  "Personnel Director": [
+    "Руководитель отдела персонала",
+    "Руководитель отдела по работе с персоналом",
+    "Руководитель по подбору и обучению персонала"
+  ],
+  "Advertising and Promotion Director": [
+    "Руководитель отдела рекламы и продвижения"
+  ],
+  "QA Team Leader": [
+    "Руководитель отдела тестирования / QA Team Lead"
+  ],
+  "Management Reporting Director": [
+    "Руководитель отдела управленческой отчетности"
+  ],
+  "Digitalization Director": [
+    "Руководитель по направлению цифровизации производства"
+  ],
+  "Service and Nutrition Director": [
+    "Руководитель по сервису и питанию"
+  ],
+  "Compliance Director": [
+    "Руководитель по соблюдению законодательства и внутренних процедур"
+  ],
+  "Press Service Director": [
+    "Руководитель пресс службы",
+    "Руководитель пресс-службы"
+  ],
+  "Product Department Director": [
+    "Руководитель продакт-отдела"
+  ],
+  "Warehouse Logistics Director": [
+    "Руководитель складской логистики"
+  ],
+  "Internal Control Director": [
+    "Руководитель службы внутреннего контроля"
+  ],
+  "Process Management Director": [
+    "Руководитель службы управления процессами"
+  ],
+  "Construction Project Manager": [
+    "Руководитель строительного проекта"
+  ],
+  "Customs Warehouse Director": [
+    "Руководитель таможенного склада"
+  ],
+  "Tender Management Director": [
+    "Руководитель тендерного управления"
+  ],
+  "Construction Management Director": [
+    "Руководитель управление СМР"
+  ],
+  "Internal Audit Director": [
+    "Руководитель функции внутреннего аудита"
+  ],
+  "Project Management Director": [
+    "Руководитель управления проектами"
+  ],
+  "Manual Tester": [
+    "Ручной тестировщик",
+    "Ручной тестировщик (Web)",
+    "Ручной функциональный тестировщик"
+  ],
+  "Secretary": [
+    "СЕКРЕТАРЬ РУКОВОДИТЕЛЯ (СОБСТВЕННИК)",
+    "Секретарь",
+    "Секретарь / офис менеджер",
+    "Секретарь на ресепшен",
+    "Секретарь приемной руководителя (первого лица компании)",
+    "Секретарь учебной части (документовед)",
+    "Секретарь в лабораторию",
+    "Секретарь на reception",
+    "Секретарь на ресепшен со знанием английского языка",
+    "Секретарь на ресепшн",
+    "Секретарь ресепшена",
+    "Секретарь руководителя",
+    "Секретарь-диспетчер",
+    "Подменный секретарь на ресепшен в Бизнес-Центр"
+  ],
+  "Gardener": [
+    "Садовник"
+  ],
+  "Orderly": [
+    "Санитарка/санитар (буфетчица/буфетчик)"
+  ],
+  "Plumber": [
+    "Сантехник (САО)"
+  ],
+  "Assembler": [
+    "Сборщик БПЛА",
+    "Сборщик НКУ/трансформаторов (сухие трансформаторы)",
+    "Сборщик ПК"
+  ],
+  "Welder": [
+    "Сварщик",
+    "Электрогазосварщик",
+    "Электрогазосварщик 4-6 разряда",
+    "Электросварщик"
+  ],
+  "Secretary Translator": [
+    "Секретарь-переводчик"
+  ],
+  "Receptionist": [
+    "Секретарь-ресепшионист",
+    "Секретарь на reception",
+    "Секретарь на ресепшен со знанием английского языка",
+    "Секретарь на ресепшн",
+    "Секретарь ресепшена"
+  ],
+  "Secretary/Office Manager": [
+    "Секретарь/Офис-менеджер"
+  ],
+  "Network Engineer": [
+    "Сетевой инженер / Network Engineer (low-latency, RF)",
+    "Сетевой инженер Cisco (сменный график)",
+    "Сетевой инженер внедрения / Телеком-инженер внедрения (Москва)"
+  ],
+  "Caregiver": [
+    "Сиделка-помощница/помощник по хозяйству для женщины 85 лет"
+  ],
+  "System Administrator": [
+    "Системный администратор",
+    "Системный администратор/ DevOps-инженер",
+    "Системный администратор в школу",
+    "Старший системный администратор/Senior System Administrator",
+    "Старший системный администратор"
+  ],
+  "System Architect": [
+    "Системный архитектор / Solution Architect"
+  ],
+  "Music Scout": [
+    "Скаут в A&R отдел Legacy Music"
+  ],
+  "Assembler": [
+    "Сборщик БПЛА",
+    "Сборщик НКУ/трансформаторов (сухие трансформаторы)",
+    "Сборщик ПК",
+    "Специалист 1С (EDI)",
+    "Слесарь-сборщик, слесарь МСР"
+  ],
+  "System Analyst": [
+    "Системный аналитик",
+    "Системный аналитик (Junior+), онлайн оплата",
+    "Системный аналитик / System Analyst / СА",
+    "Системный аналитик Middle (офис)",
+    "Системный аналитик (Офис)"
+  ],
+  "Event Scanner": [
+    "Сканировщик на фестиваль \"Дикая Мята 2025\""
+  ],
+  "Estimator": [
+    "Сметчик (удаленно)"
+  ],
+  "Sommelier Consultant": [
+    "Сомелье-консультант"
+  ],
+  "Airport Staff": [
+    "Сотрудник в аэропорт"
+  ],
+  "Yoga Center Staff": [
+    "Сотрудник в йога центр"
+  ],
+  "Organizational Unit Staff": [
+    "Сотрудник организационного подразделения"
+  ],
+  "Special Forces Staff": [
+    "Сотрудник отделения специального назначения"
+  ],
+  "Security Staff": [
+    "Сотрудник охраны"
+  ],
+  "Warehouse Staff": [
+    "Сотрудник склада (м. Волгоградский проспект)",
+    "Сотрудник склада (оператор/кладовщик)"
+  ],
+  "Documentation Specialist": [
+    "Специалист (отдел отчетной документации)",
+    "Специалист документооборота и ОРД",
+    "Специалист отдела делопроизводства",
+    "Специалист по документообороту",
+    "Специалист по документообороту (по работе с договорами)",
+    "Специалист по документообороту и работе с первичной бухгалтерской документацией",
+    "Специалист по документообороту отдела корпоративного автотранспорта",
+    "Специалист по работе с документами"
+  ],
+  "3D Specialist": [
+    "Специалист 3D"
+  ],
+  "Treasury Specialist": [
+    "Специалист Казначейства"
+  ],
+  "Software Implementation and Support Specialist": [
+    "Специалист внедрения и сопровождения ПО"
+  ],
+  "Sales Specialist": [
+    "Специалист отдела продаж",
+    "Специалист отдела продаж (Автострахование)"
+  ],
+  "Security Specialist": [
+    "Специалист отдела экономической безопасности",
+    "Специалист по безопасности",
+    "Специалист службы безопасности",
+    "Специалист службы кадровой безопасности",
+    "Специалист службы экономической безопасности (Аналитик)",
+    "Специалист по экономической безопасности",
+    "Специалист по комплексной безопасности"
+  ],
+  "Office Security Specialist": [
+    "Специалист охраны офиса"
+  ],
+  "Transport Specialist": [
+    "Специалист по автотранспорту"
+  ],
+  "Database Specialist": [
+    "Специалист по ведению базы данных"
+  ],
+  "Debt Collection Specialist": [
+    "Специалист по взысканию задолженности"
+  ],
+  "Contract Specialist": [
+    "Специалист по договорному обеспечению"
+  ],
+  "Procurement Specialist": [
+    "Специалист по закупкам",
+    "Специалист по закупкам и снабжению",
+    "Специалист по закупкам по 223-ФЗ (по работе с заявками)"
+  ],
+  "Inventory Replacement Specialist": [
+    "Специалист по замене аккумуляторов на электросамокатах (энерджайзер)"
+  ],
+  "Information Security Specialist": [
+    "Специалист по информационной безопасности (ИБ)"
+  ],
+  "Contextual Advertising Specialist": [
+    "Специалист по контекстной рекламе middle"
+  ],
+  "Review Writing Specialist": [
+    "Специалист по написанию отзывов"
+  ],
+  "Neural Network Specialist": [
+    "Специалист по нейросетям"
+  ],
+  "Request Processing Specialist": [
+    "Специалист по обработке заявок"
+  ],
+  "Product Description Specialist": [
+    "Специалист по описанию карточек товара"
+  ],
+  "Data Specialist": [
+    "Специалист по работе с данными"
+  ],
+  "Animal Care Specialist": [
+    "Специалист по работе с животными/стажёр в Центр океанографии и морской биологии \"Москвариум\"",
+    "Специалист по уходу за животными"
+  ],
+  "Investment Project Specialist": [
+    "Специалист по работе с инвестпроектами (Главный эксперт Департамента инвестиций и инвестпроектов)"
+  ],
+  "Passenger Service Specialist": [
+    "Специалист по работе с пассажирами"
+  ],
+  "Youth Projects and Programs Specialist": [
+    "Специалист по реализации молодежных проектов и программ"
+  ],
+  "Manual Testing Specialist": [
+    "Специалист по ручному тестированию",
+    "Специалист по ручному тестированию (middle/middle+)",
+    "Специалист по тестированию",
+    "Специалист по тестированию (QA Manual Middle)",
+    "Специалист по тестированию (QA Manual Middle/Senior)",
+    "Специалист по тестированию (junior)",
+    "Специалист по тестированию (web)",
+    "Специалист по тестированию (ручное/manual)",
+    "Специалист по тестированию ПО (Middle QA Engineer)",
+    "Специалист ручного тестирования"
+  ],
+  "Information Collection Specialist": [
+    "Специалист по сбору информации (аудитор)"
+  ],
+  "Non-commercial Procurement Support Specialist": [
+    "Специалист по сопровождению процесса НКЗ (некоммерческих закупок)"
+  ],
+  "Insurance Specialist": [
+    "Специалист по страхованию"
+  ],
+  "Tender Specialist": [
+    "Специалист по тендерам",
+    "Специалист тендерного отдела"
+  ],
+  "VIP Wardrobe Care Specialist": [
+    "Специалист по уходу за ВИП гардеробом"
+  ],
+  "Key and PTS Accounting Specialist": [
+    "Специалист по учету ключей и ПТС"
+  ],
+  "Technical Support Specialist": [
+    "Специалист технической поддержки",
+    "Специалист технической поддержки / Интегратор",
+    "Специалист технической поддержки L2",
+    "Специалист технической поддержки/Support в IGaming",
+    "Специалист техподдержки (верификация пользователей)",
+    "Специалист третьей линии технической поддержки",
+    "Специалист техподдержки (верификация пользователей)",
+    "Специалист третьей линии технической поддержки",
+    "Младший специалист технической поддержки (1 линия)",
+    "Специалист технической поддержки (веб-платформа, 1 линия)",
+    "Специалист Технической Поддержки (чаты и тикеты) / Администратор"
+  ],
+  "Transport Manager": [
+    "Начальник транспортного отдела, специалист по БДД"
+  ],
+  "International Cooperation Specialist": [
+    "Специалист управления по международному сотрудничеству"
+  ],
+  "Finance Specialist": [
+    "Специалист финансово-экономического отдела",
+    "Специалист финансового отдела"
+  ],
+  "Marketing Specialist/Manager": [
+    "Специалист/Менеджер по маркетингу"
+  ],
+  "Sports Journalist": [
+    "Спортивный журналист"
+  ],
+  "Intern": [
+    "Стажер в команду",
+    "Стажер в офис компании",
+    "Стажёр"
+  ],
+  "Data Scientist Intern": [
+    "Стажер-разработчик (Data Scientist), Отдел технологического консалтинга"
+  ],
+  "Java Developer Intern": [
+    "Стажер–разработчик Java"
+  ],
+  "Senior Brand Manager": [
+    "Старший Бренд-менеджер / Senior Brand manager"
+  ],
+  "Warehouse Manager": [
+    "Старший Кладовщик/Заведующий складом"
+  ],
+  "Senior Accountant": [
+    "Старший бухгалтер",
+    "Старший бухгалтер группы расходов"
+  ],
+  "Head Chef": [
+    "Старший повар",
+    "Шеф-повар",
+    "Шеф-повар в столовую (метро 1905 года)"
+  ],
+  "Senior System Administrator": [
+    "Старший системный администратор/Senior System Administrator"
+  ],
+  "Senior Legal Counsel": [
+    "Старший юрисконсульт",
+    "Старший юрисконсульт отдела судебных споров, исполнения судебных решений и банкротств"
+  ],
+  "Senior Lawyer": [
+    "Старший юрист",
+    "Старший юрист в Иностранную Компанию"
+  ],
+  "Fashion Consultant": [
+    "Стилист-консультант в магазин одежды TOPTOP Афимолл"
+  ],
+  "Dental Surgeon": [
+    "Стоматолог-хирург-имплантолог"
+  ],
+  "Litigation Lawyer": [
+    "Судебный юрист Корпоративного центра",
+    "Судебный юрист в юридическую фирму",
+    "Судебный юрист в юридическую фирму (офисы в Москве, Лондоне, Дубае)"
+  ],
+  "Sous Chef": [
+    "Сушеф"
+  ],
+  "Scriptwriter": [
+    "Сценарист в студию анимации"
+  ],
+  "Creative Administrator": [
+    "Творческий администратор в студию"
+  ],
+  "Temmaker at Yobidoyobi": [
+    "Темщик в Ёбидоёби"
+  ],
+  "Territorial Manager": [
+    "Территориальный менеджер",
+    "Территориальный управляющий (летние бассейны)",
+    "Территориальный управляющий / управляющий сетью",
+    "Территориальный управляющий розничной сети"
+  ],
+  "Product Tester": [
+    "Тестировщик матрасов"
+  ],
+  "Plumber Technician": [
+    "Техник - сантехник"
+  ],
+  "Building Maintenance Technician": [
+    "Техник по эксплуатации (на объекты)",
+    "Техник по эксплуатации зданий",
+    "Техник по эксплуатации здания",
+    "Техник по эксплуатации офисных/производственных помещений"
+  ],
+  "Mechanical Technician": [
+    "Техник-механик"
+  ],
+  "Product Owner": [
+    "Технический РП/Product owner"
+  ],
+  "Sales Representative": [
+    "Торговый представитель"
+  ],
+  "Tutor": [
+    "Тьютор"
+  ],
+  "Cleaner": [
+    "Уборщик офисных помещений",
+    "Уборщик помещений",
+    "Уборщик производственных и офисных помещений",
+    "Уборщица/Уборщик в офис",
+    "Уборщица/Уборщик в салон красоты (три дня в неделю)",
+    "Уборщица/уборщик",
+    "Уборщица/уборщик ВИП сектора в офис класса А+ (Вечер)",
+    "Уборщица/уборщик офиса",
+    "Уборщица/уборщик офиса на вечер"
+  ],
+  "Office Cleaner": [
+    "Уборщик/Уборщица в офис",
+    "Уборщик/уборщица в офис",
+    "Уборщик/уборщица офисных помещений (м. Тургеневская)"
+  ],
+  "Cleaning Specialist": [
+    "Уборщица / Уборщик офисных помещений",
+    "Уборщица дневная /уборщик в офис Банка (м. Таганская)"
+  ],
+  "Medical Products Packer": [
+    "Укладчик продукции медицинского назначения"
+  ],
+  "Restaurant Manager": [
+    "Управляющая/управляющий",
+    "Управляющая/управляющий в ресторан"
+  ],
+  "Janitor": [
+    "Утренняя уборщица в офис, м. Китай город"
+  ],
+  "Art Teacher": [
+    "Учитель ИЗО",
+    "Учитель ИЗО / изобразительного искусства"
+  ],
+  "Computer Science and Math Teacher": [
+    "Учитель информатики и математики"
+  ],
+  "Math Teacher": [
+    "Учитель математики (Moscow campus)"
+  ],
+  "Music Teacher": [
+    "Учитель музыки"
+  ],
+  "Primary School Teacher": [
+    "Учитель начальных классов"
+  ],
+  "Russian Language and Literature Teacher": [
+    "Учитель русского языка и литературы"
+  ],
+  "Special Education Teacher": [
+    "Учитель-дефектолог"
+  ],
+  "Financier": [
+    "Финансист"
+  ],
+  "Financial Analyst": [
+    "Финансовый аналитик на расходы"
+  ],
+  "Financial Business Partner": [
+    "Финансовый бизнес-партнер"
+  ],
+  "Chief Financial Officer": [
+    "Финансовый директор",
+    "Финансовый директор (CFO)",
+    "Финансовый директор (нефтепереработка)",
+    "Финансовый директор / Chief Financial Officer",
+    "Финансовый директор FMCG (офис, центр Москвы)"
+  ],
+  "Financial Manager": [
+    "Финансовый менеджер",
+    "Финансовый менеджер-аналитик"
+  ],
+  "Photographer": [
+    "Фотограф",
+    "Фотограф (предметная съёмка)",
+    "Фотограф / Ассистент фотографа (Автомобильная темпатика)"
+  ],
+  "Choreographer": [
+    "Хореограф в школу"
+  ],
+  "Hostess": [
+    "Хостес",
+    "Хостес (можно без опыта)",
+    "Хостес в ресторан \"Пафос\" (м. Пушкинская)",
+    "Хостес в ресторан Phantom (м. Баррикадная)",
+    "Хостес в рестораны Remy Kitchen",
+    "Хостес на ресепшен | TIMELESS"
+  ],
+  "Museum Curator": [
+    "Хранитель музейных предметов"
+  ],
+  "Chat Manager": [
+    "Чат менеджер"
+  ],
+  "Drafter": [
+    "Чертежник (частные квартиры и коттеджи)"
+  ],
+  "Pastry Chef": [
+    "Шеф-кондитер(Московская область)"
+  ],
+  "Environmental Specialist": [
+    "Эколог в адвокатское бюро"
+  ],
+  "Economist": [
+    "Экономист (г. Дубай)",
+    "Экономист (м. Белорусская)",
+    "Экономист планово-экономического отдела"
+  ],
+  "Logistics Specialist": [
+    "Экспедитор"
+  ],
+  "Electrical Mechanic for Crane Maintenance": [
+    "Электромонтер по ремонту и обслуживанию ГПМ"
+  ],
+  "Legal Counsel": [
+    "Юрисконсульт",
+    "Юрисконсульт (строительство)",
+    "Юрисконсульт по претензионно-судебной работе (транспортная компания)"
+  ],
+  "Lawyer": [
+    "Юрист",
+    "Юрист (в единственном лице)",
+    "Юрист (взыскание долгов)",
+    "Юрист в IT",
+    "Юрист в единственном лице в производственно-торговую компанию",
+    "Юрист в игровую компанию",
+    "Юрист по договорной работе в международную компанию BORK",
+    "Юрист по претензионно-исковой работе"
+  ]
+}
