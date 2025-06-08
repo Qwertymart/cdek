@@ -45,13 +45,19 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images = [] }) => {
               {img.name}
             </h4>
             <div
-              className="relative group cursor-pointer"
+              className="relative group cursor-pointer aspect-square"
               onClick={() => openModal(img)}
             >
+              {/* Изменение: добавлен атрибут decoding="async" и объект-заполнитель */}
               <img
                 src={`data:image/png;base64,${img.data}`}
                 alt={img.name}
-                className="w-full h-auto rounded transition-transform hover:scale-105"
+                className="w-full h-full object-contain rounded transition-transform group-hover:scale-105"
+                decoding="async"
+                onError={(e) => {
+                  // Фоллбэк на прозрачный пиксель при ошибке загрузки
+                  e.currentTarget.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+                }}
               />
               {/* Иконка увеличения при наведении */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-200 rounded flex items-center justify-center">
@@ -99,6 +105,12 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images = [] }) => {
                 src={`data:image/png;base64,${selectedImage.data}`}
                 alt={selectedImage.name}
                 className="max-w-full max-h-[70vh] object-contain mx-auto"
+                // Добавлено для предотвращения проблем с отображением
+                decoding="async"
+                onError={(e) => {
+                  // Фоллбэк на прозрачный пиксель при ошибке загрузки
+                  e.currentTarget.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+                }}
               />
             </div>
           </div>
