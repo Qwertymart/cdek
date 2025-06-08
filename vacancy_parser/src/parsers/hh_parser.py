@@ -418,11 +418,11 @@ class HHVacancyParser:
         try:
             for title in job_titles:
                 self.logger.info(f"Поиск вакансий для: {title}")
-                params = {"text": title, "area": 1, "per_page": 5}
+                params = {"text": title, "area": 1, "per_page": 100}
 
                 vacancies = self.fetch_vacancies(params)
                 for vacancy in vacancies:
-                    time.sleep(0.5)
+                    time.sleep(0.1)
                     full_data = self.get_vacancy_details(vacancy["id"])
                     if full_data:
                         self.process_and_send(full_data)

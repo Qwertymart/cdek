@@ -17,7 +17,7 @@ def main():
     """Основная функция запуска парсинга"""
 
     # Укажите источник: 'hh' для HH.ru, 'sj' для SuperJob
-    SOURCE = 'hh'
+    SOURCE = 'sj'
 
     print(f"Запуск парсера вакансий для {SOURCE.upper()}")
 
@@ -36,12 +36,12 @@ def main():
             parser = HHVacancyParser()
         elif SOURCE == 'sj':
             # Получаем секретный ключ SuperJob из переменной окружения
-            sj_secret_key = os.getenv("SUPERJOB_SECRET_KEY")
-            if not sj_secret_key:
-                print("Ошибка: Не указан секретный ключ SuperJob. Установите переменную окружения SUPERJOB_SECRET_KEY.")
-                return False
+            # sj_secret_key = os.getenv("SUPERJOB_SECRET_KEY")
+            # if not sj_secret_key:
+            #     print("Ошибка: Не указан секретный ключ SuperJob. Установите переменную окружения SUPERJOB_SECRET_KEY.")
+            #     return False
             # Инициализируем парсер SuperJob
-            parser = SuperJobVacancyParser(secret_key=sj_secret_key)
+            parser = SuperJobVacancyParser()
         else:
             print(f"Ошибка: Неверный источник '{SOURCE}'. Используйте 'hh' или 'sj'.")
             return False

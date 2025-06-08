@@ -11,11 +11,11 @@ import re
 import pika
 
 class SuperJobVacancyParser:
-    def __init__(self, secret_key: str, log_dir: str = "../logs", rabbitmq_host: str = 'localhost',
+    def __init__(self, log_dir: str = "../logs", rabbitmq_host: str = 'localhost',
                  queue_name: str = 'json_processing_queue'):
         self.base_url = "https://api.superjob.ru/2.0/vacancies/"
         self.headers = {
-            "X-Api-App-Id": secret_key,
+            "X-Api-App-Id": "v3.h.4905791.f72938d0c57d8956a4524c02a06d50409fcb4198.0e4294e23cc795178fe05e210746a2aa21881acc",
             "User-Agent": "CDEK HR Analytics/1.0",
             "Content-Type": "application/x-www-form-urlencoded"
         }
