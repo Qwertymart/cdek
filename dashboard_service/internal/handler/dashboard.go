@@ -3,6 +3,7 @@ package handlers
 import (
 	"context"
 	"encoding/base64"
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -36,6 +37,14 @@ func NewAnalysisHandler(grpcAddress string) (*AnalysisHandler, error) {
 	}, nil
 }
 
+func extractSourceNames(sources []Sources) []string {
+	names := make([]string, 0, len(sources))
+	for _, src := range sources {
+		names = append(names, src.Name)
+	}
+	return names
+}
+
 // Close закрывает соединение с gRPC
 func (h *AnalysisHandler) Close() error {
 	if h.grpcConn != nil {
@@ -46,12 +55,28 @@ func (h *AnalysisHandler) Close() error {
 
 // FilterRequest структура для входящих HTTP запросов
 type FilterRequest struct {
-	Salary     []uint32 `json:"salary,omitempty"`
-	Position   string   `json:"position,omitempty"`
+	Salary     []uint32 `json:"salaryRange,omitempty"`
+	Position   string   `json:"positions,omitempty"`
 	Experience []uint32 `json:"experience,omitempty"`
 	Regions    []string `json:"regions,omitempty"`
 	Companies  []string `json:"companies,omitempty"`
 	Sources    []string `json:"sources,omitempty"`
+}
+
+type Sources struct {
+	ID   uint32 `json:"id"`
+	Name string `json:"name"`
+	URL  string `json:"url"`
+	Av   bool   `json:"av"`
+}
+
+type FilterRequest2 struct {
+	Salary     []uint32  `json:"salaryRange,omitempty"`
+	Position   string    `json:"positions,omitempty"`
+	Experience []uint32  `json:"experience,omitempty"`
+	Regions    []string  `json:"regions,omitempty"`
+	Companies  []string  `json:"companies,omitempty"`
+	Sources    []Sources `json:"sources,omitempty"`
 }
 
 // AnalysisHTTPResponse структура для HTTP ответа
@@ -85,11 +110,10 @@ type TableResponse struct {
 	Region     string `json:"region"`
 }
 
-/*
 // GetAnalysisData основной хэндлер для получения данных аналитики (Gin версия)
 func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
 	// Парсим входящий JSON
-	var filterReq FilterRequest
+	var filterReq FilterRequest2
 	if err := c.ShouldBindJSON(&filterReq); err != nil {
 		log.Printf("Error decoding request: %v", err)
 		c.JSON(http.StatusBadRequest, AnalysisHTTPResponse{
@@ -99,6 +123,9 @@ func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
 		return
 	}
 
+	jsonData, _ := json.Marshal(filterReq)
+	log.Printf("Полученные фильтры: %s", string(jsonData))
+	log.Println(filterReq)
 	log.Printf("Received analysis request: %+v", filterReq)
 
 	// Преобразуем в protobuf запрос
@@ -108,7 +135,7 @@ func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
 		Experience: filterReq.Experience,
 		Regions:    filterReq.Regions,
 		Companies:  filterReq.Companies,
-		Sources:    filterReq.Sources,
+		Sources:    extractSourceNames(filterReq.Sources),
 	}
 
 	// Создаем контекст с таймаутом
@@ -129,7 +156,7 @@ func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
 	// Проверяем успешность ответа от gRPC
 	if !grpcResp.Success {
 		log.Printf("gRPC service returned error: %s", grpcResp.Error)
-		c.JSON(http.StatusBadRequest, AnalysisHTTPResponse{
+		c.JSON(http.StatusOK, AnalysisHTTPResponse{
 			Success: false,
 			Error:   grpcResp.Error,
 		})
@@ -142,61 +169,61 @@ func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
 	c.JSON(http.StatusOK, httpResp)
 	log.Printf("Successfully processed analysis request")
 }
+
+/*
+	func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
+		var filterReq FilterRequest
+		if err := c.ShouldBindJSON(&filterReq); err != nil {
+			log.Printf("Error decoding request: %v", err)
+			c.JSON(http.StatusBadRequest, AnalysisHTTPResponse{
+				Success: false,
+				Error:   "Invalid JSON format",
+			})
+			return
+		}
+
+		log.Printf("Received mock analysis request: %+v", filterReq)
+
+		// МОК ДАННЫЕ (вместо gRPC вызова)
+		mockResponse := AnalysisHTTPResponse{
+			Success: true,
+			PDF:     "JVBERi0xLjQK...", // base64-заглушка
+			Images: []ImageResponse{
+				{
+					Name: "Salary Chart",
+					Type: 1,
+					Data: "iVBORw0KGgoAAAANSUhEUgAA...", // base64-заглушка
+					Size: 12345,
+				},
+			},
+			Items: &AnalysisItemResponse{
+				TotalNumber: 512,
+				Average:     125000.75,
+				Median:      120000,
+			},
+			Tables: []TableResponse{
+				{
+					Name:       "Backend Developer",
+					Salary:     130000,
+					Link:       "https://example.com/vacancy/123",
+					Experience: 3,
+					Region:     "Москва",
+				},
+				{
+					Name:       "Frontend Developer",
+					Salary:     110000,
+					Link:       "https://example.com/vacancy/456",
+					Experience: 2,
+					Region:     "Санкт-Петербург",
+				},
+			},
+		}
+
+		// Возврат мок-данных
+		c.JSON(http.StatusOK, mockResponse)
+		log.Printf("Returned mock response for analysis")
+	}
 */
-
-func (h *AnalysisHandler) GetAnalysisData(c *gin.Context) {
-	var filterReq FilterRequest
-	if err := c.ShouldBindJSON(&filterReq); err != nil {
-		log.Printf("Error decoding request: %v", err)
-		c.JSON(http.StatusBadRequest, AnalysisHTTPResponse{
-			Success: false,
-			Error:   "Invalid JSON format",
-		})
-		return
-	}
-
-	log.Printf("Received mock analysis request: %+v", filterReq)
-
-	// МОК ДАННЫЕ (вместо gRPC вызова)
-	mockResponse := AnalysisHTTPResponse{
-		Success: true,
-		PDF:     "JVBERi0xLjQK...", // base64-заглушка
-		Images: []ImageResponse{
-			{
-				Name: "Salary Chart",
-				Type: 1,
-				Data: "iVBORw0KGgoAAAANSUhEUgAA...", // base64-заглушка
-				Size: 12345,
-			},
-		},
-		Items: &AnalysisItemResponse{
-			TotalNumber: 512,
-			Average:     125000.75,
-			Median:      120000,
-		},
-		Tables: []TableResponse{
-			{
-				Name:       "Backend Developer",
-				Salary:     130000,
-				Link:       "https://example.com/vacancy/123",
-				Experience: 3,
-				Region:     "Москва",
-			},
-			{
-				Name:       "Frontend Developer",
-				Salary:     110000,
-				Link:       "https://example.com/vacancy/456",
-				Experience: 2,
-				Region:     "Санкт-Петербург",
-			},
-		},
-	}
-
-	// Возврат мок-данных
-	c.JSON(http.StatusOK, mockResponse)
-	log.Printf("Returned mock response for analysis")
-}
-
 func (h *AnalysisHandler) buildHTTPResponse(grpcResp *dashboard_anal_pb.AnalysisResponse) AnalysisHTTPResponse {
 	resp := AnalysisHTTPResponse{
 		Success: grpcResp.Success,
