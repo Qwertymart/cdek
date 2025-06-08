@@ -131,7 +131,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
           value={filters.positions}
           onChange={handlePositionChange}
           placeholder="Выберите должность"
-          label="Должности"
+          label="Должность"
           searchPlaceholder="Поиск должности..."
         />
 
