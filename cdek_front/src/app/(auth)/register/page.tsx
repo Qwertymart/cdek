@@ -9,7 +9,7 @@ import styles from "./page.module.css";
 import classNames from "classnames";
 import { useRouter } from "next/navigation";
 import LinksBlock from "@/components/LinksBlock/LinksBlock";
-import { z } from "zod";
+import { z, ZodIssue } from "zod";
 
 interface RegData {
     lastName: string;
@@ -66,7 +66,7 @@ export default function RegisterForm() {
         });
         if (!validation.success) {
             const newErrors: Partial<Record<keyof RegData, string>> = {};
-            validation.error.errors.forEach((err: { path: string[]; message: string | undefined; }) => {
+            validation.error.errors.forEach((err: ZodIssue) => {
                 const field = err.path[0] as keyof RegData;
                 newErrors[field] = err.message;
             });
@@ -95,7 +95,7 @@ export default function RegisterForm() {
         const validation = registerSchema.safeParse(formData);
         if (!validation.success) {
             const newErrors: Partial<Record<keyof RegData, string>> = {};
-            validation.error.errors.forEach((err: { path: string[]; message: string | undefined; }) => {
+            validation.error.errors.forEach((err: ZodIssue) => {
                 const field = err.path[0] as keyof RegData;
                 newErrors[field] = err.message;
             });
@@ -149,18 +149,6 @@ export default function RegisterForm() {
                         }}
                     >
                         <LinksBlock />
-                        {/* <img
-                            src="bird_with_circle.png"
-                            alt="Лого"
-                            style={{
-                                marginTop: "0px",
-                                width: "29.02vw",
-                                height: "62.44vh",
-                                // height: "auto",
-                                borderRadius: "16px",
-                                objectFit: "cover",
-                            }}
-                        /> */}
                     </div>
                     <div className={styles.item}>
                         <div style={{ display: "flex", justifyContent: "center" }}>

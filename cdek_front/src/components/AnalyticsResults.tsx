@@ -1,5 +1,6 @@
 import React from "react";
 import { Response } from "@/types/response";
+import { ImageGallery } from "./ImageGallery";
 
 interface AnalyticsResultsProps {
   data: Response;
@@ -42,12 +43,12 @@ const AnalyticsResults: React.FC<AnalyticsResultsProps> = ({ data }) => {
 
       {/* Графики */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-        {images.map((img, index) => (
+        <ImageGallery images={images} />
+        {/* {images.map((img, index) => (
           <div key={index} className="bg-gray-100 p-2 rounded">
             <h4 className="text-sm font-medium text-gray-700 mb-2">
               {img.name}
             </h4>
-            {/* TODO: ТУТ НАДО ТИПЫ ПОСМОТРЕТЬ */}
             <img
               src={`data:image/png;base64,${img.data}`}
               alt={img.name}
@@ -57,7 +58,7 @@ const AnalyticsResults: React.FC<AnalyticsResultsProps> = ({ data }) => {
               Размер: {(img.size / 1024).toFixed(1)} KB
             </p>
           </div>
-        ))}
+        ))} */}
       </div>
 
       {/* Ссылка на PDF */}

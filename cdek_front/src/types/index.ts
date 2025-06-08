@@ -1,15 +1,15 @@
 import { Response } from "./response";
-export interface SalaryData {
-  id: number;
-  position: string;
-  salary: number;
-  experience: number;
-  region: string;
-  date: string;
-  company: string;
-  source: string;
-  skills: string[];
-}
+// export interface SalaryData {
+//   id: number;
+//   position: string;
+//   salary: number;
+//   experience: number;
+//   region: string;
+//   date: string;
+//   company: string;
+//   source: string;
+//   skills: string[];
+// }
 
 export interface FilterParams {
   salaryRange: [number, number];

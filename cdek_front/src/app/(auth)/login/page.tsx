@@ -33,9 +33,11 @@ export default function LoginPage() {
     const validation = loginSchema.safeParse(loginData);
     if (!validation.success) {
       const fieldErrors: { login?: string; password?: string } = {};
-      validation.error.errors.forEach((err: { path: string[]; message: string | undefined; }) => {
-        const field = err.path[0] as "login" | "password";
-        fieldErrors[field] = err.message;
+      validation.error.errors.forEach((err) => {
+        const field = String(err.path[0]);
+        if (field === "login" || field === "password") {
+          fieldErrors[field] = err.message;
+        }
       });
       setErrors(fieldErrors);
       return;
